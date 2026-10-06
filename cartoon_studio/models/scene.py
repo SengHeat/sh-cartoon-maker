@@ -19,6 +19,7 @@ class Transition(StrictModel):
 
 class Scene(StrictModel):
     id: str = Field(min_length=1)
+    renderer: Literal["2.5d", "blender"] = "2.5d"
     start: float | None = Field(default=None, ge=0.0)
     duration: float = Field(gt=0.0)
     background: Background
@@ -40,4 +41,3 @@ class Scene(StrictModel):
         if self.transition_out.duration > self.duration:
             raise ValueError(f"Scene '{self.id}' transition exceeds its duration")
         return self
-
