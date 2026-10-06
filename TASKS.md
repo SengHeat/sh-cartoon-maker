@@ -1,6 +1,6 @@
 # Autonomous production-pipeline checklist
 
-[ ] P0 baseline and recovery audit — acceptance: the full Python test suite passes and protected Blender files are present, non-empty, and checksummed
+[!] P0 baseline and recovery audit — blocked: Python suite passes (16 tests), but KIKO_master_v001.blend, KIKO_blockout_v001.blend, and KIKO_master_v001.blend1 are zero-byte lost artifacts (SHA-256 e3b0c442…); human recovery/source artifact required
 [ ] P1 story schema and asset system — acceptance: schema/validation tests pass; CLI validates the canonical sample and rejects a missing referenced asset before rendering
 [ ] P2 2.5D render and parallax — acceptance: a preview scene renders numbered PNG frames and a measured foreground/background displacement differs across frames
 [ ] P3 audio integration — acceptance: audio model/timing tests pass and a preview encode contains an audio stream when project audio is supplied
