@@ -1,0 +1,16 @@
+EMOTION_PRESETS: dict[str, dict[str, object]] = {
+    "neutral": {"eyes": "open", "mouth": "closed"}, "calm": {"breathing_speed": 0.8, "eyes": "open", "mouth": "closed"},
+    "worried": {"breathing_speed": 1.1, "shake": 0.003, "eyes": "open", "mouth": "small", "head_tilt": -2.0},
+    "scared": {"breathing_speed": 1.3, "shake": 0.015, "scale_pulse": 0.005, "eyes": "open", "brow": "up", "mouth": "small", "head_tilt": -4.0},
+    "angry": {"shake": 0.006, "eyes": "open", "brow": "down", "mouth": "closed", "head_tilt": 3.0}, "sad": {"breathing_speed": 0.65, "brow": "up", "mouth": "small", "head_tilt": -3.0},
+    "shocked": {"scale_pulse": 0.012, "eyes": "open", "mouth": "wide"}, "ghostly": {"breathing_speed": 0.45, "scale_pulse": 0.015, "eyes": "open", "mouth": "small"},
+    "happy": {"breathing_speed": 1.05, "scale_pulse": 0.004},
+    "serious": {"breathing_speed": 0.75}, "tired": {"breathing_speed": 0.5},
+    "glow": {"breathing_speed": 0.4, "scale_pulse": 0.018},
+    "menace": {"breathing_speed": 0.55, "scale_pulse": 0.01},
+    "looming": {"breathing_speed": 0.35, "scale_pulse": 0.012},
+    "sorrowful": {"breathing_speed": 0.5}, "sneaky": {"breathing_speed": 0.9, "shake": 0.002},
+    "cheeky": {"breathing_speed": 1.1, "scale_pulse": 0.005},
+    "alert": {"breathing_speed": 1.2, "scale_pulse": 0.003},
+    "greedy": {"breathing_speed": 1.0, "scale_pulse": 0.007},
+}

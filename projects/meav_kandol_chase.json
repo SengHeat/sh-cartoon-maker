@@ -1,0 +1,93 @@
+{
+  "format_version": 1,
+  "project": {"title": "ការដេញតាមក្នុងព្រៃ — Meav & Kandol", "mode": "2.5d", "resolution": {"width": 1920, "height": 1080}, "fps": 24, "background_color": "#0a0a0a", "seed": 7, "timing_mode": "scenes_driven"},
+  "defaults": {"transition_duration": 0.6, "camera_easing": "ease_in_out", "music_volume": 0.35, "narration_volume": 1.0, "sfx_volume": 0.7},
+  "audio": {"narration": null, "background_music": "assets/audio/chase_music.wav"},
+  "scenes": [
+    {
+      "id": "scene_001_mouse_sneaks", "start": 0.0, "duration": 5.0,
+      "background": {"source": "assets/backgrounds/forest_day.png", "scale": "cover"},
+      "layers": [
+        {"id": "far_trees", "source": "assets/backgrounds/trees_far.png", "depth": 0.2, "opacity": 0.9},
+        {"id": "bushes", "source": "assets/foregrounds/bushes.png", "depth": 0.55},
+        {"id": "cheese", "source": "assets/props/cheese.png", "depth": 0.7, "position": {"x": 0.72, "y": 0.82}, "scale": 0.4},
+        {"id": "kandol", "type": "character", "source": "assets/characters/mouse.png", "depth": 0.75, "position": {"x": 0.25, "y": 0.84}, "scale": 0.3}
+      ],
+      "camera": {"shot": "wide", "movement": "slow_push", "from": {"x": 0.5, "y": 0.5, "zoom": 1.0}, "to": {"x": 0.6, "y": 0.52, "zoom": 1.1}, "easing": "ease_in_out"},
+      "characters": [{"layer_id": "kandol", "emotion": "calm", "action": "look_left", "motion": {"type": "walk_in_place", "intensity": 0.5}}],
+      "effects": [{"type": "vignette", "intensity": 0.15}],
+      "audio": [{"source": "assets/audio/sfx_tiptoe.wav", "start": 0.5, "volume": 0.6, "loop": false}],
+      "transition_out": {"type": "cut", "duration": 0.0}
+    },
+    {
+      "id": "scene_002_cat_spots", "start": 5.0, "duration": 3.0,
+      "background": {"source": "assets/backgrounds/forest_day.png", "scale": "cover"},
+      "layers": [
+        {"id": "far_trees", "source": "assets/backgrounds/trees_far.png", "depth": 0.2, "opacity": 0.9},
+        {"id": "log", "source": "assets/props/log.png", "depth": 0.5, "position": {"x": 0.5, "y": 0.8}, "scale": 0.6},
+        {"id": "meav", "type": "character", "source": "assets/characters/cat.png", "depth": 0.78, "position": {"x": 0.5, "y": 0.72}, "scale": 0.6}
+      ],
+      "camera": {"shot": "close", "movement": "handheld_subtle", "from": {"x": 0.5, "y": 0.45, "zoom": 1.25}, "to": {"x": 0.5, "y": 0.45, "zoom": 1.3}, "easing": "ease_out"},
+      "characters": [{"layer_id": "meav", "emotion": "shocked", "action": "shake", "motion": {"type": "shake", "intensity": 0.8}}],
+      "effects": [{"type": "flash", "intensity": 0.5}, {"type": "vignette", "intensity": 0.2}],
+      "audio": [{"source": "assets/audio/sfx_sting.wav", "start": 0.0, "volume": 0.8, "loop": false}],
+      "transition_out": {"type": "cut", "duration": 0.0}
+    },
+    {
+      "id": "scene_003_chase", "start": 8.0, "duration": 6.0,
+      "background": {"source": "assets/backgrounds/forest_day.png", "scale": "cover"},
+      "layers": [
+        {"id": "far_trees", "source": "assets/backgrounds/trees_far.png", "depth": 0.15, "opacity": 0.9},
+        {"id": "mid_trees", "source": "assets/foregrounds/trees_day.png", "depth": 0.45},
+        {"id": "kandol", "type": "character", "source": "assets/characters/mouse.png", "depth": 0.7, "position": {"x": 0.65, "y": 0.82}, "scale": 0.3},
+        {"id": "meav", "type": "character", "source": "assets/characters/cat.png", "depth": 0.72, "position": {"x": 0.35, "y": 0.78}, "scale": 0.55},
+        {"id": "bushes", "source": "assets/foregrounds/bushes.png", "depth": 0.85}
+      ],
+      "camera": {"shot": "medium", "movement": "pan_right", "from": {"x": 0.35, "y": 0.5, "zoom": 1.1}, "to": {"x": 0.75, "y": 0.5, "zoom": 1.1}, "easing": "linear"},
+      "characters": [
+        {"layer_id": "kandol", "emotion": "scared", "action": "walk_in_place", "motion": {"type": "walk_in_place", "intensity": 1.0}},
+        {"layer_id": "meav", "emotion": "angry", "action": "walk_in_place", "motion": {"type": "walk_in_place", "intensity": 1.0}}
+      ],
+      "effects": [{"type": "shake", "intensity": 0.1}],
+      "audio": [{"source": "assets/audio/sfx_running.wav", "start": 0.0, "volume": 0.7, "loop": true}],
+      "transition_out": {"type": "cut", "duration": 0.0}
+    },
+    {
+      "id": "scene_004_trick", "start": 14.0, "duration": 4.0,
+      "background": {"source": "assets/backgrounds/forest_day.png", "scale": "cover"},
+      "layers": [
+        {"id": "far_trees", "source": "assets/backgrounds/trees_far.png", "depth": 0.2, "opacity": 0.9},
+        {"id": "big_tree", "source": "assets/foregrounds/trees_day.png", "depth": 0.5, "position": {"x": 0.8, "y": 0.5}},
+        {"id": "kandol", "type": "character", "source": "assets/characters/mouse.png", "depth": 0.7, "position": {"x": 0.4, "y": 0.84}, "scale": 0.3},
+        {"id": "meav", "type": "character", "source": "assets/characters/cat.png", "depth": 0.72, "position": {"x": 0.85, "y": 0.78}, "scale": 0.55}
+      ],
+      "camera": {"shot": "medium", "movement": "static", "from": {"x": 0.5, "y": 0.5, "zoom": 1.05}, "to": {"x": 0.5, "y": 0.5, "zoom": 1.05}, "easing": "linear"},
+      "characters": [
+        {"layer_id": "kandol", "emotion": "calm", "action": "look_right", "motion": {"type": "subtle_breathing", "intensity": 0.4}},
+        {"layer_id": "meav", "emotion": "shocked", "action": "shake", "motion": {"type": "shake", "intensity": 0.6}}
+      ],
+      "effects": [{"type": "vignette", "intensity": 0.15}],
+      "audio": [{"source": "assets/audio/sfx_crash.wav", "start": 0.8, "volume": 0.8, "loop": false}],
+      "transition_out": {"type": "crossfade", "duration": 0.6}
+    },
+    {
+      "id": "scene_005_escape", "start": 18.0, "duration": 4.0,
+      "background": {"source": "assets/backgrounds/forest_day.png", "scale": "cover"},
+      "layers": [
+        {"id": "far_trees", "source": "assets/backgrounds/trees_far.png", "depth": 0.2, "opacity": 0.9},
+        {"id": "bushes", "source": "assets/foregrounds/bushes.png", "depth": 0.6},
+        {"id": "cheese", "source": "assets/props/cheese.png", "depth": 0.68, "position": {"x": 0.28, "y": 0.8}, "scale": 0.35},
+        {"id": "kandol", "type": "character", "source": "assets/characters/mouse.png", "depth": 0.7, "position": {"x": 0.3, "y": 0.82}, "scale": 0.3},
+        {"id": "meav", "type": "character", "source": "assets/characters/cat.png", "depth": 0.72, "position": {"x": 0.7, "y": 0.78}, "scale": 0.55}
+      ],
+      "camera": {"shot": "wide", "movement": "slow_pull", "from": {"x": 0.5, "y": 0.5, "zoom": 1.15}, "to": {"x": 0.5, "y": 0.5, "zoom": 1.0}, "easing": "ease_in_out"},
+      "characters": [
+        {"layer_id": "kandol", "emotion": "calm", "action": "idle", "motion": {"type": "subtle_breathing", "intensity": 0.3}},
+        {"layer_id": "meav", "emotion": "sad", "action": "idle", "motion": {"type": "subtle_breathing", "intensity": 0.3}}
+      ],
+      "effects": [{"type": "vignette", "intensity": 0.2}, {"type": "fade", "intensity": 1.0}],
+      "audio": [{"source": "assets/audio/sfx_victory.wav", "start": 0.3, "volume": 0.7, "loop": false}],
+      "transition_out": {"type": "fade_black", "duration": 1.0}
+    }
+  ]
+}

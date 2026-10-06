@@ -1,0 +1,20 @@
+{
+  "format_version": 1,
+  "seed": 42,
+  "scene": {"environment": "amazon_forest_day", "fps": 24, "duration": 15, "resolution": [1920, 1080]},
+  "characters": [{"id": "kiko", "character": "kiko", "position": [-2, 0, 0]}],
+  "timeline": [
+    {"start": 0, "end": 2, "character": "kiko", "action": "idle", "emotion": "curious"},
+    {"start": 2, "end": 2.6, "character": "kiko", "action": "look_at", "target": "banana"},
+    {"start": 2.6, "end": 3.1, "character": "kiko", "action": "surprised_reaction"},
+    {"start": 3.1, "end": 5, "character": "kiko", "action": "idle", "emotion": "surprised"},
+    {"start": 5, "end": 9, "character": "kiko", "action": "walk", "to": [1.7, 0, 0], "speed": 1.0, "emotion": "happy"},
+    {"start": 9, "end": 10, "character": "kiko", "action": "point", "hand": "right"},
+    {"start": 10, "end": 11, "character": "kiko", "action": "grab", "prop": "banana", "hand": "right"},
+    {"start": 11, "end": 12, "character": "kiko", "action": "release", "prop": "banana"},
+    {"start": 12, "end": 12.4, "character": "kiko", "action": "scared_reaction"},
+    {"start": 12.4, "end": 14.3, "character": "kiko", "action": "jump", "height": 1.8, "distance": -2.0},
+    {"start": 14.3, "end": 15, "character": "kiko", "action": "look_at", "target": "banana", "emotion": "scared"}
+  ],
+  "debug": {"show_rig": false, "show_controls": false, "show_names": false}
+}

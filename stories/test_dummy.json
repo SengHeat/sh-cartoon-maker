@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "seed": 42,
+  "scene": {"fps": 24, "duration": 15, "environment": "test_stage", "resolution": [1920, 1080]},
+  "characters": [{"id": "hero", "character": "test_dummy", "position": [-2, 0, 0]}],
+  "timeline": [
+    {"start": 0, "end": 2, "character": "hero", "action": "idle", "emotion": "neutral"},
+    {"start": 0.8, "end": 1.0, "character": "hero", "action": "blink", "duration": 4},
+    {"start": 2, "end": 5, "character": "hero", "action": "walk", "to": [1, 0, 0], "speed": 1.0},
+    {"start": 5, "end": 6, "character": "hero", "action": "look_at", "target": "ball"},
+    {"start": 6, "end": 8, "character": "hero", "action": "surprised_reaction"},
+    {"start": 8, "end": 11, "character": "hero", "action": "run", "to": [3.8, 0, 0], "speed": 1.15},
+    {"start": 11, "end": 13, "character": "hero", "action": "jump", "height": 1.5, "distance": 2.0},
+    {"start": 13, "end": 14, "character": "hero", "action": "land"},
+    {"start": 13.2, "end": 15, "character": "hero", "action": "wave", "hand": "right", "emotion": "happy"}
+  ],
+  "debug": {"show_rig": false, "show_controls": false, "show_names": false}
+}

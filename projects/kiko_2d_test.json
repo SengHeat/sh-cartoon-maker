@@ -1,0 +1,32 @@
+{
+  "format_version": 1,
+  "project": {
+    "title": "KIKO 2.5D Placeholder Rig Test",
+    "mode": "2.5d",
+    "resolution": {"width": 1280, "height": 720},
+    "fps": 12,
+    "background_color": "#D8D2C4",
+    "seed": 0,
+    "timing_mode": "scenes_driven"
+  },
+  "scenes": [
+    {
+      "id": "kiko_test_v002_rest",
+      "renderer": "2.5d",
+      "duration": 0.25,
+      "background": {"source":"assets/characters/kiko/stage.png","scale":"cover"},
+      "layers": [{"id":"kiko","source":"assets/characters/kiko/kiko_2d_idle.png","type":"character","depth":0.6,"position":{"x":0.50,"y":0.94},"scale":0.40}],
+      "characters": [{"layer_id":"kiko","emotion":"neutral","action":"idle","auto_blink":false}],
+      "transition_out": {"type":"cut","duration":0}
+    },
+    {
+      "id": "kiko_test_v002_motion",
+      "renderer": "2.5d",
+      "duration": 3.0,
+      "background": {"source":"assets/characters/kiko/stage.png","scale":"cover"},
+      "layers": [{"id":"kiko","source":"assets/characters/kiko/kiko_2d_idle.png","type":"character","depth":0.6,"position":{"x":0.50,"y":0.94},"scale":0.40}],
+      "characters": [{"layer_id":"kiko","emotion":"neutral","action":"turn_head","motion":{"type":"walk_in_place","intensity":0.12},"auto_blink":true}],
+      "transition_out": {"type":"cut","duration":0}
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "rig_version": 1,
+  "parts": {
+    "tail_base": {
+      "image": "layers/tail_base.png",
+      "parent": "body",
+      "attach": [
+        0.22,
+        0.62
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 1
+    },
+    "tail_mid": {
+      "image": "layers/tail_mid.png",
+      "parent": "tail_base",
+      "attach": [
+        0.34,
+        0.84
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 2
+    },
+    "tail_tip": {
+      "image": "layers/tail_tip.png",
+      "parent": "tail_mid",
+      "attach": [
+        0.35,
+        0.84
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 3
+    },
+    "backpack": {
+      "image": "layers/backpack.png",
+      "parent": "body",
+      "attach": [
+        0.5,
+        0.49
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 4
+    },
+    "upper_arm_l": {
+      "image": "layers/upper_arm_l.png",
+      "parent": "body",
+      "attach": [
+        0.25,
+        0.43
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 10
+    },
+    "arm_l": {
+      "image": "layers/arm_l.png",
+      "parent": "upper_arm_l",
+      "attach": [
+        0.5,
+        0.88
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 11
+    },
+    "hand_l": {
+      "image": "layers/hand_l.png",
+      "parent": "arm_l",
+      "attach": [
+        0.5,
+        0.88
+      ],
+      "pivot": [
+        0.5,
+        0.12
+      ],
+      "z": 12
+    },
+    "thigh_l": {
+      "image": "layers/thigh_l.png",
+      "parent": "body",
+      "attach": [
+        0.42,
+        0.76
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 15
+    },
+    "shin_l": {
+      "image": "layers/shin_l.png",
+      "parent": "thigh_l",
+      "attach": [
+        0.5,
+        0.88
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 16
+    },
+    "foot_l": {
+      "image": "layers/foot_l.png",
+      "parent": "shin_l",
+      "attach": [
+        0.5,
+        0.88
+      ],
+      "pivot": [
+        0.38,
+        0.2
+      ],
+      "z": 17
+    },
+    "body": {
+      "image": "layers/body.png",
+      "pivot": [
+        0.5,
+        0.95
+      ],
+      "z": 30
+    },
+    "thigh_r": {
+      "image": "layers/thigh_r.png",
+      "parent": "body",
+      "attach": [
+        0.58,
+        0.76
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 35
+    },
+    "shin_r": {
+      "image": "layers/shin_r.png",
+      "parent": "thigh_r",
+      "attach": [
+        0.5,
+        0.88
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 36
+    },
+    "foot_r": {
+      "image": "layers/foot_r.png",
+      "parent": "shin_r",
+      "attach": [
+        0.5,
+        0.88
+      ],
+      "pivot": [
+        0.38,
+        0.2
+      ],
+      "z": 37
+    },
+    "upper_arm_r": {
+      "image": "layers/upper_arm_r.png",
+      "parent": "body",
+      "attach": [
+        0.75,
+        0.43
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 40
+    },
+    "arm_r": {
+      "image": "layers/arm_r.png",
+      "parent": "upper_arm_r",
+      "attach": [
+        0.5,
+        0.88
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 41
+    },
+    "hand_r": {
+      "image": "layers/hand_r.png",
+      "parent": "arm_r",
+      "attach": [
+        0.5,
+        0.88
+      ],
+      "pivot": [
+        0.5,
+        0.12
+      ],
+      "z": 42
+    },
+    "head": {
+      "image": "layers/head.png",
+      "parent": "body",
+      "attach": [
+        0.5,
+        0.34
+      ],
+      "pivot": [
+        0.5,
+        0.82
+      ],
+      "z": 50
+    },
+    "ear_l": {
+      "image": "layers/ear_l.png",
+      "parent": "head",
+      "attach": [
+        0.27,
+        0.25
+      ],
+      "pivot": [
+        0.5,
+        0.9
+      ],
+      "z": 51
+    },
+    "ear_r": {
+      "image": "layers/ear_r.png",
+      "parent": "head",
+      "attach": [
+        0.73,
+        0.25
+      ],
+      "pivot": [
+        0.5,
+        0.9
+      ],
+      "z": 51
+    },
+    "crest": {
+      "image": "layers/crest.png",
+      "parent": "head",
+      "attach": [
+        0.5,
+        0.12
+      ],
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "z": 52
+    },
+    "cheek_l": {
+      "image": "layers/cheek_l.png",
+      "parent": "head",
+      "attach": [
+        0.27,
+        0.67
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 60
+    },
+    "cheek_r": {
+      "image": "layers/cheek_r.png",
+      "parent": "head",
+      "attach": [
+        0.73,
+        0.67
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 60
+    },
+    "muzzle": {
+      "image": "layers/muzzle.png",
+      "parent": "head",
+      "attach": [
+        0.5,
+        0.67
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 61
+    },
+    "nose": {
+      "image": "layers/nose.png",
+      "parent": "head",
+      "attach": [
+        0.5,
+        0.61
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 62
+    },
+    "eyes": {
+      "image": "layers/eyes_open.png",
+      "parent": "head",
+      "attach": [
+        0.5,
+        0.45
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 63,
+      "swap": {
+        "open": "layers/eyes_open.png",
+        "closed": "layers/eyes_closed.png"
+      }
+    },
+    "mouth": {
+      "image": "layers/mouth_neutral.png",
+      "parent": "head",
+      "attach": [
+        0.5,
+        0.76
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 64,
+      "swap": {
+        "closed": "layers/mouth_neutral.png",
+        "neutral": "layers/mouth_neutral.png",
+        "open": "layers/mouth_open.png",
+        "small": "layers/mouth_open.png",
+        "wide": "layers/mouth_open.png"
+      }
+    },
+    "vest": {
+      "image": "layers/vest.png",
+      "parent": "body",
+      "attach": [
+        0.5,
+        0.59
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 70
+    },
+    "belt": {
+      "image": "layers/belt.png",
+      "parent": "body",
+      "attach": [
+        0.5,
+        0.75
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 71
+    },
+    "scarf": {
+      "image": "layers/scarf.png",
+      "parent": "body",
+      "attach": [
+        0.5,
+        0.39
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 72
+    },
+    "harness_straps": {
+      "image": "layers/harness_straps.png",
+      "parent": "body",
+      "attach": [
+        0.5,
+        0.59
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "z": 73
+    },
+    "charm": {
+      "image": "layers/charm.png",
+      "parent": "body",
+      "attach": [
+        0.64,
+        0.77
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "z": 74
+    }
+  }
+}

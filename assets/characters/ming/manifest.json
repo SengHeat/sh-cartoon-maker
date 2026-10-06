@@ -1,0 +1,28 @@
+{
+  "id": "ming",
+  "pivot": "bottom_center",
+  "files": {
+    "idle": "ming_idle.png"
+  },
+  "emotions": [
+    "calm",
+    "worried",
+    "shocked",
+    "sad"
+  ],
+  "actions": [
+    "idle",
+    "subtle_breathing",
+    "walk_in_place",
+    "look_left",
+    "look_right",
+    "shake",
+    "float",
+    "fade_in",
+    "fade_out"
+  ],
+  "size": [
+    700,
+    1000
+  ]
+}

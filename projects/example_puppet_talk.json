@@ -1,0 +1,115 @@
+{
+  "format_version": 1,
+  "project": {
+    "title": "Ta Puppet Narrator",
+    "mode": "2.5d",
+    "resolution": {
+      "width": 1280,
+      "height": 720
+    },
+    "fps": 24,
+    "seed": 23,
+    "timing_mode": "scenes_driven"
+  },
+  "scenes": [
+    {
+      "id": "ta_idle",
+      "duration": 2,
+      "background": {
+        "source": "assets/backgrounds/village_day.png",
+        "scale": "cover"
+      },
+      "layers": [
+        {
+          "id": "ta",
+          "source": "assets/characters/ta_puppet/ta_puppet_idle.png",
+          "type": "character",
+          "position": {
+            "x": 0.5,
+            "y": 0.92
+          },
+          "scale": 0.7
+        }
+      ],
+      "characters": [
+        {
+          "layer_id": "ta",
+          "emotion": "calm",
+          "action": "idle",
+          "dialogue_audio": "assets/audio/ta_line_01.wav",
+          "auto_blink": true
+        }
+      ],
+      "transition_out": {
+        "type": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "ta_nod",
+      "duration": 2,
+      "background": {
+        "source": "assets/backgrounds/village_day.png",
+        "scale": "cover"
+      },
+      "layers": [
+        {
+          "id": "ta",
+          "source": "assets/characters/ta_puppet/ta_puppet_idle.png",
+          "type": "character",
+          "position": {
+            "x": 0.5,
+            "y": 0.92
+          },
+          "scale": 0.7
+        }
+      ],
+      "characters": [
+        {
+          "layer_id": "ta",
+          "emotion": "worried",
+          "action": "nod",
+          "dialogue_audio": "assets/audio/ta_line_01.wav",
+          "auto_blink": true
+        }
+      ],
+      "transition_out": {
+        "type": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "ta_point",
+      "duration": 2,
+      "background": {
+        "source": "assets/backgrounds/village_day.png",
+        "scale": "cover"
+      },
+      "layers": [
+        {
+          "id": "ta",
+          "source": "assets/characters/ta_puppet/ta_puppet_idle.png",
+          "type": "character",
+          "position": {
+            "x": 0.5,
+            "y": 0.92
+          },
+          "scale": 0.7
+        }
+      ],
+      "characters": [
+        {
+          "layer_id": "ta",
+          "emotion": "serious",
+          "action": "point",
+          "dialogue_audio": "assets/audio/ta_line_01.wav",
+          "auto_blink": true
+        }
+      ],
+      "transition_out": {
+        "type": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

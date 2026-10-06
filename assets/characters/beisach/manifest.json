@@ -1,0 +1,26 @@
+{
+  "id": "beisach",
+  "pivot": "bottom_center",
+  "files": {
+    "idle": "beisach_idle.png"
+  },
+  "emotions": [
+    "angry",
+    "menace"
+  ],
+  "actions": [
+    "idle",
+    "subtle_breathing",
+    "walk_in_place",
+    "look_left",
+    "look_right",
+    "shake",
+    "float",
+    "fade_in",
+    "fade_out"
+  ],
+  "size": [
+    700,
+    1000
+  ]
+}

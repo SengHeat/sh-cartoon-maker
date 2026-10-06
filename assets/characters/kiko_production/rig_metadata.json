@@ -1,0 +1,9 @@
+{
+  "package": "KIKO 2.5D production-style layer pack",
+  "revision": "canonical-scaffold-v001",
+  "status": "invalid-artwork-quarantined-awaiting-canonical-layer-delivery",
+  "runtime_architecture": "rig.json retained; do not render its current legacy layer references",
+  "canonical_contract": "canonical_layer_manifest.json",
+  "canonical_validator": "python -m cartoon_studio.characters.kiko_layer_validator assets/characters/kiko_production",
+  "animation_gate": "Validation must pass before rig repointing, neutral render, or animation."
+}

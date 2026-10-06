@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cartoon-studio"
+version = "0.1.0"
+description = "Deterministic JSON-driven 2D/2.5D cartoon video renderer"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["pydantic>=2.6", "Pillow>=10.0", "numpy>=1.26"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov>=5"]
+
+[project.scripts]
+cartoon-studio = "cartoon_studio.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cartoon_studio*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

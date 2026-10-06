@@ -1,0 +1,28 @@
+{
+  "id": "kasekor",
+  "pivot": "bottom_center",
+  "files": {
+    "idle": "kasekor_idle.png"
+  },
+  "emotions": [
+    "neutral",
+    "tired",
+    "worried",
+    "calm"
+  ],
+  "actions": [
+    "idle",
+    "subtle_breathing",
+    "walk_in_place",
+    "look_left",
+    "look_right",
+    "shake",
+    "float",
+    "fade_in",
+    "fade_out"
+  ],
+  "size": [
+    700,
+    1000
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "amazon_jungle_clearing",
+  "type": "outdoor",
+  "seed": 42,
+  "ground": {"type": "terrain", "walkable": true, "base_height": 0.0, "variation": 0.08},
+  "lighting": {"preset": "jungle_day"},
+  "zones": {
+    "action": {"min": [-7.5, -3.8], "max": [7.5, 4.2]},
+    "path": {"min": [-9.0, -1.8], "max": [9.0, 1.8]},
+    "prop": {"min": [1.5, -1.0], "max": [5.8, 2.5]},
+    "left_forest": {"min": [-12.0, -6.0], "max": [-7.8, 8.0]},
+    "right_forest": {"min": [7.8, -6.0], "max": [12.0, 8.0]},
+    "background": {"min": [-12.0, 4.5], "max": [12.0, 11.0]},
+    "foreground": {"min": [-12.0, -7.5], "max": [12.0, -5.5]}
+  },
+  "spawn_points": {
+    "center": [0.0, 0.0, 0.0], "left": [-6.0, 0.0, 0.0], "right": [6.0, 0.0, 0.0],
+    "back": [0.0, 3.2, 0.0], "exit_left": [-8.5, 0.0, 0.0], "exit_right": [8.5, 0.0, 0.0]
+  },
+  "prop_points": {
+    "prop_center": [2.2, 0.3, 0.0], "prop_left": [-3.6, 1.2, 0.0], "prop_right": [5.0, 0.8, 0.0],
+    "prop_tree_base": [5.8, 2.2, 0.0], "prop_log": [3.8, 0.0, 0.0]
+  },
+  "camera_marks": {
+    "establishing_wide": {"location": [8.5, -18.5, 7.0], "target": [0.0, 1.0, 1.7], "lens": 43},
+    "wide": {"location": [6.0, -15.0, 5.5], "target": [0.0, 0.5, 1.6], "lens": 48},
+    "wide_a": {"location": [-7.0, -15.0, 5.2], "target": [0.0, 0.5, 1.6], "lens": 48},
+    "wide_b": {"location": [8.0, -14.0, 5.0], "target": [1.0, 0.5, 1.5], "lens": 50},
+    "medium": {"location": [4.0, -10.0, 4.0], "target": [0.0, 0.0, 1.7], "lens": 58},
+    "medium_a": {"location": [3.5, -9.5, 4.0], "target": [0.0, 0.0, 1.7], "lens": 58},
+    "close": {"location": [2.5, -6.0, 3.5], "target": [0.0, 0.0, 2.5], "lens": 70},
+    "close_a": {"location": [2.5, -6.0, 3.5], "target": [0.0, 0.0, 2.5], "lens": 70},
+    "low_angle": {"location": [5.5, -12.0, 1.5], "target": [0.0, 0.0, 2.0], "lens": 52},
+    "high_angle": {"location": [7.0, -13.0, 9.0], "target": [0.0, 0.5, 1.0], "lens": 52},
+    "path_left_to_right": {"location": [4.0, -14.0, 4.5], "target": [1.0, 0.0, 1.6], "lens": 50},
+    "path_right_to_left": {"location": [-4.0, -14.0, 4.5], "target": [-1.0, 0.0, 1.6], "lens": 50}
+  },
+  "vegetation": {"ferns": {"density": 0.34}, "small_plants": {"density": 0.25}, "rocks": {"density": 0.09}, "bushes": {"density": 0.13}},
+  "wind": {"enabled": true, "strength": 0.25, "speed": 0.6, "seed": 42},
+  "foreground": true
+}

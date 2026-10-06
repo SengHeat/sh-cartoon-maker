@@ -1,0 +1,28 @@
+{
+  "id": "kandol",
+  "pivot": "bottom_center",
+  "files": {
+    "idle": "kandol_idle.png"
+  },
+  "emotions": [
+    "calm",
+    "scared",
+    "cheeky",
+    "happy"
+  ],
+  "actions": [
+    "idle",
+    "subtle_breathing",
+    "walk_in_place",
+    "look_left",
+    "look_right",
+    "shake",
+    "float",
+    "fade_in",
+    "fade_out"
+  ],
+  "size": [
+    700,
+    1000
+  ]
+}

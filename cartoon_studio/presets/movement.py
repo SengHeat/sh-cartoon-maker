@@ -1,0 +1,1 @@
+SUPPORTED_ACTIONS = frozenset({"idle", "subtle_breathing", "walk_in_place", "walk", "run", "look_left", "look_right", "turn_head", "nod", "shake", "raise_arm", "point", "wave", "float", "fade_in", "fade_out", "sit", "stand", "fall", "take"})

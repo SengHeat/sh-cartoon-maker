@@ -1,0 +1,761 @@
+{
+  "$defs": {
+    "AudioClip": {
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "title": "Source",
+          "type": "string"
+        },
+        "start": {
+          "default": 0.0,
+          "minimum": 0.0,
+          "title": "Start",
+          "type": "number"
+        },
+        "volume": {
+          "default": 1.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Volume",
+          "type": "number"
+        },
+        "loop": {
+          "default": false,
+          "title": "Loop",
+          "type": "boolean"
+        },
+        "fade_in": {
+          "default": 0.0,
+          "minimum": 0.0,
+          "title": "Fade In",
+          "type": "number"
+        },
+        "fade_out": {
+          "default": 0.0,
+          "minimum": 0.0,
+          "title": "Fade Out",
+          "type": "number"
+        }
+      },
+      "required": [
+        "source"
+      ],
+      "title": "AudioClip",
+      "type": "object"
+    },
+    "Background": {
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "title": "Source",
+          "type": "string"
+        },
+        "scale": {
+          "default": "cover",
+          "enum": [
+            "contain",
+            "cover",
+            "stretch",
+            "native"
+          ],
+          "title": "Scale",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source"
+      ],
+      "title": "Background",
+      "type": "object"
+    },
+    "Camera": {
+      "additionalProperties": false,
+      "properties": {
+        "shot": {
+          "default": "wide",
+          "enum": [
+            "wide",
+            "medium",
+            "close",
+            "extreme_close"
+          ],
+          "title": "Shot",
+          "type": "string"
+        },
+        "movement": {
+          "default": "static",
+          "enum": [
+            "static",
+            "slow_push",
+            "slow_pull",
+            "pan_left",
+            "pan_right",
+            "pan_up",
+            "pan_down",
+            "drift_left",
+            "drift_right",
+            "handheld_subtle"
+          ],
+          "title": "Movement",
+          "type": "string"
+        },
+        "from": {
+          "$ref": "#/$defs/CameraPoint"
+        },
+        "to": {
+          "$ref": "#/$defs/CameraPoint"
+        },
+        "easing": {
+          "anyOf": [
+            {
+              "enum": [
+                "linear",
+                "ease_in",
+                "ease_out",
+                "ease_in_out"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Easing"
+        }
+      },
+      "title": "Camera",
+      "type": "object"
+    },
+    "CameraPoint": {
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "default": 0.5,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "X",
+          "type": "number"
+        },
+        "y": {
+          "default": 0.5,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Y",
+          "type": "number"
+        },
+        "zoom": {
+          "default": 1.0,
+          "exclusiveMinimum": 0.0,
+          "title": "Zoom",
+          "type": "number"
+        }
+      },
+      "title": "CameraPoint",
+      "type": "object"
+    },
+    "Character": {
+      "additionalProperties": false,
+      "properties": {
+        "layer_id": {
+          "title": "Layer Id",
+          "type": "string"
+        },
+        "emotion": {
+          "default": "neutral",
+          "enum": [
+            "neutral",
+            "calm",
+            "worried",
+            "scared",
+            "angry",
+            "sad",
+            "shocked",
+            "ghostly",
+            "happy",
+            "serious",
+            "tired",
+            "glow",
+            "menace",
+            "looming",
+            "sorrowful",
+            "sneaky",
+            "cheeky",
+            "alert",
+            "greedy"
+          ],
+          "title": "Emotion",
+          "type": "string"
+        },
+        "action": {
+          "default": "idle",
+          "enum": [
+            "idle",
+            "subtle_breathing",
+            "walk_in_place",
+            "walk",
+            "run",
+            "look_left",
+            "look_right",
+            "turn_head",
+            "nod",
+            "shake",
+            "raise_arm",
+            "point",
+            "wave",
+            "float",
+            "fade_in",
+            "fade_out",
+            "sit",
+            "stand",
+            "fall",
+            "take"
+          ],
+          "title": "Action",
+          "type": "string"
+        },
+        "motion": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Motion"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "mouth": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Mouth"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "action_target": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Position"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "dialogue_audio": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dialogue Audio"
+        },
+        "auto_blink": {
+          "default": true,
+          "title": "Auto Blink",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "layer_id"
+      ],
+      "title": "Character",
+      "type": "object"
+    },
+    "Defaults": {
+      "additionalProperties": false,
+      "properties": {
+        "transition_duration": {
+          "default": 1.0,
+          "minimum": 0.0,
+          "title": "Transition Duration",
+          "type": "number"
+        },
+        "camera_easing": {
+          "default": "ease_in_out",
+          "enum": [
+            "linear",
+            "ease_in",
+            "ease_out",
+            "ease_in_out"
+          ],
+          "title": "Camera Easing",
+          "type": "string"
+        },
+        "music_volume": {
+          "default": 0.15,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Music Volume",
+          "type": "number"
+        },
+        "narration_volume": {
+          "default": 1.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Narration Volume",
+          "type": "number"
+        },
+        "sfx_volume": {
+          "default": 0.55,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sfx Volume",
+          "type": "number"
+        }
+      },
+      "title": "Defaults",
+      "type": "object"
+    },
+    "Effect": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "vignette",
+            "fog",
+            "film_grain",
+            "fade",
+            "flash",
+            "shake",
+            "darken",
+            "desaturate"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "intensity": {
+          "default": 0.5,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Intensity",
+          "type": "number"
+        },
+        "speed": {
+          "default": 0.1,
+          "minimum": 0.0,
+          "title": "Speed",
+          "type": "number"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "title": "Effect",
+      "type": "object"
+    },
+    "Layer": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "source": {
+          "title": "Source",
+          "type": "string"
+        },
+        "type": {
+          "default": "image",
+          "enum": [
+            "image",
+            "character",
+            "prop",
+            "overlay"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "depth": {
+          "default": 0.5,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Depth",
+          "type": "number"
+        },
+        "opacity": {
+          "default": 1.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Opacity",
+          "type": "number"
+        },
+        "position": {
+          "$ref": "#/$defs/Position"
+        },
+        "scale": {
+          "default": 1.0,
+          "exclusiveMinimum": 0.0,
+          "title": "Scale",
+          "type": "number"
+        },
+        "scale_mode": {
+          "default": "native",
+          "enum": [
+            "contain",
+            "cover",
+            "stretch",
+            "native"
+          ],
+          "title": "Scale Mode",
+          "type": "string"
+        },
+        "anchor": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Position"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "id",
+        "source"
+      ],
+      "title": "Layer",
+      "type": "object"
+    },
+    "Motion": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "default": "idle",
+          "enum": [
+            "idle",
+            "subtle_breathing",
+            "walk_in_place",
+            "walk",
+            "run",
+            "look_left",
+            "look_right",
+            "turn_head",
+            "nod",
+            "shake",
+            "raise_arm",
+            "point",
+            "wave",
+            "float",
+            "fade_in",
+            "fade_out",
+            "sit",
+            "stand",
+            "fall",
+            "take"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "intensity": {
+          "default": 0.3,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Intensity",
+          "type": "number"
+        }
+      },
+      "title": "Motion",
+      "type": "object"
+    },
+    "Mouth": {
+      "additionalProperties": false,
+      "properties": {
+        "closed": {
+          "title": "Closed",
+          "type": "string"
+        },
+        "open": {
+          "title": "Open",
+          "type": "string"
+        }
+      },
+      "required": [
+        "closed",
+        "open"
+      ],
+      "title": "Mouth",
+      "type": "object"
+    },
+    "Position": {
+      "additionalProperties": false,
+      "description": "Normalized canvas coordinate: x left-to-right, y top-to-bottom.",
+      "properties": {
+        "x": {
+          "default": 0.5,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "X",
+          "type": "number"
+        },
+        "y": {
+          "default": 0.5,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Y",
+          "type": "number"
+        }
+      },
+      "title": "Position",
+      "type": "object"
+    },
+    "ProjectAudio": {
+      "additionalProperties": false,
+      "properties": {
+        "narration": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Narration"
+        },
+        "background_music": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Background Music"
+        }
+      },
+      "title": "ProjectAudio",
+      "type": "object"
+    },
+    "ProjectSettings": {
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "mode": {
+          "default": "2.5d",
+          "enum": [
+            "2d",
+            "2.5d",
+            "3d"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "resolution": {
+          "$ref": "#/$defs/Resolution"
+        },
+        "fps": {
+          "exclusiveMinimum": 0,
+          "maximum": 240,
+          "title": "Fps",
+          "type": "integer"
+        },
+        "background_color": {
+          "default": "#000000",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "title": "Background Color",
+          "type": "string"
+        },
+        "seed": {
+          "default": 42,
+          "title": "Seed",
+          "type": "integer"
+        },
+        "timing_mode": {
+          "default": "narration_driven",
+          "enum": [
+            "narration_driven",
+            "scenes_driven"
+          ],
+          "title": "Timing Mode",
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "resolution",
+        "fps"
+      ],
+      "title": "ProjectSettings",
+      "type": "object"
+    },
+    "Resolution": {
+      "additionalProperties": false,
+      "properties": {
+        "width": {
+          "exclusiveMinimum": 0,
+          "title": "Width",
+          "type": "integer"
+        },
+        "height": {
+          "exclusiveMinimum": 0,
+          "title": "Height",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "width",
+        "height"
+      ],
+      "title": "Resolution",
+      "type": "object"
+    },
+    "Scene": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "minLength": 1,
+          "title": "Id",
+          "type": "string"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Start"
+        },
+        "duration": {
+          "exclusiveMinimum": 0.0,
+          "title": "Duration",
+          "type": "number"
+        },
+        "background": {
+          "$ref": "#/$defs/Background"
+        },
+        "layers": {
+          "items": {
+            "$ref": "#/$defs/Layer"
+          },
+          "title": "Layers",
+          "type": "array"
+        },
+        "camera": {
+          "$ref": "#/$defs/Camera"
+        },
+        "characters": {
+          "items": {
+            "$ref": "#/$defs/Character"
+          },
+          "title": "Characters",
+          "type": "array"
+        },
+        "effects": {
+          "items": {
+            "$ref": "#/$defs/Effect"
+          },
+          "title": "Effects",
+          "type": "array"
+        },
+        "audio": {
+          "items": {
+            "$ref": "#/$defs/AudioClip"
+          },
+          "title": "Audio",
+          "type": "array"
+        },
+        "transition_out": {
+          "$ref": "#/$defs/Transition"
+        }
+      },
+      "required": [
+        "id",
+        "duration",
+        "background"
+      ],
+      "title": "Scene",
+      "type": "object"
+    },
+    "Transition": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "default": "cut",
+          "enum": [
+            "cut",
+            "crossfade",
+            "fade_black"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "duration": {
+          "default": 0.0,
+          "minimum": 0.0,
+          "title": "Duration",
+          "type": "number"
+        }
+      },
+      "title": "Transition",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "format_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Format Version",
+      "type": "integer"
+    },
+    "project": {
+      "$ref": "#/$defs/ProjectSettings"
+    },
+    "defaults": {
+      "$ref": "#/$defs/Defaults"
+    },
+    "audio": {
+      "$ref": "#/$defs/ProjectAudio"
+    },
+    "scenes": {
+      "items": {
+        "$ref": "#/$defs/Scene"
+      },
+      "minItems": 1,
+      "title": "Scenes",
+      "type": "array"
+    }
+  },
+  "required": [
+    "project",
+    "scenes"
+  ],
+  "title": "Project",
+  "type": "object"
+}

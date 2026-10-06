@@ -1,0 +1,53 @@
+{
+  "format_version": 1,
+  "seed": 42,
+  "scene": {
+    "fps": 24,
+    "duration": 30,
+    "environment": "amazon_jungle_clearing",
+    "camera_preset": "establishing_wide",
+    "resolution": [1920, 1080]
+  },
+  "environment_overrides": {
+    "foreground": true,
+    "wind": {"enabled": true, "strength": 0.22, "speed": 0.6, "seed": 42}
+  },
+  "characters": [
+    {"id": "hero", "character": "hero_01", "spawn": "left"}
+  ],
+  "props": [
+    {"id": "banana", "prop": "banana", "spawn": "prop_tree_base"},
+    {"id": "log", "prop": "log", "spawn": "prop_log"}
+  ],
+  "camera_timeline": [
+    {"start": 0, "end": 0, "preset": "establishing_wide"},
+    {"start": 2.5, "end": 3.0, "preset": "wide"},
+    {"start": 27.0, "end": 30.0, "preset": "establishing_wide"}
+  ],
+  "timeline": [
+    {"start": 0, "end": 3, "character": "hero", "action": "idle", "emotion": "neutral"},
+    {"start": 1.0, "end": 1.25, "character": "hero", "action": "blink", "duration": 5},
+    {"start": 3, "end": 7, "character": "hero", "action": "walk", "to": [-1.0, 0.0, 0.0]},
+    {"start": 7, "end": 8, "character": "hero", "action": "stop_walk"},
+    {"start": 7.2, "end": 10, "character": "hero", "action": "look_at", "target": "banana", "emotion": "curious"},
+    {"start": 10, "end": 12, "character": "hero", "action": "walk", "to": [4.9, 1.0, 0.0]},
+    {"start": 12, "end": 13, "character": "hero", "action": "reach", "hand": "right"},
+    {"start": 12.7, "end": 13.2, "character": "hero", "action": "grab", "prop": "banana", "hand": "right"},
+    {"start": 13.2, "end": 17, "character": "hero", "action": "idle", "emotion": "happy"},
+    {"start": 17, "end": 20, "character": "hero", "action": "run", "to": [2.4, 0.0, 0.0]},
+    {"start": 20, "end": 22, "character": "hero", "action": "jump", "height": 1.0, "distance": 2.8},
+    {"start": 22, "end": 23.2, "character": "hero", "action": "land"},
+    {"start": 23.2, "end": 24.5, "character": "hero", "action": "turn", "angle": 90},
+    {"start": 24.5, "end": 27.5, "character": "hero", "action": "wave", "hand": "left", "emotion": "happy"},
+    {"start": 27.5, "end": 30, "character": "hero", "action": "idle", "emotion": "happy"}
+  ],
+  "debug": {
+    "show_rig": false,
+    "show_controls": false,
+    "show_names": false,
+    "show_environment_zones": false,
+    "show_spawn_points": false,
+    "show_camera_marks": false,
+    "show_walkable_area": false
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "format_version": 1,
+
+  "project": {
+    "title": "ខ្មោចព្រៃយប់ — The Forest at Night",
+    "mode": "2.5d",
+    "resolution": { "width": 1920, "height": 1080 },
+    "fps": 24,
+    "background_color": "#000000",
+    "seed": 13,
+    "timing_mode": "narration_driven"
+  },
+
+  "defaults": {
+    "transition_duration": 1.2,
+    "camera_easing": "ease_in_out",
+    "music_volume": 0.18,
+    "narration_volume": 1.0,
+    "sfx_volume": 0.5
+  },
+
+  "audio": {
+    "narration": "assets/audio/ghost_narration.wav",
+    "background_music": "assets/audio/music_horror_ambient.wav"
+  },
+
+  "scenes": [
+    {
+      "id": "scene_001_path",
+      "start": 0.0,
+      "duration": 10.0,
+
+      "background": { "source": "assets/backgrounds/forest_night.png", "scale": "cover" },
+
+      "layers": [
+        { "id": "sky", "source": "assets/backgrounds/sky_night.png", "depth": 0.05, "opacity": 1.0 },
+        { "id": "far_trees", "source": "assets/backgrounds/trees_far.png", "depth": 0.2, "opacity": 0.85 },
+        { "id": "far_fog", "source": "assets/overlays/fog_01.png", "depth": 0.3, "opacity": 0.35 },
+        { "id": "mid_trees", "source": "assets/foregrounds/trees.png", "depth": 0.5 },
+        {
+          "id": "ta",
+          "type": "character",
+          "source": "assets/characters/ta/ta_idle.png",
+          "depth": 0.72,
+          "position": { "x": 0.45, "y": 0.84 },
+          "scale": 0.5
+        },
+        { "id": "near_fog", "source": "assets/overlays/fog_02.png", "depth": 0.9, "opacity": 0.4 }
+      ],
+
+      "camera": {
+        "shot": "wide",
+        "movement": "slow_push",
+        "from": { "x": 0.5, "y": 0.5, "zoom": 1.0 },
+        "to":   { "x": 0.48, "y": 0.5, "zoom": 1.12 },
+        "easing": "ease_in_out"
+      },
+
+      "characters": [
+        {
+          "layer_id": "ta",
+          "emotion": "calm",
+          "action": "walk_in_place",
+          "motion": { "type": "walk_in_place", "intensity": 0.5 }
+        }
+      ],
+
+      "effects": [
+        { "type": "fog", "intensity": 0.35, "speed": 0.05 },
+        { "type": "vignette", "intensity": 0.25 },
+        { "type": "film_grain", "intensity": 0.12 }
+      ],
+
+      "audio": [
+        { "source": "assets/audio/amb_crickets.wav", "start": 0.0, "volume": 0.3, "loop": true, "fade_in": 1.0 }
+      ],
+
+      "transition_out": { "type": "crossfade", "duration": 1.2 }
+    },
+
+    {
+      "id": "scene_002_sound",
+      "start": 10.0,
+      "duration": 9.0,
+
+      "background": { "source": "assets/backgrounds/forest_night.png", "scale": "cover" },
+
+      "layers": [
+        { "id": "far_trees", "source": "assets/backgrounds/trees_far.png", "depth": 0.2, "opacity": 0.85 },
+        { "id": "mid_fog", "source": "assets/overlays/fog_01.png", "depth": 0.4, "opacity": 0.4 },
+        {
+          "id": "ta",
+          "type": "character",
+          "source": "assets/characters/ta/ta_worried.png",
+          "depth": 0.72,
+          "position": { "x": 0.5, "y": 0.82 },
+          "scale": 0.58
+        },
+        { "id": "near_fog", "source": "assets/overlays/fog_03.png", "depth": 0.9, "opacity": 0.45 }
+      ],
+
+      "camera": {
+        "shot": "medium",
+        "movement": "drift_right",
+        "from": { "x": 0.46, "y": 0.5, "zoom": 1.15 },
+        "to":   { "x": 0.54, "y": 0.5, "zoom": 1.18 },
+        "easing": "ease_in_out"
+      },
+
+      "characters": [
+        {
+          "layer_id": "ta",
+          "emotion": "worried",
+          "action": "look_left",
+          "motion": { "type": "subtle_breathing", "intensity": 0.5 }
+        }
+      ],
+
+      "effects": [
+        { "type": "fog", "intensity": 0.4, "speed": 0.06 },
+        { "type": "vignette", "intensity": 0.3 },
+        { "type": "film_grain", "intensity": 0.14 }
+      ],
+
+      "audio": [
+        { "source": "assets/audio/amb_wind.wav", "start": 0.0, "volume": 0.35, "loop": true },
+        { "source": "assets/audio/sfx_ghost_whisper.wav", "start": 5.5, "volume": 0.4, "loop": false }
+      ],
+
+      "transition_out": { "type": "cut", "duration": 0.0 }
+    },
+
+    {
+      "id": "scene_003_ghost",
+      "start": 19.0,
+      "duration": 8.0,
+
+      "background": { "source": "assets/backgrounds/forest_night.png", "scale": "cover" },
+
+      "layers": [
+        { "id": "far_trees", "source": "assets/backgrounds/trees_far.png", "depth": 0.2, "opacity": 0.8 },
+        { "id": "deep_fog", "source": "assets/overlays/fog_01.png", "depth": 0.35, "opacity": 0.5 },
+        {
+          "id": "ghost",
+          "type": "character",
+          "source": "assets/characters/kmaoch_srey/kmaoch_srey_idle.png",
+          "depth": 0.45,
+          "position": { "x": 0.5, "y": 0.6 },
+          "scale": 0.7,
+          "opacity": 1.0
+        },
+        {
+          "id": "ta",
+          "type": "character",
+          "source": "assets/characters/ta/ta_scared.png",
+          "depth": 0.72,
+          "position": { "x": 0.5, "y": 0.82 },
+          "scale": 0.58
+        },
+        { "id": "near_fog", "source": "assets/overlays/fog_02.png", "depth": 0.9, "opacity": 0.5 }
+      ],
+
+      "camera": {
+        "shot": "medium",
+        "movement": "handheld_subtle",
+        "from": { "x": 0.5, "y": 0.5, "zoom": 1.18 },
+        "to":   { "x": 0.5, "y": 0.48, "zoom": 1.25 },
+        "easing": "ease_out"
+      },
+
+      "characters": [
+        {
+          "layer_id": "ghost",
+          "emotion": "ghostly",
+          "action": "fade_in",
+          "motion": { "type": "float", "intensity": 0.4 }
+        },
+        {
+          "layer_id": "ta",
+          "emotion": "scared",
+          "action": "shake",
+          "motion": { "type": "shake", "intensity": 0.7 }
+        }
+      ],
+
+      "effects": [
+        { "type": "fog", "intensity": 0.45, "speed": 0.04 },
+        { "type": "vignette", "intensity": 0.35 },
+        { "type": "film_grain", "intensity": 0.16 },
+        { "type": "desaturate", "intensity": 0.3 }
+      ],
+
+      "audio": [
+        { "source": "assets/audio/sfx_heartbeat.wav", "start": 0.0, "volume": 0.5, "loop": true },
+        { "source": "assets/audio/sfx_sting.wav", "start": 4.0, "volume": 0.8, "loop": false }
+      ],
+
+      "transition_out": { "type": "fade_black", "duration": 2.0 }
+    }
+  ]
+}

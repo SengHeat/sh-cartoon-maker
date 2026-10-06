@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "project": {
+    "title": "KIKO Blender Backend Smoke Test",
+    "mode": "2.5d",
+    "resolution": {"width": 256, "height": 256},
+    "fps": 4,
+    "background_color": "#000000",
+    "seed": 42,
+    "timing_mode": "scenes_driven"
+  },
+  "scenes": [
+    {
+      "id": "kiko_turntable",
+      "renderer": "blender",
+      "duration": 1.0,
+      "background": {"source": "assets/hero/kiko.png", "scale": "cover"},
+      "blender": {
+        "engine": "workbench",
+        "shading": "material",
+        "samples": 8,
+        "camera": {"preset": "turntable", "elev": 12, "margin": 1.4}
+      }
+    }
+  ]
+}

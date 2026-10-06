@@ -1,0 +1,35 @@
+{
+  "format_version": 1,
+  "title": "The Moving Fruit",
+  "seed": 2401,
+  "scene": {"fps": 24, "duration": 15.0, "environment": "amazon_jungle_clearing", "resolution": [1920, 1080], "camera_preset": "establishing_wide"},
+  "fur": {"preview_density": 0.16, "medium_density": 0.34, "final_density": 0.58},
+  "environment_overrides": {"foreground": true, "wind": {"enabled": true, "strength": 0.18}},
+  "characters": [{"id": "hero", "character": "kiko_01", "spawn": "left"}],
+  "props": [{"id": "moving_fruit", "prop": "fruit", "position": [2.2, 0.1, 0.0]}],
+  "timeline": [
+    {"start": 0.0, "end": 3.0, "character": "hero", "action": "walk", "to": [-1.0, 0.0, 0.0], "emotion": "curious"},
+    {"start": 0.8, "end": 1.1, "character": "hero", "action": "look_right"},
+    {"start": 3.0, "end": 4.1, "character": "hero", "action": "stop_walk"},
+    {"start": 3.0, "end": 4.2, "character": "hero", "action": "look_at", "target": "moving_fruit", "emotion": "curious"},
+    {"start": 4.2, "end": 6.0, "character": "hero", "action": "idle", "emotion": "curious"},
+    {"start": 6.0, "end": 7.4, "character": "hero", "action": "reach", "hand": "right", "emotion": "confused"},
+    {"start": 7.4, "end": 8.2, "character": "hero", "action": "fruit_wiggle", "target": "moving_fruit"},
+    {"start": 8.2, "end": 9.0, "character": "hero", "action": "surprised_reaction"},
+    {"start": 9.0, "end": 10.0, "character": "hero", "action": "fruit_jump", "target": "moving_fruit"},
+    {"start": 9.1, "end": 11.1, "character": "hero", "action": "jump", "height": 0.72, "distance": -1.25, "emotion": "surprised"},
+    {"start": 11.1, "end": 12.5, "character": "hero", "action": "land"},
+    {"start": 12.5, "end": 13.2, "character": "hero", "action": "fruit_settle", "target": "moving_fruit"},
+    {"start": 12.6, "end": 14.2, "character": "hero", "action": "walk", "to": [0.2, 0.0, 0.0], "emotion": "confused"},
+    {"start": 13.7, "end": 14.3, "character": "hero", "action": "look_at", "target": "moving_fruit"},
+    {"start": 14.3, "end": 15.0, "character": "hero", "action": "idle", "emotion": "happy"}
+  ],
+  "camera_timeline": [
+    {"start": 0.0, "end": 3.0, "preset": "establishing_wide"},
+    {"start": 3.0, "end": 6.0, "preset": "medium"},
+    {"start": 6.0, "end": 9.0, "preset": "close"},
+    {"start": 9.0, "end": 12.5, "preset": "wide_b"},
+    {"start": 12.5, "end": 15.0, "preset": "medium_a"}
+  ],
+  "debug": {"show_rig": false, "show_controls": false, "show_fur_guides": false, "show_fur_density_mask": false, "show_fur_off": false}
+}

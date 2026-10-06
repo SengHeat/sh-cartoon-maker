@@ -1,0 +1,174 @@
+{
+  "format_version": 1,
+  "project": {
+    "title": "ព្រៃអាថ៌កំបាំង",
+    "mode": "2.5d",
+    "resolution": {
+      "width": 1280,
+      "height": 720
+    },
+    "fps": 24,
+    "background_color": "#000000",
+    "seed": 42,
+    "timing_mode": "narration_driven"
+  },
+  "defaults": {
+    "transition_duration": 0.5,
+    "camera_easing": "ease_in_out",
+    "music_volume": 0.12,
+    "narration_volume": 1.0,
+    "sfx_volume": 0.55
+  },
+  "audio": {
+    "narration": "assets/audio/narration.wav",
+    "background_music": "assets/audio/ambient.wav"
+  },
+  "scenes": [
+    {
+      "id": "scene_001",
+      "duration": 2,
+      "background": {
+        "source": "assets/backgrounds/forest_night.png",
+        "scale": "cover"
+      },
+      "layers": [
+        {
+          "id": "fog",
+          "source": "assets/overlays/fog.png",
+          "type": "overlay",
+          "depth": 0.2,
+          "opacity": 0.45
+        },
+        {
+          "id": "trees",
+          "source": "assets/foregrounds/trees.png",
+          "depth": 0.9,
+          "scale_mode": "cover"
+        }
+      ],
+      "camera": {
+        "shot": "wide",
+        "movement": "slow_push",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "to": {
+          "x": 0.52,
+          "y": 0.48,
+          "zoom": 1.1
+        }
+      },
+      "effects": [
+        {
+          "type": "fog",
+          "intensity": 0.25,
+          "speed": 0.08
+        },
+        {
+          "type": "vignette",
+          "intensity": 0.4
+        }
+      ],
+      "transition_out": {
+        "type": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "scene_002",
+      "duration": 2,
+      "background": {
+        "source": "assets/backgrounds/forest_night.png",
+        "scale": "cover"
+      },
+      "layers": [
+        {
+          "id": "rith",
+          "type": "character",
+          "source": "assets/characters/rith.png",
+          "depth": 0.75,
+          "position": {
+            "x": 0.55,
+            "y": 0.78
+          },
+          "scale": 0.75
+        }
+      ],
+      "camera": {
+        "movement": "drift_right"
+      },
+      "characters": [
+        {
+          "layer_id": "rith",
+          "emotion": "worried",
+          "action": "subtle_breathing"
+        }
+      ],
+      "effects": [
+        {
+          "type": "film_grain",
+          "intensity": 0.12
+        }
+      ],
+      "audio": [
+        {
+          "source": "assets/audio/ambient.wav",
+          "volume": 0.15,
+          "loop": true
+        }
+      ],
+      "transition_out": {
+        "type": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "scene_003",
+      "duration": 2,
+      "background": {
+        "source": "assets/backgrounds/forest_night.png",
+        "scale": "cover"
+      },
+      "layers": [
+        {
+          "id": "ghost",
+          "type": "character",
+          "source": "assets/characters/ghost.png",
+          "depth": 0.35,
+          "position": {
+            "x": 0.68,
+            "y": 0.5
+          },
+          "scale": 0.7
+        }
+      ],
+      "characters": [
+        {
+          "layer_id": "ghost",
+          "emotion": "ghostly",
+          "action": "fade_in"
+        }
+      ],
+      "effects": [
+        {
+          "type": "shake",
+          "intensity": 0.3
+        },
+        {
+          "type": "desaturate",
+          "intensity": 0.25
+        },
+        {
+          "type": "vignette",
+          "intensity": 0.5
+        }
+      ],
+      "transition_out": {
+        "type": "fade_black",
+        "duration": 0.8
+      }
+    }
+  ]
+}
