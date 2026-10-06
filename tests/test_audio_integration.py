@@ -33,3 +33,5 @@ def test_encoded_preview_contains_audio_stream(tmp_path, monkeypatch):
     video = FFmpegEngine().encode(project, preview=True)
     result = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=codec_name", "-of", "csv=p=0", str(video)], capture_output=True, text=True, check=True)
     assert result.stdout.strip() == "aac"
+    video_probe = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=codec_name", "-of", "csv=p=0", str(video)], capture_output=True, text=True, check=True)
+    assert video_probe.stdout.strip() == "h264"

@@ -6,6 +6,8 @@ from PIL import Image
 
 from cartoon_studio.config import load_project
 from cartoon_studio.engine.director import Director
+from cartoon_studio.engine.effect_engine import EffectEngine
+from cartoon_studio.models.effects import Effect
 
 
 def _centroid_x(image: Image.Image, channel: int) -> float:
@@ -42,3 +44,12 @@ def test_numbered_frames_show_depth_dependent_parallax(tmp_path, monkeypatch):
     far_shift = _centroid_x(last, 0) - _centroid_x(first, 0)
     near_shift = _centroid_x(last, 2) - _centroid_x(first, 2)
     assert abs(near_shift) > abs(far_shift) > 0
+
+
+def test_compositor_effect_changes_pixels_deterministically():
+    source = Image.new("RGBA", (32, 18), (180, 120, 80, 255))
+    effects = [Effect(type="vignette", intensity=.8), Effect(type="film_grain", intensity=.2)]
+    first = EffectEngine.apply(source.copy(), effects, frame=7, progress=.5, seed=9)
+    second = EffectEngine.apply(source.copy(), effects, frame=7, progress=.5, seed=9)
+    assert first.tobytes() == second.tobytes()
+    assert first.tobytes() != source.tobytes()
