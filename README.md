@@ -60,7 +60,7 @@ cartoon-studio schema > schemas/project.schema.json
 
 ## JSON reference
 
-The runnable [example project](projects/example_forest_story.json) is the canonical starting point. A project defines format version, title/mode/resolution/FPS/seed/timing mode, defaults, project audio, and scenes. Each scene defines a positive duration, background, depth-sorted layers, semantic camera, characters, effects, audio clips and transition. Unknown keys and unsupported enum values fail validation.
+The intact [KIKO 2.5D project](projects/kiko_2d_test.json) is the currently verified starting point. The forest example is retained for recovery work, but several of its referenced image files are presently zero-byte lost artifacts and it intentionally fails render preflight until those real assets are restored. A project defines format version, title/mode/resolution/FPS/seed/timing mode, defaults, project audio, and scenes. Each scene defines a positive duration, background, depth-sorted layers, semantic camera, characters, effects, audio clips and transition. Unknown keys and unsupported enum values fail validation.
 
 JSON positions are normalized. `x` runs left to right (`0.0` = left, `1.0` = right); `y` runs top to bottom (`0.0` = top, `1.0` = bottom). This convention applies to positions and anchors everywhere. Character positions default to a bottom-center feet pivot; other layers default to their center. Opacity and depth are also in `[0, 1]`. Image scale modes are `contain`, `cover`, `stretch`, and `native`.
 
@@ -88,7 +88,7 @@ Even with Blender, image sequences remain the recovery boundary; Blender-specifi
 ## Development
 
 ```bash
-pytest
+python3 -m pytest
 python -m cartoon_studio.cli schema > schemas/project.schema.json
 ```
 
