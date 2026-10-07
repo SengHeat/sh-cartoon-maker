@@ -7,9 +7,9 @@
 [x] P4 lip-sync and Khmer subtitles — acceptance: deterministic amplitude mouth cues and UTF-8 Khmer subtitle export are covered by tests; phoneme-accurate alignment remains explicitly labeled external
 [x] P5 composite and export — acceptance: effects/compositing tests pass and FFmpeg produces a playable H.264 MP4 from rendered frames
 [x] P6 CLI, samples, resume, determinism, and docs — acceptance: documented CLI workflow runs; resume/dedupe/worker-count determinism tests pass; README matches verified behavior
-[ ] P7 full pipeline acceptance — acceptance: full test suite passes from a clean work directory and the canonical sample validate/render/encode workflow succeeds
-[ ] KIKO-Z verify fixed tail/arm z-order — acceptance: automated inspection of KIKO_master_v001.blend confirms the expected fixed relative tail/arm ordering, not an older snapshot
-[ ] KIKO-MAT confirm MAT_freckle — acceptance: automated Blender inspection confirms MAT_freckle exists and is assigned to freckle geometry
-[ ] KIKO-TURN smoke-test .blend turntable — acceptance: a low-resolution turntable frame rendered from a protected copy is non-empty and visually inspectable
+[x] P7 full pipeline acceptance — acceptance: full test suite passes from a clean work directory and the canonical sample validate/render/encode workflow succeeds
+[!] KIKO-Z verify fixed tail/arm z-order — blocked: KIKO_master_v001.blend is zero bytes, so no scene graph exists to inspect; restore the real .blend without overwriting this recovery checkpoint
+[!] KIKO-MAT confirm MAT_freckle — blocked: source builder declares MAT_freckle, but KIKO_master_v001.blend is zero bytes so material presence/assignment in the recovered artifact cannot be verified
+[!] KIKO-TURN smoke-test .blend turntable — blocked: all tracked .blend files are zero bytes; a real recovered Blender artifact is required before a non-fabricated turntable smoke render
 
 External broadcast-quality gates (not actionable without supplied production inputs): approved final character/background art, final narration/TTS, and a phoneme-accurate Khmer aligner.
