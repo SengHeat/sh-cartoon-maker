@@ -1,0 +1,86 @@
+{
+  "object_count": 125,
+  "mesh_objects": 95,
+  "vertices": 97020,
+  "polygons": 98769,
+  "materials": [
+    "Cloth | faded olive panels",
+    "Cloth | persimmon scarf",
+    "Cloth | scarf highlights",
+    "Cloth | worn jungle teal",
+    "Ear | warm coral velvet",
+    "Eye | amber iris",
+    "Eye | deep warm pupil",
+    "Eye | honey iris center",
+    "Eye | soft catchlight",
+    "Eye | warm ivory",
+    "Fur | burnt apricot",
+    "Fur | deep shadow",
+    "Fur | deep teal blue-gray",
+    "Fur | pale muzzle",
+    "Fur | soft teal highlights",
+    "Fur | warm integrated cream",
+    "Hardware | aged brass",
+    "Leather | dark walnut",
+    "Leather | worn saddle",
+    "Nose | rosewood"
+  ],
+  "uv_missing": [],
+  "material_missing": [],
+  "open_surfaces_expected": [
+    "KIKO | cream chest bib",
+    "KIKO | integrated cream cheeks and muzzle",
+    "KIKO | recessed coral inner ear L",
+    "KIKO | recessed coral inner ear R",
+    "KIKO | tailored explorer vest"
+  ],
+  "other_nonmanifold": [],
+  "facing": "front is -Y; world Z is up",
+  "rigged": false,
+  "blend": "KIKO_visual_model_v1.blend",
+  "glb": "assets/characters/kiko_final/KIKO.glb",
+  "reference": "assets/hero/kiko.png",
+  "render_views": [
+    "review/kiko_visual/front.png",
+    "review/kiko_visual/three_quarter.png",
+    "review/kiko_visual/side.png",
+    "review/kiko_visual/back.png",
+    "review/kiko_visual/face_closeup.png"
+  ],
+  "export_selection_objects": 125,
+  "embedded_textures": [
+    "Fur | deep teal blue-gray | embedded color",
+    "Fur | soft teal highlights | embedded color",
+    "Fur | deep shadow | embedded color",
+    "Fur | warm integrated cream | embedded color",
+    "Fur | pale muzzle | embedded color",
+    "Fur | burnt apricot | embedded color",
+    "Ear | warm coral velvet | embedded color",
+    "Ear | soft coral center | embedded color",
+    "Cloth | persimmon scarf | embedded color",
+    "Cloth | scarf highlights | embedded color",
+    "Cloth | worn jungle teal | embedded color",
+    "Cloth | faded olive panels | embedded color",
+    "Leather | dark walnut | embedded color",
+    "Leather | worn saddle | embedded color"
+  ],
+  "texture_count": 14,
+  "glb_bytes": 6766944,
+  "glb_embedded_image_count": 13,
+  "visual_review": {
+    "rendered_views_inspected": [
+      "front",
+      "three_quarter",
+      "side",
+      "back",
+      "face_closeup"
+    ],
+    "contact_sheet": "review/kiko_visual/contact_sheet.jpg",
+    "status": "first visual model pass; likeness requires artist review",
+    "limitations": [
+      "procedural stylized sculpt",
+      "no rig or deformation QA",
+      "static simplified facial features"
+    ]
+  }
+}

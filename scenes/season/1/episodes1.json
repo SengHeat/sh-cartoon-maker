@@ -1,0 +1,792 @@
+{
+  "format_version": 1,
+  "series": {
+    "name": "Jungle Pop",
+    "season": 1,
+    "season_title": "អាថ៌កំបាំងបេះដូងព្រៃ",
+    "episode": 1,
+    "episode_title": "ផ្លែឈើដែលរត់បាន",
+    "language": "Khmer",
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Mystery",
+      "Family"
+    ],
+    "story_type": "serialized",
+    "target_audience": "family",
+    "target_duration_sec": 780,
+    "target_duration_text": "13:00",
+    "duration_range": "12-14 minutes"
+  },
+
+  "episode_goal": {
+    "primary": "ណែនាំ KIKO និង TAVI តាមរយៈការផ្សងព្រេងតូចមួយ ដែលបើកទៅកាន់ mystery ធំរបស់ Season 1",
+    "secondary": [
+      "បង្ហាញភាពចង់ដឹងចង់ឃើញ និងភាពប្រញាប់របស់ KIKO",
+      "បង្ហាញភាពប្រុងប្រយ័ត្ន និងឆ្លាតរបស់ TAVI",
+      "ណែនាំសញ្ញាបេះដូងព្រៃ",
+      "បង្កើត mystery ដោយមិនបង្ហាញការពិតទាំងអស់",
+      "បញ្ចប់ដោយ cliffhanger ទៅ EP2"
+    ]
+  },
+
+  "continuity": {
+    "previous_episode": null,
+    "starts_main_season_arc": true,
+    "important_objects": [
+      {
+        "id": "ancient_stone_01",
+        "name": "ថ្មមានសញ្ញាបុរាណ",
+        "importance": "Main Season 1 mystery object"
+      },
+      {
+        "id": "runaway_fruit",
+        "name": "ផ្លែឈើក្រហមចម្លែក",
+        "importance": "នាំ KIKO ទៅរកថ្មបុរាណ"
+      }
+    ],
+    "episode_end_state": [
+      "KIKO មានថ្មបុរាណនៅក្នុងដៃ",
+      "TAVI ដឹងថារឿងនេះមិនមែនធម្មតា",
+      "ថ្មចាប់ផ្តើមបញ្ចេញពន្លឺ និងចង្អុលទិស",
+      "មានអ្នកអាថ៌កំបាំងមើល KIKO ពីចម្ងាយ"
+    ]
+  },
+
+  "main_cast": [
+    {
+      "id": "kiko",
+      "name": "KIKO",
+      "role": "Main Hero",
+      "episode_personality": [
+        "curious",
+        "brave",
+        "playful",
+        "impulsive",
+        "optimistic"
+      ],
+      "episode_goal": "ចង់ដឹងថាហេតុអ្វីផ្លែឈើរត់បាន"
+    },
+    {
+      "id": "tavi",
+      "name": "TAVI",
+      "role": "Best Friend / Planner",
+      "episode_personality": [
+        "calm",
+        "smart",
+        "careful",
+        "observant"
+      ],
+      "episode_goal": "រក្សា KIKO មិនឲ្យចូលបញ្ហា និងរកការពិតពីរឿងចម្លែក"
+    }
+  ],
+
+  "supporting_presence": [
+    {
+      "id": "mystery_watcher",
+      "identity_revealed": false,
+      "appears_in": [
+        "scene_12"
+      ],
+      "purpose": "Tease VARGO storyline without fully revealing him"
+    }
+  ],
+
+  "locations": [
+    {
+      "id": "fruit_grove",
+      "name": "សួនផ្លែឈើជិតផ្ទះ",
+      "mood": "bright, warm, playful"
+    },
+    {
+      "id": "jungle_path",
+      "name": "ផ្លូវព្រៃ",
+      "mood": "adventurous"
+    },
+    {
+      "id": "old_jungle_boundary",
+      "name": "ព្រំដែនព្រៃចាស់",
+      "mood": "quiet, mysterious"
+    },
+    {
+      "id": "ancient_tree_area",
+      "name": "តំបន់ដើមឈើបុរាណ",
+      "mood": "mysterious but beautiful"
+    },
+    {
+      "id": "kiko_home",
+      "name": "ផ្ទះ KIKO",
+      "mood": "safe, warm, cozy"
+    }
+  ],
+
+  "story_structure": {
+    "hook": "0:00-1:30",
+    "setup": "1:30-3:30",
+    "adventure": "3:30-8:30",
+    "mystery_discovery": "8:30-10:45",
+    "return_and_reveal": "10:45-12:00",
+    "cliffhanger": "12:00-13:00"
+  },
+
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "ផ្លែឈើមួយដែលមិនស្ងៀម",
+      "duration_sec": 40,
+      "timecode": "00:00-00:40",
+      "location": "fruit_grove",
+      "time_of_day": "morning",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Immediate visual comedy hook",
+      "story": "ព្រឹកមួយ KIKO និង TAVI កំពុងប្រមូលផ្លែឈើដាក់កន្ត្រក។ KIKO ព្យាយាមលើកកន្ត្រកដែលធ្ងន់ពេក ហើយធ្វើជាមិនអី ទោះខ្លួនស្ទើរដួល។ ខណៈពួកគេនិយាយគ្នា ផ្លែឈើពណ៌ក្រហមមួយនៅខាងលើកន្ត្រកញ័រតិចៗ។ គ្មាននរណាចាប់អារម្មណ៍។ វាញ័រម្ដងទៀត... រួចរមៀលចេញពីកន្ត្រកដោយខ្លួនឯង។",
+      "actions": [
+        "KIKO លើកកន្ត្រកធ្ងន់ហើយញញឹមធ្វើដូចស្រួល",
+        "TAVI មើលហើយដកដង្ហើមបែបដឹងថា KIKO កំពុង show off",
+        "ផ្លែឈើក្រហមញ័រ",
+        "ផ្លែឈើរមៀលចេញពីកន្ត្រក"
+      ],
+      "dialogue": [
+        {
+          "speaker": "KIKO",
+          "emotion": "proud",
+          "text": "ឃើញអត់ TAVI... មួយកន្ត្រកនេះ ស្រាលប៉ុណ្ណឹងឯង។"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "amused",
+          "text": "អូ... ចឹងឈប់ញ័រជើងសិនទៅ។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "embarrassed",
+          "text": "ខ្ញុំអត់ញ័រទេ... ដីហ្នឹងញ័រ។"
+        }
+      ],
+      "camera": [
+        "wide establishing shot of colorful fruit grove",
+        "medium shot KIKO struggling with basket",
+        "close-up fruit twitching unnoticed",
+        "low angle tracking fruit rolling away"
+      ],
+      "sound": [
+        "morning jungle ambience",
+        "light playful music",
+        "small rolling sound"
+      ],
+      "transition": "KIKO notices the empty spot in the basket"
+    },
+
+    {
+      "scene_id": "scene_02",
+      "title": "វារត់ទៅណា?",
+      "duration_sec": 55,
+      "timecode": "00:40-01:35",
+      "location": "fruit_grove",
+      "time_of_day": "morning",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Establish KIKO curiosity and TAVI caution",
+      "story": "KIKO មើលផ្លែឈើរមៀលចេញទៅ ហើយគិតថាវាគ្រាន់តែរមៀលតាមជម្រាល។ ប៉ុន្តែពេលផ្លូវរាប វានៅតែបន្តទៅ។ KIKO ចាប់ផ្តើមដេញ។ TAVI ហៅឲ្យឈប់ និងនិយាយថាវាចម្លែក។ KIKO ឈប់មួយភ្លែត... ផ្លែឈើក៏ឈប់ដែរ។ KIKO ដើរមួយជំហានទៅជិត វាក៏រមៀលគេចមួយជំហាន។",
+      "actions": [
+        "KIKO ដើរទៅរកផ្លែឈើ",
+        "ផ្លែឈើរមៀលគេច",
+        "KIKO ឈប់",
+        "ផ្លែឈើឈប់",
+        "KIKO លួចដើរយឺតៗ",
+        "ផ្លែឈើគេចម្ដងទៀត"
+      ],
+      "dialogue": [
+        {
+          "speaker": "KIKO",
+          "emotion": "confused",
+          "text": "អេ... ផ្លូវរាបសោះ វារមៀលទៅណាទៀត?"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "suspicious",
+          "text": "KIKO... ខ្ញុំគិតថា វាអត់មែនកំពុងរមៀលទេ។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "curious",
+          "text": "អត់រមៀល? ចឹងវាកំពុងធ្វើអី?"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "serious",
+          "text": "វាដូចជា... កំពុងរត់ពីយើង។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "excited",
+          "text": "ផ្លែឈើដែលរត់បាន?!"
+        }
+      ],
+      "comedy_beat": "KIKO និងផ្លែឈើលេង stop-and-go ដូចគ្នា",
+      "transition": "Fruit suddenly speeds away"
+    },
+
+    {
+      "scene_id": "scene_03",
+      "title": "ការដេញតាមចាប់ផ្តើម",
+      "duration_sec": 65,
+      "timecode": "01:35-02:40",
+      "location": "jungle_path",
+      "time_of_day": "morning",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Action and comedy chase",
+      "story": "ផ្លែឈើស្រាប់តែរត់លឿនចូលផ្លូវព្រៃ។ KIKO ដេញតាមភ្លាមៗ ដោយមិនគិត។ TAVI គ្មានជម្រើសក្រៅពីរត់តាម។ ការដេញមាន jumps, roots, logs និងបញ្ហាកំប្លែងតូចៗ។ KIKO ស្ទើរចាប់បានពីរបីដង ប៉ុន្តែផ្លែឈើគេចបានជានិច្ច។",
+      "actions": [
+        "KIKO run cycle",
+        "TAVI run behind",
+        "KIKO jump over root",
+        "fruit passes under fallen log",
+        "KIKO tries sliding under log",
+        "KIKO gets leaves stuck on head",
+        "TAVI passes calmly around obstacle",
+        "KIKO resumes chase"
+      ],
+      "dialogue": [
+        {
+          "speaker": "KIKO",
+          "emotion": "excited",
+          "text": "ចាំមើល! ខ្ញុំចាប់បានឥឡូវហើយ!"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "tired",
+          "text": "KIKO! យើងអត់ដឹងថាវាកំពុងនាំយើងទៅណាទេ!"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "playful",
+          "text": "ចាប់បានសិន... ចាំសួរវាក្រោយ!"
+        }
+      ],
+      "music": "fast playful adventure theme",
+      "transition": "Music lowers as the jungle becomes quieter"
+    },
+
+    {
+      "scene_id": "scene_04",
+      "title": "ផ្លូវដែល KIKO មិនធ្លាប់ឃើញ",
+      "duration_sec": 70,
+      "timecode": "02:40-03:50",
+      "location": "jungle_path",
+      "time_of_day": "late morning",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Shift from comedy to mystery",
+      "story": "KIKO ឈប់ពេលសង្កេតឃើញថា ពួកគេបានចេញឆ្ងាយពីផ្លូវដែលស្គាល់។ ដើមឈើធំជាងមុន និងពន្លឺថ្ងៃចូលមកតិច។ តែវាមិនគួរឲ្យខ្លាចទេ—គ្រាន់តែចាស់ និងស្ងាត់ខុសធម្មតា។ TAVI រកសញ្ញាផ្លូវដែលពួកគេធ្លាប់ប្រើ តែមិនមាន។ ផ្លែឈើក្រហមឈរនៅខាងមុខ ដូចកំពុងរង់ចាំ។",
+      "actions": [
+        "KIKO looks around",
+        "ears slowly lower from excitement to caution",
+        "TAVI checks trees for familiar markings",
+        "fruit waits ahead",
+        "fruit rolls slowly deeper"
+      ],
+      "dialogue": [
+        {
+          "speaker": "TAVI",
+          "emotion": "concerned",
+          "text": "KIKO... យើងមិនដែលមកផ្លូវនេះទេ។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "curious",
+          "text": "ប៉ុន្តែវាគួរតែនៅជិតផ្លូវចាស់ហ្នឹងទេ?"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "serious",
+          "text": "ខ្ញុំរកសញ្ញាផ្លូវអត់ឃើញទេ។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "soft",
+          "text": "ចម្លែក..."
+        }
+      ],
+      "visual_mood": "lush green, large roots, soft shafts of light",
+      "transition": "A distant soft chime-like sound"
+    },
+
+    {
+      "scene_id": "scene_05",
+      "title": "សញ្ញានៅលើដើមឈើ",
+      "duration_sec": 65,
+      "timecode": "03:50-04:55",
+      "location": "old_jungle_boundary",
+      "time_of_day": "late morning",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Introduce recurring symbol",
+      "story": "ពួកគេឃើញដើមឈើចាស់មួយមានស្នាមឆ្លាក់ស្ទើរលុប។ TAVI សម្អាតស្លែចេញ ហើយឃើញសញ្ញាមានរាងដូចស្លឹកបីជុំវិញបេះដូងមួយ។ KIKO មិនដែលឃើញសញ្ញានេះពីមុន។ ផ្លែឈើឈប់នៅខាងក្រោយដើមឈើ ហើយពេល KIKO ព្យាយាមចាប់ វារត់បន្ត។",
+      "actions": [
+        "TAVI removes moss from tree",
+        "ancient heart-leaf symbol revealed",
+        "KIKO touches carving",
+        "very faint glow appears then disappears",
+        "KIKO thinks he imagined it"
+      ],
+      "dialogue": [
+        {
+          "speaker": "KIKO",
+          "emotion": "curious",
+          "text": "TAVI... សញ្ញានេះអីគេ?"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "thinking",
+          "text": "អត់ដឹងទេ។ តែស្នាមវាចាស់ខ្លាំងណាស់។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "excited",
+          "text": "ចឹងកាន់តែត្រូវមើលហើយ។"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "dry",
+          "text": "ខ្ញុំដឹងថាអ្នកនឹងនិយាយចឹង។"
+        }
+      ],
+      "continuity_clue": "First appearance of Heart of Jungle symbol",
+      "transition": "Fruit disappears behind thick roots"
+    },
+
+    {
+      "scene_id": "scene_06",
+      "title": "ចូលទៅកាន់ព្រៃចាស់",
+      "duration_sec": 75,
+      "timecode": "04:55-06:10",
+      "location": "old_jungle_boundary",
+      "time_of_day": "late morning",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Build adventure and environmental storytelling",
+      "story": "ផ្លូវកាន់តែពិបាក។ Roots ធំៗបង្កើតជាផ្លូវធម្មជាតិ។ KIKO និង TAVI ត្រូវឡើងលើឈើ ដើរឆ្លង root bridge និងចុះទៅតំបន់ទាប។ KIKO មើលឃើញរបស់ចម្លែកតាមផ្លូវ ហើយចង់ឈប់មើលគ្រប់យ៉ាង។ TAVI តែងរំលឹកថាគោលដៅគឺផ្លែឈើ។",
+      "actions": [
+        "KIKO balances on root",
+        "TAVI crosses carefully",
+        "KIKO almost falls but tail catches branch",
+        "KIKO pretends it was intentional",
+        "fruit visible briefly in distance"
+      ],
+      "dialogue": [
+        {
+          "speaker": "KIKO",
+          "emotion": "amazed",
+          "text": "មើលនេះ! Root នេះធំជាងផ្ទះខ្ញុំទៀត!"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "focused",
+          "text": "KIKO... ផ្លែឈើ។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "distracted",
+          "text": "អូ... មែន។ ផ្លែឈើ។"
+        }
+      ],
+      "comedy_beat": "KIKO almost falling then acting like it was part of the plan",
+      "transition": "They hear the fruit hit something metallic or stone-like"
+    },
+
+    {
+      "scene_id": "scene_07",
+      "title": "ទីធ្លាដែលត្រូវបានលាក់",
+      "duration_sec": 70,
+      "timecode": "06:10-07:20",
+      "location": "ancient_tree_area",
+      "time_of_day": "noon",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Reveal ancient location",
+      "story": "KIKO និង TAVI ចេញពីដើមឈើក្រាស់ៗទៅទីធ្លាមូលមួយ។ នៅកណ្ដាលមានដើមឈើធំចាស់ខ្លាំង និងជុំវិញមានថ្មតូចៗលាក់ក្រោមស្លែ។ ពន្លឺថ្ងៃចុះត្រង់កណ្ដាល។ ផ្លែឈើក្រហមរមៀលទៅគល់ដើមឈើ ហើយឈប់។",
+      "actions": [
+        "wide cinematic reveal",
+        "KIKO slowly enters clearing",
+        "TAVI notices stones arranged unnaturally",
+        "fruit stops at ancient root"
+      ],
+      "dialogue": [
+        {
+          "speaker": "KIKO",
+          "emotion": "amazed",
+          "text": "វ៉ាវ..."
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "observant",
+          "text": "ថ្មទាំងនេះ... គេដាក់វាជុំវិញដើមឈើ។ វាអត់មែនកើតធម្មជាតិទេ។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "curious",
+          "text": "ចឹងមានអ្នកធ្លាប់មកទីនេះ?"
+        }
+      ],
+      "music": "soft mysterious discovery theme",
+      "transition": "KIKO approaches the fruit slowly"
+    },
+
+    {
+      "scene_id": "scene_08",
+      "title": "ចាប់បានហើយ... ឬនៅ?",
+      "duration_sec": 65,
+      "timecode": "07:20-08:25",
+      "location": "ancient_tree_area",
+      "time_of_day": "noon",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Comedy before major mystery reveal",
+      "story": "KIKO លួចដើរយឺតៗទៅរកផ្លែឈើ។ TAVI ឲ្យ KIKO កុំប្រញាប់។ KIKO លោតចាប់ ហើយគិតថាចាប់បាន ប៉ុន្តែដៃទទេ។ ផ្លែឈើលោតចេញពីខាងក្រោមដៃ ហើយរត់ចូលចន្លោះ roots។ KIKO ដាក់មុខជិតរន្ធ ហើយអាចឃើញពន្លឺតិចៗនៅក្នុង។",
+      "actions": [
+        "KIKO exaggerated sneaking",
+        "TAVI facepalm",
+        "KIKO dives",
+        "fruit escapes",
+        "KIKO looks into root hole",
+        "warm green-blue glow inside"
+      ],
+      "dialogue": [
+        {
+          "speaker": "KIKO",
+          "emotion": "whispering",
+          "text": "លើកនេះ... អត់រួចទេ។"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "quiet",
+          "text": "កុំលោត..."
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "confident",
+          "text": "ខ្ញុំដឹងហើយ។"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "urgent",
+          "text": "KIKO—"
+        }
+      ],
+      "comedy_beat": "KIKO immediately jumps after saying he knows",
+      "transition": "Glow becomes slightly brighter"
+    },
+
+    {
+      "scene_id": "scene_09",
+      "title": "ថ្មក្រោមគល់ឈើ",
+      "duration_sec": 60,
+      "timecode": "08:25-09:25",
+      "location": "ancient_tree_area",
+      "time_of_day": "noon",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Main episode discovery",
+      "story": "KIKO យកដៃចូលចន្លោះ root ដើម្បីរកផ្លែឈើ ប៉ុន្តែប៉ះអ្វីរឹង។ គាត់ទាញថ្មមូលតូចមួយចេញ។ ថ្មមានសញ្ញាដូចសញ្ញាលើដើមឈើ។ ភ្លាមនោះ ផ្លែឈើក្រហមរមៀលចេញពីរន្ធ ហើយឈប់ញ័រ ដូចផ្លែឈើធម្មតា។",
+      "actions": [
+        "KIKO pulls out ancient stone",
+        "dust falls away",
+        "symbol revealed",
+        "TAVI compares symbol mentally",
+        "runaway fruit becomes completely still"
+      ],
+      "dialogue": [
+        {
+          "speaker": "KIKO",
+          "emotion": "confused",
+          "text": "ខ្ញុំចាប់បានអីមួយ..."
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "surprised",
+          "text": "KIKO... មើលសញ្ញាលើវា។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "realizing",
+          "text": "ដូចលើដើមឈើ..."
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "serious",
+          "text": "មែន។ ដូចគ្នាពិតៗ។"
+        }
+      ],
+      "mystery_clue": "Ancient stone carries Heart of Jungle symbol",
+      "transition": "Stone emits a tiny pulse of light"
+    },
+
+    {
+      "scene_id": "scene_10",
+      "title": "ថ្មភ្លឺ",
+      "duration_sec": 65,
+      "timecode": "09:25-10:30",
+      "location": "ancient_tree_area",
+      "time_of_day": "early afternoon",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Confirm supernatural/ancient mechanism",
+      "story": "KIKO កាន់ថ្មឡើង។ ពេលវាចូលជិតផ្លែឈើ វាបញ្ចេញពន្លឺទន់ៗ។ ផ្លែឈើញ័រម្ដងទៀត។ KIKO ដាក់ថ្មឆ្ងាយ ផ្លែឈើឈប់។ គាត់យកមកជិតវិញ វាញ័រ។ TAVI សន្និដ្ឋានថា ផ្លែឈើប្រហែលមិនបានរត់ដោយខ្លួនឯងទេ—វាប្រហែលត្រូវថាមពលពីថ្មទាញ ឬរុញ។",
+      "actions": [
+        "KIKO tests stone near fruit",
+        "fruit reacts",
+        "TAVI observes pattern",
+        "KIKO repeats test playfully"
+      ],
+      "dialogue": [
+        {
+          "speaker": "KIKO",
+          "emotion": "excited",
+          "text": "អូ! វាធ្វើម្តងទៀតហើយ!"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "thinking",
+          "text": "ប្រហែលមិនមែនផ្លែឈើរត់ទេ..."
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "confused",
+          "text": "ហើយអីរត់?"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "serious",
+          "text": "ប្រហែលថ្មនេះធ្វើឲ្យវាផ្លាស់ទី។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "delighted",
+          "text": "ចឹងខ្ញុំបានថ្មធ្វើឲ្យផ្លែឈើរត់?"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "warning",
+          "text": "កុំទាន់យកវាទៅលេង។ យើងអត់ដឹងថាវាជាអីទេ។"
+        }
+      ],
+      "transition": "Distant rumble under the ground"
+    },
+
+    {
+      "scene_id": "scene_11",
+      "title": "យើងត្រឡប់ទៅផ្ទះ",
+      "duration_sec": 70,
+      "timecode": "10:30-11:40",
+      "location": "jungle_path",
+      "time_of_day": "afternoon",
+      "characters": [
+        "KIKO",
+        "TAVI"
+      ],
+      "scene_purpose": "Return to safety while preserving mystery",
+      "story": "ក្រោយសំឡេងរញ្ជួយតិចៗ TAVI សម្រេចថា មិនគួរបន្តចូលជ្រៅទៀត។ KIKO ចង់មើលបន្ត ប៉ុន្តែពេលឃើញដីជុំវិញ root ផ្លាស់ទីបន្តិច ក៏យល់ព្រមត្រឡប់។ ពួកគេយកថ្មទៅជាមួយ ដើម្បីសួរអ្នកដែលអាចដឹងពីវា។ ផ្លែឈើក្រហមឥឡូវស្ងៀមស្ងាត់ ហើយ KIKO ដាក់វាវិញក្នុងកន្ត្រក។",
+      "actions": [
+        "subtle ground vibration",
+        "TAVI pulls KIKO back",
+        "KIKO pockets stone carefully",
+        "they retrace path",
+        "KIKO checks fruit repeatedly to make sure it does not escape"
+      ],
+      "dialogue": [
+        {
+          "speaker": "TAVI",
+          "emotion": "firm",
+          "text": "យើងត្រឡប់ទៅសិន។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "reluctant",
+          "text": "តែយើងជិតដឹងហើយណា..."
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "serious",
+          "text": "យើងដឹងតែថា យើងអត់ដឹងអីទាំងអស់។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "amused",
+          "text": "អឺ... និយាយចឹងក៏ត្រូវ។"
+        }
+      ],
+      "comedy_beat": "KIKO ties the fruit into the basket with too much rope",
+      "transition": "Sunset over jungle"
+    },
+
+    {
+      "scene_id": "scene_12",
+      "title": "ពន្លឺនៅពេលយប់",
+      "duration_sec": 80,
+      "timecode": "11:40-13:00",
+      "location": "kiko_home",
+      "time_of_day": "night",
+      "characters": [
+        "KIKO",
+        "TAVI",
+        "Mystery Watcher"
+      ],
+      "scene_purpose": "Season arc activation and cliffhanger",
+      "story": "ពេលយប់ KIKO អង្គុយនៅផ្ទះមើលថ្មបុរាណ។ TAVI នៅជាមួយ និងគូរសញ្ញាចូលក្នុង notebook។ ពួកគេព្យាយាមយល់ថាវាជាអ្វី ប៉ុន្តែមិនបានចម្លើយ។ ពេល TAVI ចាប់ផ្តើមរៀបចំត្រឡប់ទៅផ្ទះ ថ្មភ្លឺឡើងខ្លាំងជាងមុន។ ពន្លឺបង្កើតជាបន្ទាត់ស្តើងចេញពីថ្មទៅតាមបង្អួច ហើយចង្អុលទៅទិសជ្រៅក្នុងព្រៃ។ KIKO និង TAVI មើលគ្នាស្ងាត់។ នៅលើជម្រាលឆ្ងាយ មាន silhouette មួយឈរមើលពន្លឺនោះ។ មិនបង្ហាញមុខ។",
+      "actions": [
+        "KIKO rotates stone under lantern light",
+        "TAVI sketches symbol",
+        "stone softly pulses",
+        "lantern flickers",
+        "stone projects directional beam",
+        "KIKO ears rise",
+        "TAVI freezes",
+        "camera moves outside house",
+        "camera pulls far back",
+        "mystery silhouette watches from distant ridge"
+      ],
+      "dialogue": [
+        {
+          "speaker": "KIKO",
+          "emotion": "thinking",
+          "text": "វាមើលទៅដូចថ្មធម្មតា..."
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "focused",
+          "text": "ថ្មធម្មតា អត់ធ្វើឲ្យផ្លែឈើរត់ទេ។"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "playful",
+          "text": "អាចជាផ្លែឈើហ្នឹងចម្លែកក៏បាន។"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "dry",
+          "text": "ចឹងហេតុអីថ្មភ្លឺ?"
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "surprised",
+          "text": "ចាំ... វាកំពុងភ្លឺមែន?"
+        },
+        {
+          "speaker": "TAVI",
+          "emotion": "uneasy",
+          "text": "KIKO..."
+        },
+        {
+          "speaker": "KIKO",
+          "emotion": "amazed",
+          "text": "វាកំពុងចង្អុលទៅណាមួយ។"
+        }
+      ],
+      "final_visual": "A thin green-blue beam points toward the deep jungle while an unknown figure watches from afar.",
+      "final_audio": [
+        "music becomes mysterious",
+        "soft ancient chime",
+        "low jungle rumble",
+        "cut to silence"
+      ],
+      "cliffhanger": "Someone else has seen the stone activate.",
+      "cut_to_black": true
+    }
+  ],
+
+  "ending": {
+    "episode_resolution": "KIKO ដោះស្រាយ mystery តូចថា ផ្លែឈើត្រូវបានប៉ះពាល់ដោយថ្មបុរាណ ប៉ុន្តែមិនទាន់ដឹងថាថ្មជាអ្វី។",
+    "unanswered_questions": [
+      "ថ្មនេះជាអ្វី?",
+      "ហេតុអ្វីវាធ្វើឲ្យផ្លែឈើផ្លាស់ទី?",
+      "សញ្ញាបេះដូងមានន័យអ្វី?",
+      "ពន្លឺកំពុងចង្អុលទៅណា?",
+      "អ្នកដែលមើលពីចម្ងាយជានរណា?"
+    ],
+    "next_episode": {
+      "episode": 2,
+      "title": "ផែនទីរបស់ NANA",
+      "hook": "KIKO និង TAVI យកថ្មទៅសួរ NANA ហើយ NANA ស្គាល់សញ្ញានោះភ្លាមៗ។"
+    }
+  },
+
+  "production_notes": {
+    "episode_visual_ratio": {
+      "comedy": 0.25,
+      "adventure": 0.35,
+      "mystery": 0.30,
+      "emotional_character": 0.10
+    },
+    "reusable_animation": [
+      "KIKO idle",
+      "TAVI idle",
+      "KIKO walk",
+      "TAVI walk",
+      "KIKO run",
+      "TAVI run",
+      "KIKO jump",
+      "KIKO stumble",
+      "KIKO curiosity reaction",
+      "TAVI thinking pose",
+      "TAVI facepalm",
+      "ear secondary motion",
+      "tail secondary motion"
+    ],
+    "reusable_environment_assets": [
+      "fruit grove",
+      "jungle path",
+      "large roots",
+      "ancient tree",
+      "KIKO home interior",
+      "KIKO home exterior"
+    ],
+    "episode_specific_assets": [
+      "runaway red fruit",
+      "ancient stone",
+      "Heart of Jungle symbol",
+      "ancient clearing stones"
+    ],
+    "important_rule": "កុំបង្ហាញ VARGO ពេញមុខនៅ EP1។ ប្រើតែ silhouette ឬ partial shot ដើម្បីរក្សា mystery។"
+  },
+
+  "runtime_check": {
+    "scene_01": 40,
+    "scene_02": 55,
+    "scene_03": 65,
+    "scene_04": 70,
+    "scene_05": 65,
+    "scene_06": 75,
+    "scene_07": 70,
+    "scene_08": 65,
+    "scene_09": 60,
+    "scene_10": 65,
+    "scene_11": 70,
+    "scene_12": 80,
+    "total_sec": 780,
+    "total_minutes": 13
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "status": "FAIL",
+  "pass": false,
+  "visual_review": {
+    "status": "PENDING"
+  },
+  "source_sha256": "febf2d3f6a8c282c5ff9b151f21718a14bb4286af678e890fb96becd4fbb5195",
+  "gate_signature": "df7bc5b23cfa3369c66f3eeffb55310b646900d5ec06e29e8afd4e910d500d24",
+  "duration": 5,
+  "fps": 24,
+  "frame_count": 120,
+  "cycle_length": 20,
+  "approximate_stride_length": 1.4,
+  "approximate_root_speed": 1.68,
+  "contact_frames": {
+    "L": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "R": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118
+    ]
+  },
+  "tail_delay": 4,
+  "ear_delay": 2,
+  "known_deformation_issues": [
+    "CTRL_root/CTRL_COG/CTRL_head and eye_aim have no source constraints; animate the deform chain directly",
+    "eye and finger bones have no skin weights; gaze uses head/neck; wave/point use the existing whole paw",
+    "dormant jaw is unused; no visemes or lip sync",
+    "blink is the existing upper-lid arch motion, not a sealed eyelid"
+  ],
+  "characters": [
+    {
+      "id": "kiko",
+      "checks": {
+        "rig_weights_and_deformation": {
+          "pass": true
+        },
+        "stance_no_sliding": {
+          "pass": false,
+          "max_vertex_displacement_per_half_frame": 0.007101533437764058,
+          "tolerance": 0.002
+        },
+        "no_foot_penetration": {
+          "pass": true,
+          "min_evaluated_sole_z": 0.0029697027057409286,
+          "tolerance": -0.001
+        },
+        "stance_ground_contact": {
+          "pass": false,
+          "max_height_error": 0.006632488712668419,
+          "tolerance": 0.003
+        },
+        "ik_reach": {
+          "pass": false,
+          "max_ankle_target_error": 0.030061615340189588
+        },
+        "knees_forward": {
+          "pass": false,
+          "min_forward_offset": 0.00045202672481536865,
+          "min_bend_deg": 0.16296710210687593
+        },
+        "pelvis_weight_transfer": {
+          "pass": true,
+          "lateral_range": 0.06996545940637589
+        },
+        "arms_oppose_legs": {
+          "pass": true,
+          "hand_foot_forward_correlation": -0.9964734825416374
+        },
+        "loop_transition": {
+          "pass": true,
+          "max_pose_matrix_difference": 1.6391277313232422e-07
+        },
+        "ears_delayed_secondary": {
+          "pass": true,
+          "delay_frames": 2,
+          "max_waveform_error": 2.8163765347644087e-09,
+          "disabled": false
+        },
+        "tail_delayed_secondary": {
+          "pass": true,
+          "delay_frames": 4,
+          "max_waveform_error": 3.5762786759763188e-09,
+          "disabled": false
+        }
+      },
+      "pass": false,
+      "sampled_frames": 239
+    }
+  ],
+  "preview_path": "output/kiko_run_test_5s/preview.mp4",
+  "contact_sheet_path": "output/kiko_run_test_5s/contact_sheet.jpg",
+  "blend_path": "KIKO_run_test_5s.blend",
+  "requested": {
+    "duration_sec": 5,
+    "fps": 24,
+    "resolution": [
+      854,
+      480
+    ],
+    "samples": 32,
+    "engine": "EEVEE"
+  },
+  "sampling": "Evaluated subdivided soles every half frame throughout all 120 frames. Visual review required separately."
+}

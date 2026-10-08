@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "scene": "scenes/run_test_5s.json",
+  "gate_signature": "884f7c84742a642ba54463fb39bb6ef73ced61e10ae63e9077d563667185a02d",
+  "characters": [
+    {
+      "id": "kiko",
+      "checks": {
+        "rig_weights_and_deformation": {
+          "pass": true
+        },
+        "stance_no_sliding": {
+          "pass": true,
+          "max_vertex_displacement_per_half_frame": 1.0238301475001055e-05,
+          "tolerance": 0.002
+        },
+        "no_foot_penetration": {
+          "pass": true,
+          "min_evaluated_sole_z": 0.0029751304537057877,
+          "tolerance": -0.001
+        },
+        "stance_ground_contact": {
+          "pass": true,
+          "max_height_error": 2.4869546294212404e-05,
+          "tolerance": 0.003
+        },
+        "ik_reach": {
+          "pass": true,
+          "max_ankle_target_error": 5.8420140715574e-05
+        },
+        "knees_forward": {
+          "pass": true,
+          "min_forward_offset": 0.09845037758350372,
+          "min_bend_deg": 34.35648216933532
+        },
+        "pelvis_weight_transfer": {
+          "pass": true,
+          "lateral_range": 0.06999717652797699
+        },
+        "arms_oppose_legs": {
+          "pass": true,
+          "hand_foot_forward_correlation": -0.9956176642371778
+        },
+        "loop_transition": {
+          "pass": true,
+          "max_pose_matrix_difference": 1.7881393432617188e-07
+        },
+        "ears_delayed_secondary": {
+          "pass": true,
+          "delay_frames": 3,
+          "max_waveform_error": 3.208873403104384e-09,
+          "disabled": false
+        },
+        "tail_delayed_secondary": {
+          "pass": true,
+          "delay_frames": 5,
+          "max_waveform_error": 3.722507246894935e-09,
+          "disabled": false
+        }
+      },
+      "pass": true,
+      "sampled_frames": 239
+    }
+  ],
+  "requested": {
+    "duration_sec": 5,
+    "fps": 24,
+    "resolution": [
+      854,
+      480
+    ],
+    "samples": 32,
+    "engine": "EEVEE"
+  },
+  "visual_review": {
+    "status": "PASS",
+    "method": "Inspected full-resolution frame 1 and seven-tile side-view contact sheet. Base gait unchanged by the subsequent wave-only correction; all numerical checks and video encoding rerun with final engine.",
+    "observations": "Character stays framed; no obvious shoulder/hip/neck separation, inverted knees or ground penetration in inspected images. Alternating feet and opposing arms are visible; ears and tail change pose.",
+    "scope": "Sampled image inspection plus numerical motion measurements; not exhaustive collision detection."
+  },
+  "sampling": "evaluated mesh soles at half frames over two cycles, gesture windows and end of shot; not a proof for unsampled subframes",
+  "video": {
+    "codec_name": "h264",
+    "width": 854,
+    "height": 480,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "24/1",
+    "duration": "5.000000",
+    "nb_read_frames": "120"
+  },
+  "video_pass": true,
+  "contact_sheet": [
+    {
+      "requested_sec": 0,
+      "frame": 1,
+      "actual_sec": 0.0
+    },
+    {
+      "requested_sec": 0.5,
+      "frame": 13,
+      "actual_sec": 0.5
+    },
+    {
+      "requested_sec": 1,
+      "frame": 25,
+      "actual_sec": 1.0
+    },
+    {
+      "requested_sec": 2,
+      "frame": 49,
+      "actual_sec": 2.0
+    },
+    {
+      "requested_sec": 3,
+      "frame": 73,
+      "actual_sec": 3.0
+    },
+    {
+      "requested_sec": 4,
+      "frame": 97,
+      "actual_sec": 4.0
+    },
+    {
+      "requested_sec": 5,
+      "frame": 120,
+      "actual_sec": 4.958333333333333
+    }
+  ]
+}

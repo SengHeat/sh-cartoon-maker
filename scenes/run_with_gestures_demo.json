@@ -1,0 +1,17 @@
+{
+  "scene": {"duration_sec": 8, "fps": 24, "resolution": [854, 480], "samples": 32, "engine": "EEVEE"},
+  "environment": {"ground": true, "background": "neutral"},
+  "camera": {"type": "tracking", "target": "kiko", "angle": "3-4", "distance": 8.8, "height": 1.7},
+  "characters": [{
+    "id": "kiko", "model": "KIKO_master_v1_1.blend", "armature": "KIKO_RIG_armature",
+    "position": [0, 0, 0], "facing": "east",
+    "action": {"type": "run", "loop_frames": 28, "stride_length": 1.2, "root_speed": 1.0285714285714287, "pelvis_bounce": 0.065, "forward_lean_deg": 8, "squash_stretch": 0.03},
+    "secondary": {"ears": {"bones": ["ear_01", "ear_02", "ear_03"], "delay_frames": 3, "bounce": 0.12}, "tail": {"bones": ["tail_01..tail_06"], "delay_frames": 5, "follow_through": 0.2}},
+    "face": {"expression": "happy", "blink": true},
+    "gestures": [
+      {"type": "nod", "start_sec": 2, "duration_sec": 0.8, "intensity": 0.6, "ease": "smooth"},
+      {"type": "wave", "start_sec": 5, "duration_sec": 1.6, "intensity": 0.6, "ease": "smooth"}
+    ]
+  }],
+  "output": {"mp4_path": "output/kiko_run_with_gestures_demo.mp4", "save_blend": true}
+}

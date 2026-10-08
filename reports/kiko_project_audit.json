@@ -1,0 +1,1871 @@
+{
+  "source": "KIKO_master_v1_1.blend",
+  "source_sha256": "febf2d3f6a8c282c5ff9b151f21718a14bb4286af678e890fb96becd4fbb5195",
+  "blender_version": "5.2.2 LTS",
+  "armature": "KIKO_RIG_armature",
+  "bones": [
+    {
+      "name": "root",
+      "parent": null,
+      "deform": true,
+      "head": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        0.75
+      ],
+      "constraints": []
+    },
+    {
+      "name": "COG",
+      "parent": "root",
+      "deform": true,
+      "head": [
+        0.0,
+        0.0,
+        0.75
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        0.8999999761581421
+      ],
+      "constraints": []
+    },
+    {
+      "name": "pelvis",
+      "parent": "COG",
+      "deform": true,
+      "head": [
+        0.0,
+        0.0,
+        0.8199999928474426
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        1.0399999618530273
+      ],
+      "constraints": []
+    },
+    {
+      "name": "spine_01",
+      "parent": "pelvis",
+      "deform": true,
+      "head": [
+        0.0,
+        0.0,
+        1.0399999618530273
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        1.25
+      ],
+      "constraints": []
+    },
+    {
+      "name": "spine_02",
+      "parent": "spine_01",
+      "deform": true,
+      "head": [
+        0.0,
+        0.0,
+        1.25
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        1.4800000190734863
+      ],
+      "constraints": []
+    },
+    {
+      "name": "chest",
+      "parent": "spine_02",
+      "deform": true,
+      "head": [
+        0.0,
+        0.0,
+        1.4800000190734863
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        1.7000000476837158
+      ],
+      "constraints": []
+    },
+    {
+      "name": "neck",
+      "parent": "chest",
+      "deform": true,
+      "head": [
+        0.0,
+        0.0,
+        1.7000000476837158
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        1.8200000524520874
+      ],
+      "constraints": []
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "deform": true,
+      "head": [
+        0.0,
+        0.0,
+        1.8200000524520874
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        2.5399999618530273
+      ],
+      "constraints": []
+    },
+    {
+      "name": "jaw",
+      "parent": "head",
+      "deform": true,
+      "head": [
+        0.0,
+        -0.27000001072883606,
+        2.049999952316284
+      ],
+      "tail": [
+        0.0,
+        -0.4300000071525574,
+        1.9600000381469727
+      ],
+      "constraints": []
+    },
+    {
+      "name": "ear_01_L",
+      "parent": "head",
+      "deform": true,
+      "head": [
+        0.47999998927116394,
+        0.0,
+        2.4700000286102295
+      ],
+      "tail": [
+        0.5699999928474426,
+        0.0,
+        2.7200000286102295
+      ],
+      "constraints": []
+    },
+    {
+      "name": "ear_02_L",
+      "parent": "ear_01_L",
+      "deform": true,
+      "head": [
+        0.5699999928474426,
+        0.0,
+        2.7200000286102295
+      ],
+      "tail": [
+        0.6700000166893005,
+        0.0,
+        2.9600000381469727
+      ],
+      "constraints": []
+    },
+    {
+      "name": "ear_03_L",
+      "parent": "ear_02_L",
+      "deform": true,
+      "head": [
+        0.6700000166893005,
+        0.0,
+        2.9600000381469727
+      ],
+      "tail": [
+        0.7300000190734863,
+        0.0,
+        3.180000066757202
+      ],
+      "constraints": []
+    },
+    {
+      "name": "eye_L",
+      "parent": "head",
+      "deform": true,
+      "head": [
+        0.1899999976158142,
+        -0.3799999952316284,
+        2.2899999618530273
+      ],
+      "tail": [
+        0.1899999976158142,
+        -0.550000011920929,
+        2.2899999618530273
+      ],
+      "constraints": []
+    },
+    {
+      "name": "ear_01_R",
+      "parent": "head",
+      "deform": true,
+      "head": [
+        -0.47999998927116394,
+        0.0,
+        2.4700000286102295
+      ],
+      "tail": [
+        -0.5699999928474426,
+        0.0,
+        2.7200000286102295
+      ],
+      "constraints": []
+    },
+    {
+      "name": "ear_02_R",
+      "parent": "ear_01_R",
+      "deform": true,
+      "head": [
+        -0.5699999928474426,
+        0.0,
+        2.7200000286102295
+      ],
+      "tail": [
+        -0.6700000166893005,
+        0.0,
+        2.9600000381469727
+      ],
+      "constraints": []
+    },
+    {
+      "name": "ear_03_R",
+      "parent": "ear_02_R",
+      "deform": true,
+      "head": [
+        -0.6700000166893005,
+        0.0,
+        2.9600000381469727
+      ],
+      "tail": [
+        -0.7300000190734863,
+        0.0,
+        3.180000066757202
+      ],
+      "constraints": []
+    },
+    {
+      "name": "eye_R",
+      "parent": "head",
+      "deform": true,
+      "head": [
+        -0.1899999976158142,
+        -0.3799999952316284,
+        2.2899999618530273
+      ],
+      "tail": [
+        -0.1899999976158142,
+        -0.550000011920929,
+        2.2899999618530273
+      ],
+      "constraints": []
+    },
+    {
+      "name": "clavicle_L",
+      "parent": "chest",
+      "deform": true,
+      "head": [
+        0.0,
+        0.0,
+        1.5700000524520874
+      ],
+      "tail": [
+        0.3100000023841858,
+        0.0,
+        1.5499999523162842
+      ],
+      "constraints": []
+    },
+    {
+      "name": "upperarm_L",
+      "parent": "clavicle_L",
+      "deform": true,
+      "head": [
+        0.3100000023841858,
+        0.0,
+        1.5499999523162842
+      ],
+      "tail": [
+        0.5199999809265137,
+        0.0,
+        1.2000000476837158
+      ],
+      "constraints": []
+    },
+    {
+      "name": "lowerarm_L",
+      "parent": "upperarm_L",
+      "deform": true,
+      "head": [
+        0.5199999809265137,
+        0.0,
+        1.2000000476837158
+      ],
+      "tail": [
+        0.5600000023841858,
+        -0.009999999776482582,
+        0.9100000262260437
+      ],
+      "constraints": []
+    },
+    {
+      "name": "hand_L",
+      "parent": "lowerarm_L",
+      "deform": true,
+      "head": [
+        0.5600000023841858,
+        -0.009999999776482582,
+        0.9100000262260437
+      ],
+      "tail": [
+        0.5799999833106995,
+        -0.05000000074505806,
+        0.7200000286102295
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_00_01_L",
+      "parent": "hand_L",
+      "deform": true,
+      "head": [
+        0.5799999833106995,
+        -0.05000000074505806,
+        0.7799999713897705
+      ],
+      "tail": [
+        0.6100000143051147,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_00_02_L",
+      "parent": "finger_00_01_L",
+      "deform": true,
+      "head": [
+        0.6100000143051147,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "tail": [
+        0.6200000047683716,
+        -0.17000000178813934,
+        0.6299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_01_01_L",
+      "parent": "hand_L",
+      "deform": true,
+      "head": [
+        0.5799999833106995,
+        -0.05000000074505806,
+        0.7799999713897705
+      ],
+      "tail": [
+        0.628000020980835,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_01_02_L",
+      "parent": "finger_01_01_L",
+      "deform": true,
+      "head": [
+        0.628000020980835,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "tail": [
+        0.6399999856948853,
+        -0.17000000178813934,
+        0.6299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_02_01_L",
+      "parent": "hand_L",
+      "deform": true,
+      "head": [
+        0.5799999833106995,
+        -0.05000000074505806,
+        0.7799999713897705
+      ],
+      "tail": [
+        0.6460000276565552,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_02_02_L",
+      "parent": "finger_02_01_L",
+      "deform": true,
+      "head": [
+        0.6460000276565552,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "tail": [
+        0.6600000262260437,
+        -0.17000000178813934,
+        0.6299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_03_01_L",
+      "parent": "hand_L",
+      "deform": true,
+      "head": [
+        0.5799999833106995,
+        -0.05000000074505806,
+        0.7799999713897705
+      ],
+      "tail": [
+        0.6639999747276306,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_03_02_L",
+      "parent": "finger_03_01_L",
+      "deform": true,
+      "head": [
+        0.6639999747276306,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "tail": [
+        0.6800000071525574,
+        -0.17000000178813934,
+        0.6299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "clavicle_R",
+      "parent": "chest",
+      "deform": true,
+      "head": [
+        0.0,
+        0.0,
+        1.5700000524520874
+      ],
+      "tail": [
+        -0.3100000023841858,
+        0.0,
+        1.5499999523162842
+      ],
+      "constraints": []
+    },
+    {
+      "name": "upperarm_R",
+      "parent": "clavicle_R",
+      "deform": true,
+      "head": [
+        -0.3100000023841858,
+        0.0,
+        1.5499999523162842
+      ],
+      "tail": [
+        -0.5199999809265137,
+        0.0,
+        1.2000000476837158
+      ],
+      "constraints": []
+    },
+    {
+      "name": "lowerarm_R",
+      "parent": "upperarm_R",
+      "deform": true,
+      "head": [
+        -0.5199999809265137,
+        0.0,
+        1.2000000476837158
+      ],
+      "tail": [
+        -0.5600000023841858,
+        -0.009999999776482582,
+        0.9100000262260437
+      ],
+      "constraints": []
+    },
+    {
+      "name": "hand_R",
+      "parent": "lowerarm_R",
+      "deform": true,
+      "head": [
+        -0.5600000023841858,
+        -0.009999999776482582,
+        0.9100000262260437
+      ],
+      "tail": [
+        -0.5799999833106995,
+        -0.05000000074505806,
+        0.7200000286102295
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_00_01_R",
+      "parent": "hand_R",
+      "deform": true,
+      "head": [
+        -0.5799999833106995,
+        -0.05000000074505806,
+        0.7799999713897705
+      ],
+      "tail": [
+        -0.6100000143051147,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_00_02_R",
+      "parent": "finger_00_01_R",
+      "deform": true,
+      "head": [
+        -0.6100000143051147,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "tail": [
+        -0.6200000047683716,
+        -0.17000000178813934,
+        0.6299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_01_01_R",
+      "parent": "hand_R",
+      "deform": true,
+      "head": [
+        -0.5799999833106995,
+        -0.05000000074505806,
+        0.7799999713897705
+      ],
+      "tail": [
+        -0.628000020980835,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_01_02_R",
+      "parent": "finger_01_01_R",
+      "deform": true,
+      "head": [
+        -0.628000020980835,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "tail": [
+        -0.6399999856948853,
+        -0.17000000178813934,
+        0.6299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_02_01_R",
+      "parent": "hand_R",
+      "deform": true,
+      "head": [
+        -0.5799999833106995,
+        -0.05000000074505806,
+        0.7799999713897705
+      ],
+      "tail": [
+        -0.6460000276565552,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_02_02_R",
+      "parent": "finger_02_01_R",
+      "deform": true,
+      "head": [
+        -0.6460000276565552,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "tail": [
+        -0.6600000262260437,
+        -0.17000000178813934,
+        0.6299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_03_01_R",
+      "parent": "hand_R",
+      "deform": true,
+      "head": [
+        -0.5799999833106995,
+        -0.05000000074505806,
+        0.7799999713897705
+      ],
+      "tail": [
+        -0.6639999747276306,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "constraints": []
+    },
+    {
+      "name": "finger_03_02_R",
+      "parent": "finger_03_01_R",
+      "deform": true,
+      "head": [
+        -0.6639999747276306,
+        -0.12999999523162842,
+        0.6899999976158142
+      ],
+      "tail": [
+        -0.6800000071525574,
+        -0.17000000178813934,
+        0.6299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "thigh_L",
+      "parent": "pelvis",
+      "deform": true,
+      "head": [
+        0.1899999976158142,
+        0.0,
+        0.8600000143051147
+      ],
+      "tail": [
+        0.20000000298023224,
+        0.0,
+        0.47999998927116394
+      ],
+      "constraints": []
+    },
+    {
+      "name": "shin_L",
+      "parent": "thigh_L",
+      "deform": true,
+      "head": [
+        0.20000000298023224,
+        0.0,
+        0.47999998927116394
+      ],
+      "tail": [
+        0.20000000298023224,
+        0.0,
+        0.1599999964237213
+      ],
+      "constraints": [
+        {
+          "name": "KIKO leg IK",
+          "type": "IK",
+          "target": "KIKO_RIG_armature",
+          "subtarget": "IK_foot_L"
+        }
+      ]
+    },
+    {
+      "name": "foot_L",
+      "parent": "shin_L",
+      "deform": true,
+      "head": [
+        0.20000000298023224,
+        0.0,
+        0.1599999964237213
+      ],
+      "tail": [
+        0.20000000298023224,
+        -0.3400000035762787,
+        0.07999999821186066
+      ],
+      "constraints": []
+    },
+    {
+      "name": "toe_L",
+      "parent": "foot_L",
+      "deform": true,
+      "head": [
+        0.20000000298023224,
+        -0.3400000035762787,
+        0.07999999821186066
+      ],
+      "tail": [
+        0.20000000298023224,
+        -0.47999998927116394,
+        0.07000000029802322
+      ],
+      "constraints": []
+    },
+    {
+      "name": "thigh_R",
+      "parent": "pelvis",
+      "deform": true,
+      "head": [
+        -0.1899999976158142,
+        0.0,
+        0.8600000143051147
+      ],
+      "tail": [
+        -0.20000000298023224,
+        0.0,
+        0.47999998927116394
+      ],
+      "constraints": []
+    },
+    {
+      "name": "shin_R",
+      "parent": "thigh_R",
+      "deform": true,
+      "head": [
+        -0.20000000298023224,
+        0.0,
+        0.47999998927116394
+      ],
+      "tail": [
+        -0.20000000298023224,
+        0.0,
+        0.1599999964237213
+      ],
+      "constraints": [
+        {
+          "name": "KIKO leg IK",
+          "type": "IK",
+          "target": "KIKO_RIG_armature",
+          "subtarget": "IK_foot_R"
+        }
+      ]
+    },
+    {
+      "name": "foot_R",
+      "parent": "shin_R",
+      "deform": true,
+      "head": [
+        -0.20000000298023224,
+        0.0,
+        0.1599999964237213
+      ],
+      "tail": [
+        -0.20000000298023224,
+        -0.3400000035762787,
+        0.07999999821186066
+      ],
+      "constraints": []
+    },
+    {
+      "name": "toe_R",
+      "parent": "foot_R",
+      "deform": true,
+      "head": [
+        -0.20000000298023224,
+        -0.3400000035762787,
+        0.07999999821186066
+      ],
+      "tail": [
+        -0.20000000298023224,
+        -0.47999998927116394,
+        0.07000000029802322
+      ],
+      "constraints": []
+    },
+    {
+      "name": "tail_01",
+      "parent": "pelvis",
+      "deform": true,
+      "head": [
+        0.0,
+        0.12999999523162842,
+        0.8999999761581421
+      ],
+      "tail": [
+        0.0,
+        0.36000001430511475,
+        0.6899999976158142
+      ],
+      "constraints": []
+    },
+    {
+      "name": "tail_02",
+      "parent": "tail_01",
+      "deform": true,
+      "head": [
+        0.0,
+        0.36000001430511475,
+        0.6899999976158142
+      ],
+      "tail": [
+        0.0,
+        0.5799999833106995,
+        0.6299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "tail_03",
+      "parent": "tail_02",
+      "deform": true,
+      "head": [
+        0.0,
+        0.5799999833106995,
+        0.6299999952316284
+      ],
+      "tail": [
+        0.0,
+        0.8100000023841858,
+        0.7200000286102295
+      ],
+      "constraints": []
+    },
+    {
+      "name": "tail_04",
+      "parent": "tail_03",
+      "deform": true,
+      "head": [
+        0.0,
+        0.8100000023841858,
+        0.7200000286102295
+      ],
+      "tail": [
+        0.0,
+        1.0199999809265137,
+        0.9100000262260437
+      ],
+      "constraints": []
+    },
+    {
+      "name": "tail_05",
+      "parent": "tail_04",
+      "deform": true,
+      "head": [
+        0.0,
+        1.0199999809265137,
+        0.9100000262260437
+      ],
+      "tail": [
+        0.0,
+        1.1699999570846558,
+        1.1299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "tail_06",
+      "parent": "tail_05",
+      "deform": true,
+      "head": [
+        0.0,
+        1.1699999570846558,
+        1.1299999952316284
+      ],
+      "tail": [
+        0.0,
+        1.2400000095367432,
+        1.340000033378601
+      ],
+      "constraints": []
+    },
+    {
+      "name": "eye_aim",
+      "parent": null,
+      "deform": false,
+      "head": [
+        0.0,
+        -1.2000000476837158,
+        2.299999952316284
+      ],
+      "tail": [
+        0.0,
+        -1.399999976158142,
+        2.299999952316284
+      ],
+      "constraints": []
+    },
+    {
+      "name": "CTRL_root",
+      "parent": null,
+      "deform": false,
+      "head": [
+        0.0,
+        0.25,
+        0.0
+      ],
+      "tail": [
+        0.0,
+        0.25,
+        0.75
+      ],
+      "constraints": []
+    },
+    {
+      "name": "CTRL_COG",
+      "parent": "CTRL_root",
+      "deform": false,
+      "head": [
+        0.0,
+        0.25,
+        0.8199999928474426
+      ],
+      "tail": [
+        0.0,
+        0.25,
+        1.2000000476837158
+      ],
+      "constraints": []
+    },
+    {
+      "name": "CTRL_head",
+      "parent": "CTRL_COG",
+      "deform": false,
+      "head": [
+        0.0,
+        0.25,
+        1.8200000524520874
+      ],
+      "tail": [
+        0.0,
+        0.25,
+        2.5399999618530273
+      ],
+      "constraints": []
+    },
+    {
+      "name": "IK_foot_L",
+      "parent": null,
+      "deform": false,
+      "head": [
+        0.20000000298023224,
+        -0.15000000596046448,
+        0.019999999552965164
+      ],
+      "tail": [
+        0.20000000298023224,
+        -0.15000000596046448,
+        0.2199999988079071
+      ],
+      "constraints": []
+    },
+    {
+      "name": "POLE_knee_L",
+      "parent": null,
+      "deform": false,
+      "head": [
+        0.20000000298023224,
+        -0.800000011920929,
+        0.47999998927116394
+      ],
+      "tail": [
+        0.20000000298023224,
+        -0.800000011920929,
+        0.6800000071525574
+      ],
+      "constraints": []
+    },
+    {
+      "name": "IK_foot_R",
+      "parent": null,
+      "deform": false,
+      "head": [
+        -0.20000000298023224,
+        -0.15000000596046448,
+        0.019999999552965164
+      ],
+      "tail": [
+        -0.20000000298023224,
+        -0.15000000596046448,
+        0.2199999988079071
+      ],
+      "constraints": []
+    },
+    {
+      "name": "POLE_knee_R",
+      "parent": null,
+      "deform": false,
+      "head": [
+        -0.20000000298023224,
+        -0.800000011920929,
+        0.47999998927116394
+      ],
+      "tail": [
+        -0.20000000298023224,
+        -0.800000011920929,
+        0.6800000071525574
+      ],
+      "constraints": []
+    }
+  ],
+  "meshes": [
+    {
+      "name": "KIKO_GEO_arm_L",
+      "vertices": 58,
+      "groups": [
+        "upperarm_L",
+        "lowerarm_L",
+        "hand_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_arm_R",
+      "vertices": 58,
+      "groups": [
+        "upperarm_R",
+        "lowerarm_R",
+        "hand_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_body",
+      "vertices": 102,
+      "groups": [
+        "pelvis",
+        "spine_01",
+        "spine_02",
+        "chest",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_cheek_fluff_L",
+      "vertices": 38,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_cheek_fluff_R",
+      "vertices": 38,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_chest_tuft_0",
+      "vertices": 32,
+      "groups": [
+        "pelvis",
+        "spine_01",
+        "spine_02",
+        "chest",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_chest_tuft_1",
+      "vertices": 32,
+      "groups": [
+        "pelvis",
+        "spine_01",
+        "spine_02",
+        "chest",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_chest_tuft_2",
+      "vertices": 32,
+      "groups": [
+        "pelvis",
+        "spine_01",
+        "spine_02",
+        "chest",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_crest_0",
+      "vertices": 32,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_crest_1",
+      "vertices": 32,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_crest_2",
+      "vertices": 32,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_crest_3",
+      "vertices": 32,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_crest_4",
+      "vertices": 32,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_digit_0_L",
+      "vertices": 86,
+      "groups": [
+        "hand_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_digit_0_R",
+      "vertices": 86,
+      "groups": [
+        "hand_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_digit_1_L",
+      "vertices": 86,
+      "groups": [
+        "hand_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_digit_1_R",
+      "vertices": 86,
+      "groups": [
+        "hand_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_digit_2_L",
+      "vertices": 86,
+      "groups": [
+        "hand_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_digit_2_R",
+      "vertices": 86,
+      "groups": [
+        "hand_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_digit_3_L",
+      "vertices": 86,
+      "groups": [
+        "hand_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_digit_3_R",
+      "vertices": 86,
+      "groups": [
+        "hand_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_ear_inner_L",
+      "vertices": 6,
+      "groups": [
+        "ear_01_L",
+        "ear_02_L",
+        "ear_03_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_ear_inner_R",
+      "vertices": 6,
+      "groups": [
+        "ear_01_R",
+        "ear_02_R",
+        "ear_03_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_ear_L",
+      "vertices": 12,
+      "groups": [
+        "ear_01_L",
+        "ear_02_L",
+        "ear_03_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_ear_R",
+      "vertices": 12,
+      "groups": [
+        "ear_01_R",
+        "ear_02_R",
+        "ear_03_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_eye_L",
+      "vertices": 362,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_eye_R",
+      "vertices": 362,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_foot_L",
+      "vertices": 44,
+      "groups": [
+        "thigh_L",
+        "shin_L",
+        "foot_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_foot_R",
+      "vertices": 44,
+      "groups": [
+        "thigh_R",
+        "shin_R",
+        "foot_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_hand_L",
+      "vertices": 44,
+      "groups": [
+        "upperarm_L",
+        "lowerarm_L",
+        "hand_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_hand_R",
+      "vertices": 44,
+      "groups": [
+        "upperarm_R",
+        "lowerarm_R",
+        "hand_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_head",
+      "vertices": 122,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_iris_L",
+      "vertices": 222,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_iris_R",
+      "vertices": 222,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_leg_L",
+      "vertices": 58,
+      "groups": [
+        "thigh_L",
+        "shin_L",
+        "foot_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_leg_R",
+      "vertices": 58,
+      "groups": [
+        "thigh_R",
+        "shin_R",
+        "foot_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_mouth",
+      "vertices": 34,
+      "groups": [],
+      "shape_keys": [
+        "Basis",
+        "neutral",
+        "happy",
+        "smile",
+        "curious",
+        "confused",
+        "surprised",
+        "scared",
+        "determined",
+        "sad",
+        "blink"
+      ]
+    },
+    {
+      "name": "KIKO_GEO_muzzle",
+      "vertices": 610,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_nose",
+      "vertices": 222,
+      "groups": [],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_pupil_L",
+      "vertices": 146,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_pupil_R",
+      "vertices": 146,
+      "groups": [
+        "head",
+        "neck"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_surprise_mouth",
+      "vertices": 222,
+      "groups": [],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_tail_plume",
+      "vertices": 146,
+      "groups": [
+        "tail_01",
+        "tail_02",
+        "tail_03",
+        "tail_04",
+        "tail_05",
+        "tail_06"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_toe_0_L",
+      "vertices": 86,
+      "groups": [
+        "foot_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_toe_0_R",
+      "vertices": 86,
+      "groups": [
+        "foot_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_toe_1_L",
+      "vertices": 86,
+      "groups": [
+        "foot_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_toe_1_R",
+      "vertices": 86,
+      "groups": [
+        "foot_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_toe_2_L",
+      "vertices": 86,
+      "groups": [
+        "foot_L"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_toe_2_R",
+      "vertices": 86,
+      "groups": [
+        "foot_R"
+      ],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_GEO_tongue",
+      "vertices": 114,
+      "groups": [],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_OUTFIT_backpack",
+      "vertices": 8,
+      "groups": [],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_OUTFIT_compass",
+      "vertices": 182,
+      "groups": [],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_OUTFIT_scarf_tail_A",
+      "vertices": 32,
+      "groups": [],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_OUTFIT_scarf_tail_B",
+      "vertices": 32,
+      "groups": [],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_OUTFIT_vest",
+      "vertices": 8,
+      "groups": [],
+      "shape_keys": []
+    },
+    {
+      "name": "KIKO_OUTFIT_vest_opening",
+      "vertices": 8,
+      "groups": [],
+      "shape_keys": []
+    },
+    {
+      "name": "STUDIO_floor",
+      "vertices": 8,
+      "groups": [],
+      "shape_keys": []
+    }
+  ],
+  "actions": [
+    "KIKO_ACT_motion_test_v1_1",
+    "KIKO_GEO_brow_LAction",
+    "KIKO_GEO_brow_RAction",
+    "KIKO_GEO_eye_LAction",
+    "KIKO_GEO_eye_RAction",
+    "KIKO_GEO_iris_LAction",
+    "KIKO_GEO_iris_RAction",
+    "KIKO_GEO_lid_LAction",
+    "KIKO_GEO_lid_RAction",
+    "KIKO_GEO_mouth_meshAction",
+    "KIKO_GEO_surprise_mouthAction"
+  ],
+  "source_assets": {
+    "KIKO_master_v1_1.blend": {
+      "bytes": 280010,
+      "sha256": "febf2d3f6a8c282c5ff9b151f21718a14bb4286af678e890fb96becd4fbb5195"
+    },
+    "assets/hero/kiko.png": {
+      "bytes": 2741040,
+      "sha256": "9faa95c54e5aa7d46c37747541f0220ed9647458252f55c8b5f8f4ffc4db4912"
+    },
+    "kiko_engine.py": {
+      "bytes": 53761,
+      "sha256": "55074ff74328b007e82875ce829673e9b95c2ceaa1a385414f07b328c969c4ca"
+    },
+    "scenes/kiko_master_run_gate.json": {
+      "bytes": 931,
+      "sha256": "7843221b74c004b04aea6fbf3ab56d62dd79e45b6050c1abafe5089b819068fd"
+    }
+  },
+  "rejected_archive_present": false,
+  "existing_previews": [
+    "output/kiko_run_with_gestures_demo.mp4",
+    "output/kiko_run_test_5s.mp4",
+    "output/kiko_acting_test_8s/preview.mp4",
+    "output/kiko_run_test_5s/preview.mp4"
+  ],
+  "engine_deformation_audit": {
+    "character": "kiko",
+    "model": "KIKO_master_v1_1.blend",
+    "bones": [
+      "root",
+      "COG",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "chest",
+      "neck",
+      "head",
+      "jaw",
+      "ear_01_L",
+      "ear_02_L",
+      "ear_03_L",
+      "eye_L",
+      "ear_01_R",
+      "ear_02_R",
+      "ear_03_R",
+      "eye_R",
+      "clavicle_L",
+      "upperarm_L",
+      "lowerarm_L",
+      "hand_L",
+      "finger_00_01_L",
+      "finger_00_02_L",
+      "finger_01_01_L",
+      "finger_01_02_L",
+      "finger_02_01_L",
+      "finger_02_02_L",
+      "finger_03_01_L",
+      "finger_03_02_L",
+      "clavicle_R",
+      "upperarm_R",
+      "lowerarm_R",
+      "hand_R",
+      "finger_00_01_R",
+      "finger_00_02_R",
+      "finger_01_01_R",
+      "finger_01_02_R",
+      "finger_02_01_R",
+      "finger_02_02_R",
+      "finger_03_01_R",
+      "finger_03_02_R",
+      "thigh_L",
+      "shin_L",
+      "foot_L",
+      "toe_L",
+      "thigh_R",
+      "shin_R",
+      "foot_R",
+      "toe_R",
+      "tail_01",
+      "tail_02",
+      "tail_03",
+      "tail_04",
+      "tail_05",
+      "tail_06",
+      "eye_aim",
+      "CTRL_root",
+      "CTRL_COG",
+      "CTRL_head",
+      "IK_foot_L",
+      "POLE_knee_L",
+      "IK_foot_R",
+      "POLE_knee_R"
+    ],
+    "repairs": [
+      {
+        "mesh": "kiko::KIKO_GEO_arm_L",
+        "region": "shoulder",
+        "before_top_weights": [
+          {
+            "upperarm_L": 0.89698,
+            "lowerarm_L": 0.10302
+          },
+          {
+            "upperarm_L": 0.88688,
+            "lowerarm_L": 0.11312
+          },
+          {
+            "upperarm_L": 0.86695,
+            "lowerarm_L": 0.13305
+          }
+        ],
+        "fix": "parent anchor; smooth adjacent-joint weights; normalized"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_leg_L",
+        "region": "hip",
+        "before_top_weights": [
+          {
+            "thigh_L": 0.82166,
+            "shin_L": 0.17834
+          },
+          {
+            "thigh_L": 0.82404,
+            "shin_L": 0.17596
+          },
+          {
+            "thigh_L": 0.82727,
+            "shin_L": 0.17273
+          }
+        ],
+        "fix": "parent anchor; smooth adjacent-joint weights; normalized"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_foot_L",
+        "region": "sole",
+        "fix": "remove shin/thigh influence so the planted paw cannot shear or slide"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_arm_R",
+        "region": "shoulder",
+        "before_top_weights": [
+          {
+            "upperarm_R": 0.79562,
+            "lowerarm_R": 0.20438
+          },
+          {
+            "upperarm_R": 0.7984,
+            "lowerarm_R": 0.2016
+          },
+          {
+            "upperarm_R": 0.80788,
+            "lowerarm_R": 0.19212
+          }
+        ],
+        "fix": "parent anchor; smooth adjacent-joint weights; normalized"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_leg_R",
+        "region": "hip",
+        "before_top_weights": [
+          {
+            "thigh_R": 0.8173,
+            "shin_R": 0.1827
+          },
+          {
+            "thigh_R": 0.81996,
+            "shin_R": 0.18004
+          },
+          {
+            "thigh_R": 0.82432,
+            "shin_R": 0.17568
+          }
+        ],
+        "fix": "parent anchor; smooth adjacent-joint weights; normalized"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_foot_R",
+        "region": "sole",
+        "fix": "remove shin/thigh influence so the planted paw cannot shear or slide"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_pupil_R",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_pupil_L",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_muzzle",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_iris_R",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_iris_L",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_head",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_eye_R",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_eye_L",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_crest_4",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_crest_3",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_crest_2",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_crest_1",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_crest_0",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_cheek_fluff_R",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_cheek_fluff_L",
+        "region": "neck/head",
+        "fix": "blend only at neck seam; head and facial features follow head together"
+      }
+    ],
+    "weight_errors": [],
+    "rig_rebuilt": false,
+    "source_file_modified": false,
+    "limitations": [
+      "CTRL_root/CTRL_COG/CTRL_head and eye_aim have no source constraints; animate the deform chain directly",
+      "eye and finger bones have no skin weights; gaze uses head/neck; wave/point use the existing whole paw",
+      "dormant jaw is unused; no visemes or lip sync",
+      "blink is the existing upper-lid arch motion, not a sealed eyelid"
+    ],
+    "deformation_stress_tests": [
+      {
+        "mesh": "kiko::KIKO_GEO_arm_L",
+        "bone": "upperarm_L",
+        "rotation_rad": 0.6,
+        "min_edge_ratio": 0.8349389222226181,
+        "max_edge_ratio": 1.6333108262327423,
+        "pass": true
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_arm_R",
+        "bone": "upperarm_R",
+        "rotation_rad": -0.6,
+        "min_edge_ratio": 0.5792942922616174,
+        "max_edge_ratio": 1.5674144918506059,
+        "pass": true
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_leg_L",
+        "bone": "thigh_L",
+        "rotation_rad": 0.6,
+        "min_edge_ratio": 0.7361778003825775,
+        "max_edge_ratio": 1.5670138154689504,
+        "pass": true
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_leg_R",
+        "bone": "thigh_R",
+        "rotation_rad": -0.6,
+        "min_edge_ratio": 0.7339499023323316,
+        "max_edge_ratio": 1.5474181892762915,
+        "pass": true
+      },
+      {
+        "mesh": "kiko::KIKO_GEO_head",
+        "bone": "head",
+        "rotation_rad": 0.35,
+        "min_edge_ratio": 0.6751661821854159,
+        "max_edge_ratio": 1.396724796937669,
+        "pass": true
+      }
+    ],
+    "pass": true,
+    "ik_calibration": {
+      "L": {
+        "pole_angle_rad": 0.0,
+        "rest_sole_min_z": 0.024199843406677246
+      },
+      "R": {
+        "pole_angle_rad": -3.1415927410125732,
+        "rest_sole_min_z": 0.024199843406677246
+      }
+    }
+  },
+  "pass": true
+}

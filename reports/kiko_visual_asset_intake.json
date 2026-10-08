@@ -1,0 +1,81 @@
+{
+  "stage": 5,
+  "status": "BLOCKED_MISSING_SOURCE",
+  "pass": false,
+  "reference": "assets/hero/kiko.png",
+  "reference_sha256": "9faa95c54e5aa7d46c37747541f0220ed9647458252f55c8b5f8f4ffc4db4912",
+  "inventory": [
+    {
+      "path": "KIKO_acting_test_8s.blend",
+      "bytes": 1176687
+    },
+    {
+      "path": "KIKO_blockout_v001.blend",
+      "bytes": 0
+    },
+    {
+      "path": "KIKO_master_rebuild_v001.blend",
+      "bytes": 279183
+    },
+    {
+      "path": "KIKO_master_v001.blend",
+      "bytes": 0
+    },
+    {
+      "path": "KIKO_master_v002.blend",
+      "bytes": 271483
+    },
+    {
+      "path": "KIKO_master_v1_1.blend",
+      "bytes": 280010
+    },
+    {
+      "path": "KIKO_master_v1_2.blend",
+      "bytes": 285706
+    },
+    {
+      "path": "KIKO_master_v2.blend",
+      "bytes": 1019693
+    },
+    {
+      "path": "KIKO_run_60s.blend",
+      "bytes": 519141
+    },
+    {
+      "path": "KIKO_run_test_5s.blend",
+      "bytes": 281344
+    },
+    {
+      "path": "KIKO_runaway_fruit_v001.blend",
+      "bytes": 341546
+    },
+    {
+      "path": "KIKO_runaway_fruit_v002.blend",
+      "bytes": 447729
+    },
+    {
+      "path": "KIKO_sculpt_blockout_v001.blend",
+      "bytes": 336896
+    },
+    {
+      "path": "output/kiko_run_60s/scene.blend",
+      "bytes": 288850
+    },
+    {
+      "path": "output/kiko_run_test_5s/scene.blend",
+      "bytes": 288835
+    },
+    {
+      "path": "output/kiko_run_with_gestures_demo/scene.blend",
+      "bytes": 294484
+    }
+  ],
+  "excluded_directories": [
+    ".git",
+    "backups"
+  ],
+  "imported_model_candidates": [],
+  "missing_input": "A KIKO sculpt or image-to-3D model matching the reference, in BLEND/GLB/FBX with textures. An unrigged model is acceptable.",
+  "next_stage": 5,
+  "later_stages_started": false
+}

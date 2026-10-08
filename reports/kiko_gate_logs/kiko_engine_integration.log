@@ -1,0 +1,17 @@
+/Users/macbook/Automation-Workplace/cartoon-maker/kiko_engine.py:655: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc.world.use_nodes = True
+/Users/macbook/Automation-Workplace/cartoon-maker/kiko_engine.py:665: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  material.use_nodes = True
+test_faces_and_root_travel_are_independent (__main__.BlenderIntegration.test_faces_and_root_travel_are_independent) ... ok
+test_gesture_is_additive_and_returns_to_base (__main__.BlenderIntegration.test_gesture_is_additive_and_returns_to_base) ... ok
+test_instances_do_not_share_rig_mesh_or_action_data (__main__.BlenderIntegration.test_instances_do_not_share_rig_mesh_or_action_data) ... ok
+test_run_rises_in_flight_without_losing_planted_feet (__main__.BlenderIntegration.test_run_rises_in_flight_without_losing_planted_feet) ... ok
+test_walk_idle_and_all_gesture_bone_maps (__main__.BlenderIntegration.test_walk_idle_and_all_gesture_bone_maps) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 21.083s
+
+OK
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

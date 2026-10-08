@@ -1,0 +1,290 @@
+{
+  "status": "AWAITING_VISUAL_REVIEW",
+  "pass": false,
+  "visual_review": "PENDING",
+  "source_sha256": "febf2d3f6a8c282c5ff9b151f21718a14bb4286af678e890fb96becd4fbb5195",
+  "run_compatibility": [
+    {
+      "id": "kiko",
+      "checks": {
+        "rig_weights_and_deformation": {
+          "pass": true
+        },
+        "stance_no_sliding": {
+          "pass": true,
+          "max_vertex_displacement_per_half_frame": 2.6679258889230908e-05,
+          "tolerance": 0.002
+        },
+        "no_foot_penetration": {
+          "pass": true,
+          "min_evaluated_sole_z": 0.0029509738087654114,
+          "tolerance": -0.001
+        },
+        "stance_ground_contact": {
+          "pass": true,
+          "max_height_error": 4.9026191234588685e-05,
+          "tolerance": 0.003
+        },
+        "ik_reach": {
+          "pass": true,
+          "max_ankle_target_error": 6.944920974419793e-05
+        },
+        "knees_forward": {
+          "pass": true,
+          "min_forward_offset": 0.06587725877761841,
+          "min_bend_deg": 24.217611206269964
+        },
+        "pelvis_weight_transfer": {
+          "pass": true,
+          "lateral_range": 0.06996545195579529
+        },
+        "arms_oppose_legs": {
+          "pass": true,
+          "hand_foot_forward_correlation": -0.9965209319784166
+        },
+        "loop_transition": {
+          "pass": true,
+          "max_pose_matrix_difference": 1.5273690223693848e-07
+        },
+        "ears_delayed_secondary": {
+          "pass": true,
+          "delay_frames": 2,
+          "max_waveform_error": 2.8163765347644087e-09,
+          "disabled": false
+        },
+        "tail_delayed_secondary": {
+          "pass": true,
+          "delay_frames": 4,
+          "max_waveform_error": 3.5762786759763188e-09,
+          "disabled": false
+        }
+      },
+      "pass": true,
+      "sampled_frames": 239
+    }
+  ],
+  "walk_compatibility": [
+    {
+      "id": "kiko",
+      "checks": {
+        "rig_weights_and_deformation": {
+          "pass": true
+        },
+        "stance_no_sliding": {
+          "pass": true,
+          "max_vertex_displacement_per_half_frame": 2.6410411349958666e-05,
+          "tolerance": 0.002
+        },
+        "no_foot_penetration": {
+          "pass": true,
+          "min_evaluated_sole_z": 0.002961196005344391,
+          "tolerance": -0.001
+        },
+        "stance_ground_contact": {
+          "pass": true,
+          "max_height_error": 3.880399465560919e-05,
+          "tolerance": 0.003
+        },
+        "ik_reach": {
+          "pass": true,
+          "max_ankle_target_error": 4.842877158751849e-05
+        },
+        "knees_forward": {
+          "pass": true,
+          "min_forward_offset": 0.11043861508369446,
+          "min_bend_deg": 40.491684958013565
+        },
+        "pelvis_weight_transfer": {
+          "pass": true,
+          "lateral_range": 0.06986186653375626
+        },
+        "arms_oppose_legs": {
+          "pass": true,
+          "hand_foot_forward_correlation": -0.9957819348219992
+        },
+        "loop_transition": {
+          "pass": true,
+          "max_pose_matrix_difference": 1.1920928955078125e-07
+        },
+        "ears_delayed_secondary": {
+          "pass": true,
+          "delay_frames": 2,
+          "max_waveform_error": 2.8163765347644087e-09,
+          "disabled": false
+        },
+        "tail_delayed_secondary": {
+          "pass": true,
+          "delay_frames": 4,
+          "max_waveform_error": 3.5762786759763188e-09,
+          "disabled": false
+        }
+      },
+      "pass": true,
+      "sampled_frames": 239
+    }
+  ],
+  "functional_checks": {
+    "jaw_deforms_muzzle": {
+      "max_vertex_displacement": 0.06808170748394723,
+      "pass": true
+    },
+    "blink_surface_moves": {
+      "max_vertex_displacement": 0.4932107431206187,
+      "pass": true
+    },
+    "VIS_AA": {
+      "max_vertex_displacement": 0.09906516141695276,
+      "pass": true
+    },
+    "VIS_EE": {
+      "max_vertex_displacement": 0.036479404847882126,
+      "pass": true
+    },
+    "VIS_IH": {
+      "max_vertex_displacement": 0.03315297800834582,
+      "pass": true
+    },
+    "VIS_OH": {
+      "max_vertex_displacement": 0.08591908086818785,
+      "pass": true
+    },
+    "VIS_OO": {
+      "max_vertex_displacement": 0.0853275993083535,
+      "pass": true
+    },
+    "VIS_MBP": {
+      "max_vertex_displacement": 0.010506981525402543,
+      "pass": true
+    },
+    "VIS_FV": {
+      "max_vertex_displacement": 0.014128077793623885,
+      "pass": true
+    },
+    "VIS_L": {
+      "max_vertex_displacement": 0.05208936620086688,
+      "pass": true
+    },
+    "mouth_corner_L": {
+      "max_vertex_displacement": 0.03351714305891761,
+      "pass": true
+    },
+    "mouth_corner_R": {
+      "max_vertex_displacement": 0.03351714324589617,
+      "pass": true
+    },
+    "lip_upper": {
+      "max_vertex_displacement": 0.03363915972470546,
+      "pass": true
+    },
+    "lip_lower": {
+      "max_vertex_displacement": 0.0332271201344324,
+      "pass": true
+    },
+    "finger_binding_L": {
+      "max_vertex_displacement": 0.1527213283732529,
+      "pass": true
+    },
+    "finger_binding_R": {
+      "max_vertex_displacement": 0.1527213283732529,
+      "pass": true
+    },
+    "eye_aim_L_head_0.0": {
+      "aim_alignment": 1.0000000146487764,
+      "pass": true
+    },
+    "eye_aim_R_head_0.0": {
+      "aim_alignment": 1.0000000146487764,
+      "pass": true
+    },
+    "eye_aim_L_head_0.4": {
+      "aim_alignment": 0.9999998241942194,
+      "pass": true
+    },
+    "eye_aim_R_head_0.4": {
+      "aim_alignment": 0.9999999955557541,
+      "pass": true
+    },
+    "eye_aim_L_head_-0.4": {
+      "aim_alignment": 0.9999999955557541,
+      "pass": true
+    },
+    "eye_aim_R_head_-0.4": {
+      "aim_alignment": 0.9999998241942194,
+      "pass": true
+    }
+  },
+  "master_sha256": "fbfbbd925990b2436934d200e9935b7f937d917fd9a8969c32cea74d845dff20",
+  "renders": [
+    "review/kiko_v2_rig/neutral.png",
+    "review/kiko_v2_rig/smile.png",
+    "review/kiko_v2_rig/mouth_open.png",
+    "review/kiko_v2_rig/surprised.png",
+    "review/kiko_v2_rig/angry.png",
+    "review/kiko_v2_rig/sad.png",
+    "review/kiko_v2_rig/curious.png",
+    "review/kiko_v2_rig/scared.png",
+    "review/kiko_v2_rig/wave_full_body.png",
+    "review/kiko_v2_rig/crouch_full_body.png",
+    "review/kiko_v2_rig/blink.png"
+  ],
+  "visemes": [
+    "Basis",
+    "VIS_REST",
+    "VIS_AA",
+    "VIS_EE",
+    "VIS_IH",
+    "VIS_OH",
+    "VIS_OO",
+    "VIS_MBP",
+    "VIS_FV",
+    "VIS_L",
+    "jaw_open",
+    "smile",
+    "frown",
+    "wide",
+    "mouth_corner_L",
+    "mouth_corner_R",
+    "lip_upper",
+    "lip_lower"
+  ],
+  "pose_actions": [
+    "FACE_angry",
+    "FACE_curious",
+    "FACE_happy",
+    "FACE_neutral",
+    "FACE_sad",
+    "FACE_scared",
+    "FACE_surprised",
+    "POSE_angry",
+    "POSE_confident",
+    "POSE_crouch",
+    "POSE_curious",
+    "POSE_happy",
+    "POSE_neutral",
+    "POSE_point",
+    "POSE_sad",
+    "POSE_scared",
+    "POSE_surprised",
+    "POSE_wave"
+  ],
+  "controls": [
+    "CTRL_pelvis",
+    "CTRL_chest",
+    "CTRL_jaw",
+    "CTRL_tail_base",
+    "CTRL_tail_tip",
+    "CTRL_shoulder_L",
+    "CTRL_hand_L",
+    "CTRL_ear_L",
+    "CTRL_shoulder_R",
+    "CTRL_hand_R",
+    "CTRL_ear_R"
+  ],
+  "source_unchanged": true,
+  "limitations": [
+    "Technical V1.1 shell only; no final visual likeness claim.",
+    "Mouth uses the source overlay topology; inspect carefully for surface detachment.",
+    "FV/L are approximate base openings; no teeth/tongue articulation yet.",
+    "Finger skinning uses existing discrete digit meshes; grip requires visual QA."
+  ]
+}

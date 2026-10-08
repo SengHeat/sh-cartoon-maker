@@ -1,0 +1,23 @@
+/Users/macbook/Automation-Workplace/cartoon-maker/cartoon_studio/blender/kiko_expressive_rig.py:224: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  matte.use_nodes = True
+00:07.513  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/neutral.png'
+00:07.909  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/smile.png'
+00:08.268  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/mouth_open.png'
+00:08.595  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/surprised.png'
+00:08.935  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/angry.png'
+00:09.275  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/sad.png'
+00:09.619  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/curious.png'
+00:09.946  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/scared.png'
+00:10.347  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/wave_full_body.png'
+00:10.733  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/crouch_full_body.png'
+00:11.055  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/blink.png'
+00:11.459  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/point_full_body.png'
+00:11.839  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/happy_full_body.png'
+00:12.216  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/hand_open.png'
+00:12.607  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/hand_fist.png'
+00:13.006  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/hand_point.png'
+00:13.396  render           | Saved: '/Users/macbook/Automation-Workplace/cartoon-maker/review/kiko_v2_rig/hand_grip.png'
+Info: Saved as "KIKO_master_v2.blend"
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

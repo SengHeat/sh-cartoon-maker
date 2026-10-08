@@ -1,0 +1,5247 @@
+{
+  "stage": 5,
+  "candidate": "assets/characters/kiko_final/KIKO.glb",
+  "reference": "assets/hero/kiko.png",
+  "dimensions": {
+    "x": 3.64072,
+    "y": 1.46041,
+    "z": 3.45643,
+    "unit": "GLB meters as imported into Blender"
+  },
+  "bounding_box": {
+    "min": [
+      -1.94141,
+      -0.65133,
+      0.005
+    ],
+    "max": [
+      1.69932,
+      0.80908,
+      3.46143
+    ]
+  },
+  "origin_position": {
+    "mesh_object_origins": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mesh_object_rotations": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mesh_object_scales": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "forward_axis": "-Y (front view verified from facial features)",
+  "up_axis": "+Z (GLB Y-up converted by Blender importer)",
+  "objects": 125,
+  "meshes": 125,
+  "vertices": 156602,
+  "polygons": 287012,
+  "triangles": 287012,
+  "materials": 22,
+  "textures": 13,
+  "armatures": 0,
+  "skins": 0,
+  "animations": 0,
+  "curves": 0,
+  "skinned_meshes": [],
+  "glb_json_meshes": 125,
+  "model_origin_and_transforms": [
+    {
+      "object": "KIKO | amber iris L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | amber iris R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | backpack front pocket",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | backpack left strap",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | backpack pocket seam",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | backpack right strap",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | belt flax stitching",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | belt pouch body L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | belt pouch body R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | belt pouch flap L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | belt pouch flap R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | brass belt buckle",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | brass compass on harness",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | broad foot L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | broad foot R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | buckle inset",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | calf wrap L 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | calf wrap L 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | calf wrap L 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | calf wrap R 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | calf wrap R 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | calf wrap R 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek freckle L 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek freckle L 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek freckle L 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek freckle R 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek freckle R 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek freckle R 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek tuft L 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek tuft L 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek tuft L 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek tuft R 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek tuft R 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cheek tuft R 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | chest harness brass clasp",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | compass leather loop",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | continuous sculpted body, head and ears",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cream chest bib",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | cross chest strap",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | dominant curved plume tail",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | emblem stitched mark",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | expressive thumb L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | expressive thumb R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | eye glint large L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | eye glint large R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | eye glint small L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | eye glint small R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | eye sclera L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | eye sclera R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | flask neck",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | forearm wrap L 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | forearm wrap L 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | forearm wrap L 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | forearm wrap R 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | forearm wrap R 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | forearm wrap R 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | honey iris inner L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | honey iris inner R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | integrated cream cheeks and muzzle",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | layered crest lock 01",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | layered crest lock 02",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | layered crest lock 03",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | layered crest lock 04",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | layered crest lock 05",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | layered crest lock 06",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | layered crest lock 07",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | layered crest lock 08",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | layered crest lock 09",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | layered crest lock 10",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | left leather harness",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | lower lip",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | mouth smile line",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | padded explorer backpack",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | palm fur tuft L 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | palm fur tuft L 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | palm fur tuft L 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | palm fur tuft R 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | palm fur tuft R 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | palm fur tuft R 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | pouch brass stud L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | pouch brass stud R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | pouch stitched seam L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | pouch stitched seam R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | pupil L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | pupil R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | recessed coral inner ear L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | recessed coral inner ear R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | relaxed finger L 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | relaxed finger L 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | relaxed finger L 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | relaxed finger L 4",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | relaxed finger R 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | relaxed finger R 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | relaxed finger R 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | relaxed finger R 4",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | right leather harness",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | rolled bedroll",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | scarf tail flowing left",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | scarf tail flowing right",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | sculpted adventurer palm L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | sculpted adventurer palm R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | small travel flask",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | soft nose",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | stitched explorer emblem",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | tail plume lock 01",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | tail plume lock 02",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | tail plume lock 03",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | tail plume lock 04",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | tail plume lock 05",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | tail plume lock 06",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | tail plume lock 07",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | tail plume lock 08",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | tailored explorer vest",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | toe L 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | toe L 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | toe L 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | toe R 1",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | toe R 2",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | toe R 3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | vest front panel L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | vest front panel R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | vest stitched edge L",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | vest stitched edge R",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | worn leather utility belt",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "KIKO | wrapped orange red scarf",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "material_audit": {
+    "images": [
+      {
+        "name": "Cloth | faded olive panels | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Cloth | persimmon scarf | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Cloth | scarf highlights | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Cloth | worn jungle teal | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Ear | warm coral velvet | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Fur | burnt apricot | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Fur | deep shadow | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Fur | deep teal blue-gray | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Fur | pale muzzle | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Fur | soft teal highlights | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Fur | warm integrated cream | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Leather | dark walnut | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "name": "Leather | worn saddle | embedded color",
+        "filepath": "",
+        "packed": true,
+        "available": true,
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "sRGB"
+      }
+    ],
+    "missing_textures": [],
+    "unsupported_nodes": [],
+    "glossy_principled_materials": [
+      {
+        "material": "Eye | amber iris",
+        "roughness": 0.3
+      },
+      {
+        "material": "Eye | deep warm pupil",
+        "roughness": 0.2
+      },
+      {
+        "material": "Eye | honey iris center",
+        "roughness": 0.31
+      },
+      {
+        "material": "Eye | soft catchlight",
+        "roughness": 0.16
+      },
+      {
+        "material": "Eye | warm ivory",
+        "roughness": 0.27
+      },
+      {
+        "material": "Hardware | aged brass",
+        "roughness": 0.33
+      }
+    ],
+    "transparency_materials": []
+  },
+  "topology": {
+    "nonmanifold_meshes": [
+      {
+        "object": "KIKO | backpack left strap",
+        "boundary_edges": 124,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | backpack pocket seam",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | backpack right strap",
+        "boundary_edges": 124,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | belt flax stitching",
+        "boundary_edges": 668,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | calf wrap L 1",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | calf wrap L 2",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | calf wrap L 3",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | calf wrap R 1",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | calf wrap R 2",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | calf wrap R 3",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | compass leather loop",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | cream chest bib",
+        "boundary_edges": 814,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | cross chest strap",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | dominant curved plume tail",
+        "boundary_edges": 432,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | emblem stitched mark",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | flask neck",
+        "boundary_edges": 60,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | forearm wrap L 1",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | forearm wrap L 2",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | forearm wrap L 3",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | forearm wrap R 1",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | forearm wrap R 2",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | forearm wrap R 3",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | integrated cream cheeks and muzzle",
+        "boundary_edges": 1010,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | left leather harness",
+        "boundary_edges": 124,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | lower lip",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | mouth smile line",
+        "boundary_edges": 156,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | pouch stitched seam L",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | pouch stitched seam R",
+        "boundary_edges": 92,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | recessed coral inner ear L",
+        "boundary_edges": 2368,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | recessed coral inner ear R",
+        "boundary_edges": 2260,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | right leather harness",
+        "boundary_edges": 124,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | tailored explorer vest",
+        "boundary_edges": 10752,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | vest stitched edge L",
+        "boundary_edges": 156,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | vest stitched edge R",
+        "boundary_edges": 156,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | worn leather utility belt",
+        "boundary_edges": 540,
+        "edges_used_more_than_twice": 0
+      },
+      {
+        "object": "KIKO | wrapped orange red scarf",
+        "boundary_edges": 292,
+        "edges_used_more_than_twice": 0
+      }
+    ],
+    "duplicate_faces": [],
+    "potential_duplicate_vertices": [
+      {
+        "object": "KIKO | backpack left strap",
+        "coincident_vertices_6dp": 49
+      },
+      {
+        "object": "KIKO | backpack pocket seam",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | backpack right strap",
+        "coincident_vertices_6dp": 49
+      },
+      {
+        "object": "KIKO | belt flax stitching",
+        "coincident_vertices_6dp": 335
+      },
+      {
+        "object": "KIKO | calf wrap L 1",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | calf wrap L 2",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | calf wrap L 3",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | calf wrap R 1",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | calf wrap R 2",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | calf wrap R 3",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | compass leather loop",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | cream chest bib",
+        "coincident_vertices_6dp": 343
+      },
+      {
+        "object": "KIKO | cross chest strap",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | dominant curved plume tail",
+        "coincident_vertices_6dp": 216
+      },
+      {
+        "object": "KIKO | emblem stitched mark",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | flask neck",
+        "coincident_vertices_6dp": 17
+      },
+      {
+        "object": "KIKO | forearm wrap L 1",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | forearm wrap L 2",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | forearm wrap L 3",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | forearm wrap R 1",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | forearm wrap R 2",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | forearm wrap R 3",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | integrated cream cheeks and muzzle",
+        "coincident_vertices_6dp": 374
+      },
+      {
+        "object": "KIKO | left leather harness",
+        "coincident_vertices_6dp": 49
+      },
+      {
+        "object": "KIKO | lower lip",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | mouth smile line",
+        "coincident_vertices_6dp": 65
+      },
+      {
+        "object": "KIKO | pouch stitched seam L",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | pouch stitched seam R",
+        "coincident_vertices_6dp": 33
+      },
+      {
+        "object": "KIKO | recessed coral inner ear L",
+        "coincident_vertices_6dp": 876
+      },
+      {
+        "object": "KIKO | recessed coral inner ear R",
+        "coincident_vertices_6dp": 837
+      },
+      {
+        "object": "KIKO | right leather harness",
+        "coincident_vertices_6dp": 49
+      },
+      {
+        "object": "KIKO | tailored explorer vest",
+        "coincident_vertices_6dp": 8073
+      },
+      {
+        "object": "KIKO | vest stitched edge L",
+        "coincident_vertices_6dp": 65
+      },
+      {
+        "object": "KIKO | vest stitched edge R",
+        "coincident_vertices_6dp": 65
+      },
+      {
+        "object": "KIKO | worn leather utility belt",
+        "coincident_vertices_6dp": 271
+      },
+      {
+        "object": "KIKO | wrapped orange red scarf",
+        "coincident_vertices_6dp": 129
+      }
+    ]
+  },
+  "object_classification": [
+    {
+      "name": "KIKO | amber iris L",
+      "vertices": 1490,
+      "polygons": 2976,
+      "triangles": 2976,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | amber iris R",
+      "vertices": 1490,
+      "polygons": 2976,
+      "triangles": 2976,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | backpack front pocket",
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | backpack left strap",
+      "vertices": 735,
+      "polygons": 1344,
+      "triangles": 1344,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | backpack pocket seam",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | backpack right strap",
+      "vertices": 735,
+      "polygons": 1344,
+      "triangles": 1344,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | belt flax stitching",
+      "vertices": 4815,
+      "polygons": 8960,
+      "triangles": 8960,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | belt pouch body L",
+      "vertices": 830,
+      "polygons": 1656,
+      "triangles": 1656,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | belt pouch body R",
+      "vertices": 830,
+      "polygons": 1656,
+      "triangles": 1656,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | belt pouch flap L",
+      "vertices": 610,
+      "polygons": 1216,
+      "triangles": 1216,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | belt pouch flap R",
+      "vertices": 610,
+      "polygons": 1216,
+      "triangles": 1216,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | brass belt buckle",
+      "vertices": 610,
+      "polygons": 1216,
+      "triangles": 1216,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | brass compass on harness",
+      "vertices": 610,
+      "polygons": 1216,
+      "triangles": 1216,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | broad foot L",
+      "vertices": 1394,
+      "polygons": 2784,
+      "triangles": 2784,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | broad foot R",
+      "vertices": 1394,
+      "polygons": 2784,
+      "triangles": 2784,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | buckle inset",
+      "vertices": 362,
+      "polygons": 720,
+      "triangles": 720,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | calf wrap L 1",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | calf wrap L 2",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | calf wrap L 3",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | calf wrap R 1",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | calf wrap R 2",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | calf wrap R 3",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek freckle L 1",
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek freckle L 2",
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek freckle L 3",
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek freckle R 1",
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek freckle R 2",
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek freckle R 3",
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek tuft L 1",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek tuft L 2",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek tuft L 3",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek tuft R 1",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek tuft R 2",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cheek tuft R 3",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | chest harness brass clasp",
+      "vertices": 610,
+      "polygons": 1216,
+      "triangles": 1216,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | compass leather loop",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | continuous sculpted body, head and ears",
+      "vertices": 40908,
+      "polygons": 81812,
+      "triangles": 81812,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "root/spine/head/limb bones after retopology",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cream chest bib",
+      "vertices": 6161,
+      "polygons": 11632,
+      "triangles": 11632,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | cross chest strap",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | dominant curved plume tail",
+      "vertices": 2270,
+      "polygons": 4104,
+      "triangles": 4104,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | emblem stitched mark",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "E. STATIC / REMOVE / REVIEW",
+      "recommended_parent": "review attachment or exclude",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | expressive thumb L",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "E. STATIC / REMOVE / REVIEW",
+      "recommended_parent": "review attachment or exclude",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | expressive thumb R",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "E. STATIC / REMOVE / REVIEW",
+      "recommended_parent": "review attachment or exclude",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | eye glint large L",
+      "vertices": 410,
+      "polygons": 816,
+      "triangles": 816,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | eye glint large R",
+      "vertices": 410,
+      "polygons": 816,
+      "triangles": 816,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | eye glint small L",
+      "vertices": 262,
+      "polygons": 520,
+      "triangles": 520,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | eye glint small R",
+      "vertices": 262,
+      "polygons": 520,
+      "triangles": 520,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | eye sclera L",
+      "vertices": 2498,
+      "polygons": 4992,
+      "triangles": 4992,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | eye sclera R",
+      "vertices": 2498,
+      "polygons": 4992,
+      "triangles": 4992,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | flask neck",
+      "vertices": 255,
+      "polygons": 448,
+      "triangles": 448,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | forearm wrap L 1",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | forearm wrap L 2",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | forearm wrap L 3",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | forearm wrap R 1",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | forearm wrap R 2",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | forearm wrap R 3",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | honey iris inner L",
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | honey iris inner R",
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | integrated cream cheeks and muzzle",
+      "vertices": 9296,
+      "polygons": 17840,
+      "triangles": 17840,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / cheek control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | layered crest lock 01",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | layered crest lock 02",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | layered crest lock 03",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | layered crest lock 04",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | layered crest lock 05",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | layered crest lock 06",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | layered crest lock 07",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | layered crest lock 08",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | layered crest lock 09",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | layered crest lock 10",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | left leather harness",
+      "vertices": 735,
+      "polygons": 1344,
+      "triangles": 1344,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | lower lip",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "E. STATIC / REMOVE / REVIEW",
+      "recommended_parent": "review attachment or exclude",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | mouth smile line",
+      "vertices": 975,
+      "polygons": 1792,
+      "triangles": 1792,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | padded explorer backpack",
+      "vertices": 1490,
+      "polygons": 2976,
+      "triangles": 2976,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | palm fur tuft L 1",
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | palm fur tuft L 2",
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | palm fur tuft L 3",
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | palm fur tuft R 1",
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | palm fur tuft R 2",
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | palm fur tuft R 3",
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | pouch brass stud L",
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | pouch brass stud R",
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | pouch stitched seam L",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | pouch stitched seam R",
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | pupil L",
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | pupil R",
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | recessed coral inner ear L",
+      "vertices": 6246,
+      "polygons": 10736,
+      "triangles": 10736,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | recessed coral inner ear R",
+      "vertices": 6207,
+      "polygons": 10736,
+      "triangles": 10736,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | relaxed finger L 1",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | relaxed finger L 2",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | relaxed finger L 3",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | relaxed finger L 4",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | relaxed finger R 1",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | relaxed finger R 2",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | relaxed finger R 3",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | relaxed finger R 4",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | right leather harness",
+      "vertices": 735,
+      "polygons": 1344,
+      "triangles": 1344,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | rolled bedroll",
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | scarf tail flowing left",
+      "vertices": 502,
+      "polygons": 1000,
+      "triangles": 1000,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | scarf tail flowing right",
+      "vertices": 502,
+      "polygons": 1000,
+      "triangles": 1000,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | sculpted adventurer palm L",
+      "vertices": 478,
+      "polygons": 952,
+      "triangles": 952,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | sculpted adventurer palm R",
+      "vertices": 478,
+      "polygons": 952,
+      "triangles": 952,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | small travel flask",
+      "vertices": 738,
+      "polygons": 1472,
+      "triangles": 1472,
+      "classification": "C. RIGID BONE PARENT",
+      "recommended_parent": "belt / spine / chest bone by attachment",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | soft nose",
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | stitched explorer emblem",
+      "vertices": 478,
+      "polygons": 952,
+      "triangles": 952,
+      "classification": "E. STATIC / REMOVE / REVIEW",
+      "recommended_parent": "review attachment or exclude",
+      "weighting_required": false
+    },
+    {
+      "name": "KIKO | tail plume lock 01",
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | tail plume lock 02",
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | tail plume lock 03",
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | tail plume lock 04",
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | tail plume lock 05",
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | tail plume lock 06",
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | tail plume lock 07",
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | tail plume lock 08",
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "classification": "B. DEFORM / SECONDARY RIG",
+      "recommended_parent": "tail / ear / crest control",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | tailored explorer vest",
+      "vertices": 10752,
+      "polygons": 5312,
+      "triangles": 5312,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | toe L 1",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | toe L 2",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | toe L 3",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | toe R 1",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | toe R 2",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | toe R 3",
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "classification": "A. DEFORM WITH BODY",
+      "recommended_parent": "head / face / nearby limb bone",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | vest front panel L",
+      "vertices": 662,
+      "polygons": 1320,
+      "triangles": 1320,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | vest front panel R",
+      "vertices": 662,
+      "polygons": 1320,
+      "triangles": 1320,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | vest stitched edge L",
+      "vertices": 975,
+      "polygons": 1792,
+      "triangles": 1792,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | vest stitched edge R",
+      "vertices": 975,
+      "polygons": 1792,
+      "triangles": 1792,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | worn leather utility belt",
+      "vertices": 3855,
+      "polygons": 7168,
+      "triangles": 7168,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    },
+    {
+      "name": "KIKO | wrapped orange red scarf",
+      "vertices": 2451,
+      "polygons": 4608,
+      "triangles": 4608,
+      "classification": "D. CLOTHING NEEDING WEIGHTS",
+      "recommended_parent": "nearby body region; flexible parts need weights",
+      "weighting_required": true
+    }
+  ],
+  "mesh_topology": {
+    "KIKO | amber iris L": {
+      "vertices": 1490,
+      "polygons": 2976,
+      "triangles": 2976,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | amber iris R": {
+      "vertices": 1490,
+      "polygons": 2976,
+      "triangles": 2976,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | backpack front pocket": {
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | backpack left strap": {
+      "vertices": 735,
+      "polygons": 1344,
+      "triangles": 1344,
+      "boundary_edges": 124,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | backpack pocket seam": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | backpack right strap": {
+      "vertices": 735,
+      "polygons": 1344,
+      "triangles": 1344,
+      "boundary_edges": 124,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | belt flax stitching": {
+      "vertices": 4815,
+      "polygons": 8960,
+      "triangles": 8960,
+      "boundary_edges": 668,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | belt pouch body L": {
+      "vertices": 830,
+      "polygons": 1656,
+      "triangles": 1656,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | belt pouch body R": {
+      "vertices": 830,
+      "polygons": 1656,
+      "triangles": 1656,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | belt pouch flap L": {
+      "vertices": 610,
+      "polygons": 1216,
+      "triangles": 1216,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | belt pouch flap R": {
+      "vertices": 610,
+      "polygons": 1216,
+      "triangles": 1216,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | brass belt buckle": {
+      "vertices": 610,
+      "polygons": 1216,
+      "triangles": 1216,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | brass compass on harness": {
+      "vertices": 610,
+      "polygons": 1216,
+      "triangles": 1216,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | broad foot L": {
+      "vertices": 1394,
+      "polygons": 2784,
+      "triangles": 2784,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | broad foot R": {
+      "vertices": 1394,
+      "polygons": 2784,
+      "triangles": 2784,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | buckle inset": {
+      "vertices": 362,
+      "polygons": 720,
+      "triangles": 720,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | calf wrap L 1": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | calf wrap L 2": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | calf wrap L 3": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | calf wrap R 1": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | calf wrap R 2": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | calf wrap R 3": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek freckle L 1": {
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek freckle L 2": {
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek freckle L 3": {
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek freckle R 1": {
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek freckle R 2": {
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek freckle R 3": {
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek tuft L 1": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek tuft L 2": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek tuft L 3": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek tuft R 1": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek tuft R 2": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cheek tuft R 3": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | chest harness brass clasp": {
+      "vertices": 610,
+      "polygons": 1216,
+      "triangles": 1216,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | compass leather loop": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | continuous sculpted body, head and ears": {
+      "vertices": 40908,
+      "polygons": 81812,
+      "triangles": 81812,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cream chest bib": {
+      "vertices": 6161,
+      "polygons": 11632,
+      "triangles": 11632,
+      "boundary_edges": 814,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | cross chest strap": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | dominant curved plume tail": {
+      "vertices": 2270,
+      "polygons": 4104,
+      "triangles": 4104,
+      "boundary_edges": 432,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | emblem stitched mark": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | expressive thumb L": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | expressive thumb R": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | eye glint large L": {
+      "vertices": 410,
+      "polygons": 816,
+      "triangles": 816,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | eye glint large R": {
+      "vertices": 410,
+      "polygons": 816,
+      "triangles": 816,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | eye glint small L": {
+      "vertices": 262,
+      "polygons": 520,
+      "triangles": 520,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | eye glint small R": {
+      "vertices": 262,
+      "polygons": 520,
+      "triangles": 520,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | eye sclera L": {
+      "vertices": 2498,
+      "polygons": 4992,
+      "triangles": 4992,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | eye sclera R": {
+      "vertices": 2498,
+      "polygons": 4992,
+      "triangles": 4992,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | flask neck": {
+      "vertices": 255,
+      "polygons": 448,
+      "triangles": 448,
+      "boundary_edges": 60,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | forearm wrap L 1": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | forearm wrap L 2": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | forearm wrap L 3": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | forearm wrap R 1": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | forearm wrap R 2": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | forearm wrap R 3": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | honey iris inner L": {
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | honey iris inner R": {
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | integrated cream cheeks and muzzle": {
+      "vertices": 9296,
+      "polygons": 17840,
+      "triangles": 17840,
+      "boundary_edges": 1010,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | layered crest lock 01": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | layered crest lock 02": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | layered crest lock 03": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | layered crest lock 04": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | layered crest lock 05": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | layered crest lock 06": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | layered crest lock 07": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | layered crest lock 08": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | layered crest lock 09": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | layered crest lock 10": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | left leather harness": {
+      "vertices": 735,
+      "polygons": 1344,
+      "triangles": 1344,
+      "boundary_edges": 124,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | lower lip": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | mouth smile line": {
+      "vertices": 975,
+      "polygons": 1792,
+      "triangles": 1792,
+      "boundary_edges": 156,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | padded explorer backpack": {
+      "vertices": 1490,
+      "polygons": 2976,
+      "triangles": 2976,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | palm fur tuft L 1": {
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | palm fur tuft L 2": {
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | palm fur tuft L 3": {
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | palm fur tuft R 1": {
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | palm fur tuft R 2": {
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | palm fur tuft R 3": {
+      "vertices": 240,
+      "polygons": 476,
+      "triangles": 476,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | pouch brass stud L": {
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | pouch brass stud R": {
+      "vertices": 178,
+      "polygons": 352,
+      "triangles": 352,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | pouch stitched seam L": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | pouch stitched seam R": {
+      "vertices": 495,
+      "polygons": 896,
+      "triangles": 896,
+      "boundary_edges": 92,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | pupil L": {
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | pupil R": {
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | recessed coral inner ear L": {
+      "vertices": 6246,
+      "polygons": 10736,
+      "triangles": 10736,
+      "boundary_edges": 2368,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | recessed coral inner ear R": {
+      "vertices": 6207,
+      "polygons": 10736,
+      "triangles": 10736,
+      "boundary_edges": 2260,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | relaxed finger L 1": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | relaxed finger L 2": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | relaxed finger L 3": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | relaxed finger L 4": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | relaxed finger R 1": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | relaxed finger R 2": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | relaxed finger R 3": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | relaxed finger R 4": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | right leather harness": {
+      "vertices": 735,
+      "polygons": 1344,
+      "triangles": 1344,
+      "boundary_edges": 124,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | rolled bedroll": {
+      "vertices": 602,
+      "polygons": 1200,
+      "triangles": 1200,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | scarf tail flowing left": {
+      "vertices": 502,
+      "polygons": 1000,
+      "triangles": 1000,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | scarf tail flowing right": {
+      "vertices": 502,
+      "polygons": 1000,
+      "triangles": 1000,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | sculpted adventurer palm L": {
+      "vertices": 478,
+      "polygons": 952,
+      "triangles": 952,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | sculpted adventurer palm R": {
+      "vertices": 478,
+      "polygons": 952,
+      "triangles": 952,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | small travel flask": {
+      "vertices": 738,
+      "polygons": 1472,
+      "triangles": 1472,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | soft nose": {
+      "vertices": 1082,
+      "polygons": 2160,
+      "triangles": 2160,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | stitched explorer emblem": {
+      "vertices": 478,
+      "polygons": 952,
+      "triangles": 952,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | tail plume lock 01": {
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | tail plume lock 02": {
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | tail plume lock 03": {
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | tail plume lock 04": {
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | tail plume lock 05": {
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | tail plume lock 06": {
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | tail plume lock 07": {
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | tail plume lock 08": {
+      "vertices": 274,
+      "polygons": 544,
+      "triangles": 544,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | tailored explorer vest": {
+      "vertices": 10752,
+      "polygons": 5312,
+      "triangles": 5312,
+      "boundary_edges": 10752,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | toe L 1": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | toe L 2": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | toe L 3": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | toe R 1": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | toe R 2": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | toe R 3": {
+      "vertices": 308,
+      "polygons": 612,
+      "triangles": 612,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | vest front panel L": {
+      "vertices": 662,
+      "polygons": 1320,
+      "triangles": 1320,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | vest front panel R": {
+      "vertices": 662,
+      "polygons": 1320,
+      "triangles": 1320,
+      "boundary_edges": 0,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | vest stitched edge L": {
+      "vertices": 975,
+      "polygons": 1792,
+      "triangles": 1792,
+      "boundary_edges": 156,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | vest stitched edge R": {
+      "vertices": 975,
+      "polygons": 1792,
+      "triangles": 1792,
+      "boundary_edges": 156,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | worn leather utility belt": {
+      "vertices": 3855,
+      "polygons": 7168,
+      "triangles": 7168,
+      "boundary_edges": 540,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    },
+    "KIKO | wrapped orange red scarf": {
+      "vertices": 2451,
+      "polygons": 4608,
+      "triangles": 4608,
+      "boundary_edges": 292,
+      "edges_used_more_than_twice": 0,
+      "zero_area_faces": 0,
+      "zero_length_normals": 0
+    }
+  },
+  "import_seconds": 0.658,
+  "viewport_responsiveness": "not directly measurable in background validation; import and render time recorded",
+  "render_paths": [
+    "projects/characters/kiko/review/stage5_candidate/01_front.png",
+    "projects/characters/kiko/review/stage5_candidate/02_three_quarter.png",
+    "projects/characters/kiko/review/stage5_candidate/03_side.png",
+    "projects/characters/kiko/review/stage5_candidate/04_back.png",
+    "projects/characters/kiko/review/stage5_candidate/05_face_closeup.png",
+    "projects/characters/kiko/review/stage5_candidate/06_head_profile.png",
+    "projects/characters/kiko/review/stage5_candidate/07_tail_profile.png",
+    "projects/characters/kiko/review/stage5_candidate/08_outfit_detail.png",
+    "projects/characters/kiko/review/stage5_candidate/09_black_silhouette_front.png",
+    "projects/characters/kiko/review/stage5_candidate/10_black_silhouette_three_quarter.png"
+  ],
+  "render_seconds": {
+    "01_front.png": 1.64,
+    "02_three_quarter.png": 0.93,
+    "03_side.png": 0.7,
+    "04_back.png": 1.05,
+    "05_face_closeup.png": 1.48,
+    "06_head_profile.png": 1.08,
+    "07_tail_profile.png": 1.08,
+    "08_outfit_detail.png": 1.18,
+    "09_black_silhouette_front.png": 0.84,
+    "10_black_silhouette_three_quarter.png": 0.89
+  },
+  "validation_blend": "projects/characters/kiko/blends/review/KIKO_stage5_validation.blend",
+  "topology_table": "projects/characters/kiko/reports/KIKO_STAGE5_FINAL_VISUAL_AUDIT.md",
+  "stage5_pass": false,
+  "gate_result": "FAIL",
+  "scores": {
+    "face_likeness": 20,
+    "eyes_and_expression": 20,
+    "ear_silhouette": 58,
+    "crest_silhouette": 20,
+    "tail_silhouette": 35,
+    "body_proportions": 35,
+    "outfit_identity": 60,
+    "overall_kiko_identity": 28
+  },
+  "automatic_failures": [
+    "plastic/rubber mascot appearance remains in the neutral studio render",
+    "face reads as a generic mouse-like mascot rather than the reference KIKO",
+    "large smooth oval cream muzzle remains detached-looking",
+    "eyes read as protruding white eye forms with no meaningful eyelid volume",
+    "crest reads as separate hard spike/lock forms",
+    "tail has a broad striped shape but lacks a fluffy plume silhouette",
+    "overall silhouette is generic and does not pass the KIKO identity gate"
+  ],
+  "blockers": [
+    "Visual likeness thresholds fail for face, eyes, ears, crest, tail, body, outfit, and overall identity.",
+    "Automatic visual failures are present; Stage 5 does not pass.",
+    "The main body has dense triangulated geometry with no deformation loops around face or joints.",
+    "The muzzle and tail are open-shell meshes; 36 imported meshes have boundary edges.",
+    "No armature, skin weights, or animation data are present.",
+    "Stage 7 rig transfer is not safe to begin until the visual source is replaced and topology is prepared."
+  ],
+  "world_scale": "1 GLB unit imported as 1 Blender meter",
+  "curve_count": 0,
+  "image_texture_count": 13,
+  "candidate_bytes": 6766944,
+  "candidate_sha256": "a743f531bf234125d75b0168b425787cbbd13f331cbd8fb5ad60d233405776ce",
+  "material_texture_summary": {
+    "missing_or_broken_images": 0,
+    "unsupported_nodes": 0,
+    "transparency_materials": 0,
+    "low_roughness_materials": [
+      {
+        "material": "Eye | amber iris",
+        "roughness": 0.3
+      },
+      {
+        "material": "Eye | deep warm pupil",
+        "roughness": 0.2
+      },
+      {
+        "material": "Eye | honey iris center",
+        "roughness": 0.31
+      },
+      {
+        "material": "Eye | soft catchlight",
+        "roughness": 0.16
+      },
+      {
+        "material": "Eye | warm ivory",
+        "roughness": 0.27
+      },
+      {
+        "material": "Hardware | aged brass",
+        "roughness": 0.33
+      }
+    ],
+    "texture_dimensions": [
+      [
+        256,
+        256
+      ]
+    ],
+    "base_color_image_colorspaces": [
+      "sRGB"
+    ],
+    "assessment": "All 13 embedded 256x256 images decoded; no broken dependencies or unsupported shader nodes. All are sRGB base-color images. No transparency problems found. Six low-roughness materials include eye and brass materials; eye whites/pupils and catchlights appear overly glossy under neutral review lighting. Fur surfaces still read smooth; no roughness or normal maps are present."
+  },
+  "topology_status": "Main fused body/head/ear mesh is closed/manifold (40,908 vertices, 81,812 triangles) with no zero-area faces or zero-length normals, but it is densely triangulated and lacks organized deformation loops around eyes, mouth, shoulders, elbows, wrists, hips, knees, ankles, or tail base. The cream muzzle shell has 1,010 boundary edges; the dominant plume tail has 432. 36 of 125 meshes have boundary edges; no duplicate faces or zero-area faces were detected. Coincident-vertex flags occur on swept/open-shell parts and need artist review.",
+  "performance_status": "Estimated practical for inspection and animation previews on a 16 GB M2 Pro: 287,012 triangles and 13 small 256x256 textures are modest; Blender GLB import took 0.658s and the ten Eevee renders took 10.9s total. Interactive viewport responsiveness and peak memory were not measured on the target Mac. Retopology is mandatory for the deforming body/face before production rigging; no decimation is recommended for performance alone. Rigid-parenting accessories is preferable after body retopology.",
+  "recommended_rig_strategy": "OPTION B before rig transfer: retopologize the deforming body and facial regions. Then use the OPTION C hybrid: weight body and flexible clothing; bone-parent rigid backpack hardware, compass, flask, buckles, and selected pouches. Stage 7 is NOT safe to begin while Stage 5 fails.",
+  "visual_reference_comparison": {
+    "method": "Manual side-by-side inspection of assets/hero/kiko.png and neutral Eevee review renders/contact sheet.",
+    "strongest_areas": [
+      "large ears with coral insets",
+      "teal/cream/coral palette",
+      "recognizable scarf, vest, harness, pouches, backpack",
+      "large curved striped tail mass"
+    ],
+    "weakest_areas": [
+      "round smooth head and giant oval muzzle",
+      "detached white eye forms and absent eyelid volume",
+      "no cheek fur silhouette",
+      "crest reads as hard spikes",
+      "body and limbs read smooth and toy-like",
+      "tail reads as a smooth banded paddle rather than layered plume fur",
+      "expression is static and generic"
+    ],
+    "black_silhouette_result": "Fails identity threshold: ears and tail mass are visible, but cheeks/crest/body lack enough distinctive organic breakup and the A-pose reads like a generic mascot."
+  },
+  "review_resolution": {
+    "long_side_px": 1200,
+    "contact_sheet": "projects/characters/kiko/review/stage5_candidate/contact_sheet.png"
+  },
+  "stage6_started": false,
+  "stage7_started": false,
+  "source_candidate_modified": false,
+  "render_dimensions": {
+    "projects/characters/kiko/review/stage5_candidate/01_front.png": [
+      1200,
+      1200
+    ],
+    "projects/characters/kiko/review/stage5_candidate/02_three_quarter.png": [
+      1200,
+      1200
+    ],
+    "projects/characters/kiko/review/stage5_candidate/03_side.png": [
+      1200,
+      1200
+    ],
+    "projects/characters/kiko/review/stage5_candidate/04_back.png": [
+      1200,
+      1200
+    ],
+    "projects/characters/kiko/review/stage5_candidate/05_face_closeup.png": [
+      1200,
+      1200
+    ],
+    "projects/characters/kiko/review/stage5_candidate/06_head_profile.png": [
+      1200,
+      1200
+    ],
+    "projects/characters/kiko/review/stage5_candidate/07_tail_profile.png": [
+      1200,
+      1200
+    ],
+    "projects/characters/kiko/review/stage5_candidate/08_outfit_detail.png": [
+      1200,
+      1200
+    ],
+    "projects/characters/kiko/review/stage5_candidate/09_black_silhouette_front.png": [
+      1200,
+      1200
+    ],
+    "projects/characters/kiko/review/stage5_candidate/10_black_silhouette_three_quarter.png": [
+      1200,
+      1200
+    ]
+  },
+  "contact_sheet": "projects/characters/kiko/review/stage5_candidate/contact_sheet.png",
+  "contact_sheet_dimensions": [
+    1281,
+    1056
+  ]
+}

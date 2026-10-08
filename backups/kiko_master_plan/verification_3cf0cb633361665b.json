@@ -1,0 +1,112 @@
+{
+  "status": "AWAITING_VISUAL_REVIEW",
+  "pass": false,
+  "source_sha256": "b4de672eb442790fadfcd769c057ccb344df248e1fbd22efc815556a58fe6015",
+  "duration": 8,
+  "fps": 24,
+  "frame_count": 192,
+  "resolution": [
+    854,
+    480
+  ],
+  "visual_review": "PENDING",
+  "checks": {
+    "feet_above_floor": {
+      "min_sole_z": 0.0029324665665626526,
+      "pass": true
+    },
+    "planted_feet": {
+      "max_half_frame_vertex_motion": 5.5019304656557824e-05,
+      "pass": true
+    },
+    "ik_reach": {
+      "max_error": 6.90258282441262e-05,
+      "pass": true
+    },
+    "raised_hand": {
+      "maximum_height": 1.809336543083191,
+      "pass": true
+    }
+  },
+  "sequence": [
+    {
+      "frame": 1,
+      "pose": "neutral"
+    },
+    {
+      "frame": 24,
+      "pose": "neutral"
+    },
+    {
+      "frame": 36,
+      "pose": "curious"
+    },
+    {
+      "frame": 48,
+      "pose": "curious"
+    },
+    {
+      "frame": 60,
+      "pose": "wave"
+    },
+    {
+      "frame": 72,
+      "pose": "wave"
+    },
+    {
+      "frame": 84,
+      "pose": "point"
+    },
+    {
+      "frame": 96,
+      "pose": "point"
+    },
+    {
+      "frame": 108,
+      "pose": "surprised"
+    },
+    {
+      "frame": 120,
+      "pose": "surprised"
+    },
+    {
+      "frame": 132,
+      "pose": "scared"
+    },
+    {
+      "frame": 144,
+      "pose": "scared"
+    },
+    {
+      "frame": 156,
+      "pose": "confident"
+    },
+    {
+      "frame": 168,
+      "pose": "confident"
+    },
+    {
+      "frame": 180,
+      "pose": "happy"
+    },
+    {
+      "frame": 192,
+      "pose": "happy"
+    }
+  ],
+  "preview_path": "output/kiko_acting_test_8s/preview.mp4",
+  "contact_sheet_path": "output/kiko_acting_test_8s/contact_sheet.jpg",
+  "blend_path": "KIKO_acting_test_8s.blend",
+  "sampling": "All 192 frames plus half frames for evaluated feet/IK; sampled visual review required for body/face/tail.",
+  "video": {
+    "codec_name": "h264",
+    "width": 854,
+    "height": 480,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "24/1",
+    "duration": "8.000000",
+    "nb_read_frames": "192"
+  },
+  "video_pass": true,
+  "source_unchanged": true
+}

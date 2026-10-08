@@ -1,0 +1,72 @@
+{
+  "scene": {
+    "duration_sec": 5,
+    "fps": 24,
+    "resolution": [854, 480],
+    "samples": 32,
+    "engine": "EEVEE"
+  },
+
+  "environment": {
+    "ground": true,
+    "background": "neutral"
+  },
+
+  "camera": {
+    "type": "tracking",
+    "target": "kiko",
+    "angle": "side",
+    "distance": 8.8,
+    "height": 1.7
+  },
+
+  "characters": [
+    {
+      "id": "kiko",
+      "model": "KIKO_master_v1_1.blend",
+      "armature": "KIKO_RIG_armature",
+      "position": [0, 0, 0],
+      "facing": "east",
+
+      "action": {
+        "type": "run",
+        "loop_frames": 28,
+        "stride_length": 1.2,
+        "root_speed": 1.0285714285714287,
+        "pelvis_bounce": 0.085,
+        "forward_lean_deg": 10,
+        "squash_stretch": 0.04
+      },
+
+      "secondary": {
+        "ears": {
+          "bones": [
+            "ear_01",
+            "ear_02",
+            "ear_03"
+          ],
+          "delay_frames": 3,
+          "bounce": 0.16
+        },
+
+        "tail": {
+          "bones": [
+            "tail_01..tail_06"
+          ],
+          "delay_frames": 5,
+          "follow_through": 0.26
+        }
+      },
+
+      "face": {
+        "expression": "neutral",
+        "blink": true
+      }
+    }
+  ],
+
+  "output": {
+    "mp4_path": "output/kiko_run_test_5sq.mp4",
+    "save_blend": true
+  }
+}
