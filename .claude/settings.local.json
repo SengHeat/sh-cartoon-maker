@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(blender --version)",
+      "Bash(blender --background --python scripts/stage5_inspect_glb.py)",
+      "Bash(blender --background --python scripts/stage5_v3_refine.py)",
+      "Bash(blender --background --python scripts/stage5_v3_export.py)",
+      "Bash(blender --background --python scripts/stage5_v3_render_review.py)",
+      "Bash(blender --background --python scripts/stage5_v3_iter2.py)",
+      "Bash(blender --background --python scripts/stage5_v3_1_subtle.py)",
+      "Bash(ls:*)",
+      "Bash(blender --background --python /Users/macbook/Automation-Workplace/cartoon-maker/scripts/kiko_visual_review_40s.py)",
+      "Bash(grep -E \"\\\\.py$|^d\")",
+      "Bash(wc:*)"
+    ]
+  }
+}

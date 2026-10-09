@@ -1,0 +1,2093 @@
+{
+  "source": "/Users/macbook/Automation-Workplace/cartoon-maker/assets/characters/kiko_final/source/KIKO_source_v2.glb",
+  "objects": [
+    {
+      "name": "KIKO | amber iris L",
+      "type": "MESH",
+      "vertices": 1490,
+      "faces": 2976,
+      "edges": 4464,
+      "materials": [
+        "Eye | amber iris"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | amber iris R",
+      "type": "MESH",
+      "vertices": 1490,
+      "faces": 2976,
+      "edges": 4464,
+      "materials": [
+        "Eye | amber iris"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | backpack front pocket",
+      "type": "MESH",
+      "vertices": 1082,
+      "faces": 2160,
+      "edges": 3240,
+      "materials": [
+        "Leather | worn saddle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | backpack left strap",
+      "type": "MESH",
+      "vertices": 735,
+      "faces": 1344,
+      "edges": 2078,
+      "materials": [
+        "Leather | worn saddle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | backpack pocket seam",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Thread | flax"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | backpack right strap",
+      "type": "MESH",
+      "vertices": 735,
+      "faces": 1344,
+      "edges": 2078,
+      "materials": [
+        "Leather | worn saddle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | belt flax stitching",
+      "type": "MESH",
+      "vertices": 4815,
+      "faces": 8960,
+      "edges": 13774,
+      "materials": [
+        "Thread | flax"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | belt pouch body L",
+      "type": "MESH",
+      "vertices": 830,
+      "faces": 1656,
+      "edges": 2484,
+      "materials": [
+        "Leather | worn saddle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | belt pouch body R",
+      "type": "MESH",
+      "vertices": 830,
+      "faces": 1656,
+      "edges": 2484,
+      "materials": [
+        "Leather | worn saddle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | belt pouch flap L",
+      "type": "MESH",
+      "vertices": 610,
+      "faces": 1216,
+      "edges": 1824,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | belt pouch flap R",
+      "type": "MESH",
+      "vertices": 610,
+      "faces": 1216,
+      "edges": 1824,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | brass belt buckle",
+      "type": "MESH",
+      "vertices": 610,
+      "faces": 1216,
+      "edges": 1824,
+      "materials": [
+        "Hardware | aged brass"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | brass compass on harness",
+      "type": "MESH",
+      "vertices": 610,
+      "faces": 1216,
+      "edges": 1824,
+      "materials": [
+        "Hardware | aged brass"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | broad foot L",
+      "type": "MESH",
+      "vertices": 1394,
+      "faces": 2784,
+      "edges": 4176,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | broad foot R",
+      "type": "MESH",
+      "vertices": 1394,
+      "faces": 2784,
+      "edges": 4176,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | buckle inset",
+      "type": "MESH",
+      "vertices": 362,
+      "faces": 720,
+      "edges": 1080,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | calf wrap L 1",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | calf wrap L 2",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Cloth | faded olive panels"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | calf wrap L 3",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | calf wrap R 1",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | calf wrap R 2",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Cloth | faded olive panels"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | calf wrap R 3",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek freckle L 1",
+      "type": "MESH",
+      "vertices": 178,
+      "faces": 352,
+      "edges": 528,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek freckle L 2",
+      "type": "MESH",
+      "vertices": 178,
+      "faces": 352,
+      "edges": 528,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek freckle L 3",
+      "type": "MESH",
+      "vertices": 178,
+      "faces": 352,
+      "edges": 528,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek freckle R 1",
+      "type": "MESH",
+      "vertices": 178,
+      "faces": 352,
+      "edges": 528,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek freckle R 2",
+      "type": "MESH",
+      "vertices": 178,
+      "faces": 352,
+      "edges": 528,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek freckle R 3",
+      "type": "MESH",
+      "vertices": 178,
+      "faces": 352,
+      "edges": 528,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek tuft L 1",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek tuft L 2",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek tuft L 3",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek tuft R 1",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek tuft R 2",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cheek tuft R 3",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | chest harness brass clasp",
+      "type": "MESH",
+      "vertices": 610,
+      "faces": 1216,
+      "edges": 1824,
+      "materials": [
+        "Hardware | aged brass"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | compass leather loop",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | continuous sculpted body, head and ears",
+      "type": "MESH",
+      "vertices": 40908,
+      "faces": 81812,
+      "edges": 122718,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cream chest bib",
+      "type": "MESH",
+      "vertices": 6161,
+      "faces": 11632,
+      "edges": 17855,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | cross chest strap",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Leather | worn saddle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | dominant curved plume tail",
+      "type": "MESH",
+      "vertices": 2270,
+      "faces": 4104,
+      "edges": 6372,
+      "materials": [
+        "Fur | soft teal highlights",
+        "Fur | warm integrated cream",
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | emblem stitched mark",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Thread | flax"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | expressive brow L",
+      "type": "MESH",
+      "vertices": 735,
+      "faces": 1344,
+      "edges": 2078,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | expressive brow R",
+      "type": "MESH",
+      "vertices": 735,
+      "faces": 1344,
+      "edges": 2078,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | expressive thumb L",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | expressive thumb R",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | eye glint large L",
+      "type": "MESH",
+      "vertices": 410,
+      "faces": 816,
+      "edges": 1224,
+      "materials": [
+        "Eye | soft catchlight"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | eye glint large R",
+      "type": "MESH",
+      "vertices": 410,
+      "faces": 816,
+      "edges": 1224,
+      "materials": [
+        "Eye | soft catchlight"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | eye glint small L",
+      "type": "MESH",
+      "vertices": 262,
+      "faces": 520,
+      "edges": 780,
+      "materials": [
+        "Eye | soft catchlight"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | eye glint small R",
+      "type": "MESH",
+      "vertices": 262,
+      "faces": 520,
+      "edges": 780,
+      "materials": [
+        "Eye | soft catchlight"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | eye sclera L",
+      "type": "MESH",
+      "vertices": 2498,
+      "faces": 4992,
+      "edges": 7488,
+      "materials": [
+        "Eye | warm ivory"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | eye sclera R",
+      "type": "MESH",
+      "vertices": 2498,
+      "faces": 4992,
+      "edges": 7488,
+      "materials": [
+        "Eye | warm ivory"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | flask neck",
+      "type": "MESH",
+      "vertices": 255,
+      "faces": 448,
+      "edges": 702,
+      "materials": [
+        "Hardware | aged brass"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | forearm wrap L 1",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | forearm wrap L 2",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Cloth | faded olive panels"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | forearm wrap L 3",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | forearm wrap R 1",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | forearm wrap R 2",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Cloth | faded olive panels"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | forearm wrap R 3",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | honey iris inner L",
+      "type": "MESH",
+      "vertices": 1082,
+      "faces": 2160,
+      "edges": 3240,
+      "materials": [
+        "Eye | honey iris center"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | honey iris inner R",
+      "type": "MESH",
+      "vertices": 1082,
+      "faces": 2160,
+      "edges": 3240,
+      "materials": [
+        "Eye | honey iris center"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | integrated cream cheeks and muzzle",
+      "type": "MESH",
+      "vertices": 9289,
+      "faces": 17840,
+      "edges": 27241,
+      "materials": [
+        "Fur | pale muzzle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | large adventurer palm L",
+      "type": "MESH",
+      "vertices": 1082,
+      "faces": 2160,
+      "edges": 3240,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | large adventurer palm R",
+      "type": "MESH",
+      "vertices": 1082,
+      "faces": 2160,
+      "edges": 3240,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | layered crest lock 01",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | layered crest lock 02",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | layered crest lock 03",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | layered crest lock 04",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | layered crest lock 05",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | layered crest lock 06",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | layered crest lock 07",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | layered crest lock 08",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | layered crest lock 09",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | layered crest lock 10",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Fur | deep shadow"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | left leather harness",
+      "type": "MESH",
+      "vertices": 735,
+      "faces": 1344,
+      "edges": 2078,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | lower eyelid L",
+      "type": "MESH",
+      "vertices": 2895,
+      "faces": 5376,
+      "edges": 8270,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | lower eyelid R",
+      "type": "MESH",
+      "vertices": 2895,
+      "faces": 5376,
+      "edges": 8270,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | lower lip",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | mouth smile line",
+      "type": "MESH",
+      "vertices": 975,
+      "faces": 1792,
+      "edges": 2766,
+      "materials": [
+        "Mouth | warm dark umber"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | padded explorer backpack",
+      "type": "MESH",
+      "vertices": 1490,
+      "faces": 2976,
+      "edges": 4464,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | palm fur tuft L 1",
+      "type": "MESH",
+      "vertices": 240,
+      "faces": 476,
+      "edges": 714,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | palm fur tuft L 2",
+      "type": "MESH",
+      "vertices": 240,
+      "faces": 476,
+      "edges": 714,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | palm fur tuft L 3",
+      "type": "MESH",
+      "vertices": 240,
+      "faces": 476,
+      "edges": 714,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | palm fur tuft R 1",
+      "type": "MESH",
+      "vertices": 240,
+      "faces": 476,
+      "edges": 714,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | palm fur tuft R 2",
+      "type": "MESH",
+      "vertices": 240,
+      "faces": 476,
+      "edges": 714,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | palm fur tuft R 3",
+      "type": "MESH",
+      "vertices": 240,
+      "faces": 476,
+      "edges": 714,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | pouch brass stud L",
+      "type": "MESH",
+      "vertices": 178,
+      "faces": 352,
+      "edges": 528,
+      "materials": [
+        "Hardware | aged brass"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | pouch brass stud R",
+      "type": "MESH",
+      "vertices": 178,
+      "faces": 352,
+      "edges": 528,
+      "materials": [
+        "Hardware | aged brass"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | pouch stitched seam L",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Thread | flax"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | pouch stitched seam R",
+      "type": "MESH",
+      "vertices": 495,
+      "faces": 896,
+      "edges": 1390,
+      "materials": [
+        "Thread | flax"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | pupil L",
+      "type": "MESH",
+      "vertices": 1082,
+      "faces": 2160,
+      "edges": 3240,
+      "materials": [
+        "Eye | deep warm pupil"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | pupil R",
+      "type": "MESH",
+      "vertices": 1082,
+      "faces": 2160,
+      "edges": 3240,
+      "materials": [
+        "Eye | deep warm pupil"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | recessed coral inner ear L",
+      "type": "MESH",
+      "vertices": 6246,
+      "faces": 10736,
+      "edges": 17288,
+      "materials": [
+        "Ear | warm coral velvet"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | recessed coral inner ear R",
+      "type": "MESH",
+      "vertices": 6207,
+      "faces": 10736,
+      "edges": 17234,
+      "materials": [
+        "Ear | warm coral velvet"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | relaxed finger L 1",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | relaxed finger L 2",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | relaxed finger L 3",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | relaxed finger L 4",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | relaxed finger R 1",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | relaxed finger R 2",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | relaxed finger R 3",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | relaxed finger R 4",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | right leather harness",
+      "type": "MESH",
+      "vertices": 735,
+      "faces": 1344,
+      "edges": 2078,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | rolled bedroll",
+      "type": "MESH",
+      "vertices": 602,
+      "faces": 1200,
+      "edges": 1800,
+      "materials": [
+        "Cloth | faded olive panels"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | scarf tail flowing left",
+      "type": "MESH",
+      "vertices": 502,
+      "faces": 1000,
+      "edges": 1500,
+      "materials": [
+        "Cloth | persimmon scarf"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | scarf tail flowing right",
+      "type": "MESH",
+      "vertices": 502,
+      "faces": 1000,
+      "edges": 1500,
+      "materials": [
+        "Cloth | scarf highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | small travel flask",
+      "type": "MESH",
+      "vertices": 738,
+      "faces": 1472,
+      "edges": 2208,
+      "materials": [
+        "Leather | worn saddle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | soft nose",
+      "type": "MESH",
+      "vertices": 1082,
+      "faces": 2160,
+      "edges": 3240,
+      "materials": [
+        "Nose | rosewood"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | stitched explorer emblem",
+      "type": "MESH",
+      "vertices": 478,
+      "faces": 952,
+      "edges": 1428,
+      "materials": [
+        "Leather | worn saddle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 01",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 02",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 03",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 04",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 05",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 06",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 07",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 08",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 09",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 10",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | warm integrated cream"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 11",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 12",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | deep teal blue-gray"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tail plume lock 13",
+      "type": "MESH",
+      "vertices": 274,
+      "faces": 544,
+      "edges": 816,
+      "materials": [
+        "Fur | burnt apricot"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | tailored explorer vest",
+      "type": "MESH",
+      "vertices": 10752,
+      "faces": 5312,
+      "edges": 13344,
+      "materials": [
+        "Cloth | worn jungle teal"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | toe L 1",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | pale muzzle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | toe L 2",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | pale muzzle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | toe L 3",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | pale muzzle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | toe R 1",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | pale muzzle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | toe R 2",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | pale muzzle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | toe R 3",
+      "type": "MESH",
+      "vertices": 308,
+      "faces": 612,
+      "edges": 918,
+      "materials": [
+        "Fur | pale muzzle"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | upper eyelid L",
+      "type": "MESH",
+      "vertices": 2895,
+      "faces": 5376,
+      "edges": 8270,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | upper eyelid R",
+      "type": "MESH",
+      "vertices": 2895,
+      "faces": 5376,
+      "edges": 8270,
+      "materials": [
+        "Fur | soft teal highlights"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | vest front panel L",
+      "type": "MESH",
+      "vertices": 662,
+      "faces": 1320,
+      "edges": 1980,
+      "materials": [
+        "Cloth | faded olive panels"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | vest front panel R",
+      "type": "MESH",
+      "vertices": 662,
+      "faces": 1320,
+      "edges": 1980,
+      "materials": [
+        "Cloth | faded olive panels"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | vest stitched edge L",
+      "type": "MESH",
+      "vertices": 975,
+      "faces": 1792,
+      "edges": 2766,
+      "materials": [
+        "Thread | flax"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | vest stitched edge R",
+      "type": "MESH",
+      "vertices": 975,
+      "faces": 1792,
+      "edges": 2766,
+      "materials": [
+        "Thread | flax"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | worn leather utility belt",
+      "type": "MESH",
+      "vertices": 3855,
+      "faces": 7168,
+      "edges": 11022,
+      "materials": [
+        "Leather | dark walnut"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "KIKO | wrapped orange red scarf",
+      "type": "MESH",
+      "vertices": 2451,
+      "faces": 4608,
+      "edges": 7058,
+      "materials": [
+        "Cloth | persimmon scarf"
+      ],
+      "shape_keys": [],
+      "uv_maps": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    }
+  ],
+  "total_vertices": 172223,
+  "total_faces": 316340,
+  "total_materials": 22,
+  "bounding_box": {
+    "min": [
+      -1.9414,
+      -0.6513,
+      0.005
+    ],
+    "max": [
+      1.6993,
+      0.8091,
+      3.4614
+    ],
+    "size": [
+      3.6407,
+      1.4604,
+      3.4564
+    ]
+  },
+  "armatures": [],
+  "empties": [],
+  "material_names": [
+    "Cloth | faded olive panels",
+    "Cloth | persimmon scarf",
+    "Cloth | scarf highlights",
+    "Cloth | worn jungle teal",
+    "Ear | warm coral velvet",
+    "Eye | amber iris",
+    "Eye | deep warm pupil",
+    "Eye | honey iris center",
+    "Eye | soft catchlight",
+    "Eye | warm ivory",
+    "Fur | burnt apricot",
+    "Fur | deep shadow",
+    "Fur | deep teal blue-gray",
+    "Fur | pale muzzle",
+    "Fur | soft teal highlights",
+    "Fur | warm integrated cream",
+    "Hardware | aged brass",
+    "Leather | dark walnut",
+    "Leather | worn saddle",
+    "Mouth | warm dark umber",
+    "Nose | rosewood",
+    "Thread | flax"
+  ]
+}

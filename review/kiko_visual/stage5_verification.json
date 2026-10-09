@@ -1,0 +1,155 @@
+{
+  "stage": 5,
+  "title": "KIKO V2 Visual Candidate — Stage 5 Gate Assessment",
+  "date": "2026-10-08",
+  "candidate": "assets/characters/kiko_final/source/KIKO_source_v2.glb",
+  "references": [
+    "assets/hero/kiko.png",
+    "assets/hero/kiko_4view_turnaround_v001.png"
+  ],
+  "render_views": [
+    "review/kiko_visual/front.png",
+    "review/kiko_visual/three_quarter.png",
+    "review/kiko_visual/side.png",
+    "review/kiko_visual/back.png",
+    "review/kiko_visual/face_closeup.png"
+  ],
+  "mesh_stats": {
+    "objects": 136,
+    "total_vertices": 172223,
+    "total_faces": 316340,
+    "materials": 22,
+    "armatures": 0,
+    "shape_keys": 0,
+    "height_units": 3.456,
+    "bounding_box_size": [3.641, 1.460, 3.456]
+  },
+  "glb_import_issues": {
+    "materials_with_lost_base_color": [
+      "Fur | deep teal blue-gray",
+      "Fur | soft teal highlights",
+      "Fur | warm integrated cream",
+      "Fur | pale muzzle",
+      "Fur | burnt apricot",
+      "Fur | deep shadow",
+      "Ear | warm coral velvet",
+      "Cloth | worn jungle teal",
+      "Cloth | faded olive panels",
+      "Cloth | persimmon scarf",
+      "Cloth | scarf highlights",
+      "Leather | dark walnut",
+      "Leather | worn saddle"
+    ],
+    "materials_with_correct_color": [
+      "Eye | amber iris",
+      "Eye | deep warm pupil",
+      "Eye | honey iris center",
+      "Eye | soft catchlight",
+      "Eye | warm ivory",
+      "Hardware | aged brass",
+      "Mouth | warm dark umber",
+      "Nose | rosewood",
+      "Thread | flax"
+    ],
+    "note": "13 of 22 materials imported with BaseColor=(1,1,1). Approximated colors were applied from material names and concept reference for this validation render."
+  },
+  "scores": {
+    "face_likeness": {
+      "score": 78,
+      "threshold": 80,
+      "pass": false,
+      "notes": "Face SHAPE is good: round head, correct eye placement, muzzle proportions, nose position, smile line. But the smooth surface removes the organic warmth that defines KIKO's face in the concept. Reference face has rich fluffy fur texture that gives character. Candidate reads as a smooth mask."
+    },
+    "eyes_expression": {
+      "score": 84,
+      "threshold": 80,
+      "pass": true,
+      "notes": "Best feature. Large amber irises with honey center ring, warm ivory sclera, dual catchlight glints (large+small per eye), upper and lower eyelids, expressive brows. Size, placement, and color match the reference well. Eye materials were among the few correctly imported."
+    },
+    "cheek_fur_silhouette": {
+      "score": 68,
+      "threshold": 80,
+      "pass": false,
+      "notes": "Largest single gap. Reference KIKO has dramatically fluffy, wide-puffing cream cheeks — one of the character's most distinctive identity features. Candidate has 6 small smooth cheek tufts (3 per side) that barely read as fur. The cheek silhouette is much narrower and lacks the plush, puffy volume of the concept."
+    },
+    "ears": {
+      "score": 83,
+      "threshold": 80,
+      "pass": true,
+      "notes": "Good broad shape, correct pointed tips, proper angle relative to head. Coral velvet interiors are well-modeled (6.2K verts each) with good depth. Size relative to head matches reference. Minor gap: reference ears have subtle fur texture on outer edges and slightly more organic fold."
+    },
+    "crest": {
+      "score": 76,
+      "threshold": 80,
+      "pass": false,
+      "notes": "10 layered locks with teal/apricot/shadow color variation and messy asymmetric arrangement — structurally correct. But individual locks read as smooth solid blades rather than the wispy, hair-like, dramatically messy tufts in the reference. The crest silhouette is decent but lacks the wild organic energy."
+    },
+    "tail_plume": {
+      "score": 78,
+      "threshold": 80,
+      "pass": false,
+      "notes": "Dominant curved plume with 13 additional locks. Teal/cream/apricot striping matches reference well. Good size relative to body. Curve is correct. But smooth surface vs. the dramatically fluffy, wispy reference tail with visible individual strand-like forms."
+    },
+    "body_proportions": {
+      "score": 83,
+      "threshold": 75,
+      "pass": true,
+      "notes": "Compact adventurer body with correct head-to-body ratio and short sturdy limbs. Silhouette matches the reference from all angles. One of the strongest aspects."
+    },
+    "outfit": {
+      "score": 84,
+      "threshold": 75,
+      "pass": true,
+      "notes": "Comprehensive and accurate: explorer vest with olive front panels, orange-red scarf with flowing tails, leather utility belt with brass buckle, belt pouches L/R with flaps/studs/seams, padded backpack with front pocket, cross-chest strap and harness with brass clasp, forearm wraps (3 layers each), calf wraps (3 layers each), rolled bedroll, travel flask, brass compass, stitched explorer emblem. Matches reference outfit inventory almost completely."
+    },
+    "paws": {
+      "score": 80,
+      "threshold": null,
+      "pass": null,
+      "notes": "Broad feet with 3 toes each, individual fingers (4+thumb per hand), palm fur tufts. Properly modeled and proportioned."
+    },
+    "overall_kiko_identity": {
+      "score": 77,
+      "threshold": 80,
+      "pass": false,
+      "notes": "The character IS recognizable as KIKO at first glance — silhouette, color scheme, key features (large eyes, broad ears, crest, tail, explorer outfit) all read correctly. However, the smooth/plastic surface makes it look like a toy figurine version rather than the warm, furry, organic character in the concept. The plan explicitly states 'Do not interpret the target as smooth plastic or low-poly toy styling.'"
+    },
+    "plastic_rubber_appearance": {
+      "assessment": "FAIL",
+      "notes": "Every surface — fur, clothing, leather, ear interior — renders as smooth hard-surface. The reference KIKO has dramatically organic, fluffy, textured surfaces throughout. The candidate reads as a smooth plastic toy, which is the exact failure condition the plan warns against."
+    }
+  },
+  "gate_summary": {
+    "categories_passed": ["eyes_expression", "ears", "body_proportions", "outfit"],
+    "categories_failed": ["face_likeness", "cheek_fur_silhouette", "crest", "tail_plume", "overall_kiko_identity", "plastic_rubber_appearance"],
+    "stage_5_result": "FAIL",
+    "fail_count": 6,
+    "pass_count": 4
+  },
+  "strengths": [
+    "Excellent mesh topology: 172K verts, 136 well-named objects, production-grade detail",
+    "Comprehensive explorer outfit with all reference items accounted for",
+    "Correct body proportions and silhouette from all angles",
+    "Eye system is detailed and accurate (iris layers, catchlights, eyelids, brows)",
+    "Correct color palette when materials are properly assigned",
+    "Ears have good shape, size, and interior detail",
+    "22 descriptive material slots with logical naming",
+    "Individual fingers, toes, cheek tufts, freckles — high anatomical detail"
+  ],
+  "critical_failures": [
+    "Cheek volume is dramatically too small — reference cheeks puff wide and define the face shape",
+    "All surfaces read as smooth plastic — no fur texture, no organic edges",
+    "Crest locks are smooth solid blades rather than wispy/hair-like",
+    "Tail plume locks are smooth rather than fluffy",
+    "13 of 22 materials lost base colors during GLB export/import",
+    "No shape keys present (will need to be created for facial animation)"
+  ],
+  "recommended_actions": [
+    "CRITICAL: Rebuild cheek volume — add larger, fluffier cheek fur geometry to match concept proportions",
+    "Add sculpted fur breakup to body/head silhouette edges (can be mesh-based without Hair Curves)",
+    "Make crest locks more wispy/tapered — less blade-like, more hair-like",
+    "Add more volume/fluffiness to tail plume locks",
+    "Fix GLB material export to preserve base colors (or store corrected materials in a sidecar)",
+    "These changes are primarily geometry/silhouette fixes — NOT Stage 6 fur/material treatment"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "source": "assets/characters/kiko_final/source/KIKO_source_v3_1.glb",
+  "source_sha256": "91cc2c15d9e69727a76f59ba3e16834d36985f4d874427f8d7bca1e1bd707f76",
+  "revision": 0,
+  "visual_gate": "PENDING_MANUAL_REVIEW",
+  "blender_version": "5.2.2 LTS",
+  "mesh_objects": 145,
+  "vertices": 177559,
+  "removed_objects": [],
+  "protected_hashes": {
+    "assets/characters/kiko_final/source/KIKO_source_v3_1.glb": "91cc2c15d9e69727a76f59ba3e16834d36985f4d874427f8d7bca1e1bd707f76",
+    "KIKO_master_v1_1.blend": "febf2d3f6a8c282c5ff9b151f21718a14bb4286af678e890fb96becd4fbb5195",
+    "KIKO_master_v2.blend": "2fab309d007e806ea9a8241367996c1de2659d026e57cb5cacfc6d5eab78c08a",
+    "KIKO_run_test_5s.blend": "bbe8203d3bc83669205345bb4973e07632c14412335603f3dea8345d5b509b50",
+    "KIKO_acting_test_8s.blend": "35a72339fadd09abbeab0e64423e1766dd60f9a8c95ef142b2b31a7a8630ce4a"
+  },
+  "protected_assets_unchanged": true,
+  "cameras": {
+    "front": {
+      "location": [
+        -0.12104606628417969,
+        -11.921126365661621,
+        1.7332171201705933
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.150424957275391,
+      "angle": 0,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "three_quarter": {
+      "location": [
+        6.788522720336914,
+        -9.679915428161621,
+        2.7475247383117676
+      ],
+      "rotation_euler": [
+        1.483529806137085,
+        5.333372499194411e-08,
+        0.6108651161193848
+      ],
+      "ortho_scale": 4.026177883148193,
+      "angle": 35,
+      "elevation": 5,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "side": {
+      "location": [
+        11.87895393371582,
+        0.07887384295463562,
+        1.7332171201705933
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 3.9403350353240967,
+      "angle": 90,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "face_closeup": {
+      "location": [
+        1.7080633640289307,
+        -12.17821979522705,
+        2.163444757461548
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -1.1135555588737134e-08,
+        0.1396263837814331
+      ],
+      "ortho_scale": 1.6061371564865112,
+      "angle": 8,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "black_silhouette": {
+      "location": [
+        -0.12104606628417969,
+        -11.921126365661621,
+        1.7332171201705933
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.150424957275391,
+      "angle": 0,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    }
+  },
+  "artifacts": {
+    "black_silhouette.png": {
+      "bytes": 305505,
+      "sha256": "be22e81d994883407d510df9823a8cf1ba9e4ce7845243618bf9569b2e7bc6dd"
+    },
+    "face_closeup.png": {
+      "bytes": 740841,
+      "sha256": "fdd70dae8f35287a4e9fbb0d6352b36684e3d7ab580586230ef4fdbe43644f50"
+    },
+    "side.png": {
+      "bytes": 468845,
+      "sha256": "e1df030d6218a2513e267b16566aad2231ac717b870daf6fc6b54e47abae4283"
+    },
+    "KIKO_candidate.glb": {
+      "bytes": 7011792,
+      "sha256": "69e070bbed8b6d0405851cb9063611a5e71e8d1573b82c304fd6d9473633e798"
+    },
+    "three_quarter.png": {
+      "bytes": 609767,
+      "sha256": "73ace407a6a48abc38a243043e2111f37feb391010bdd5f242a4d5938808693c"
+    },
+    "KIKO_candidate.blend": {
+      "bytes": 7857914,
+      "sha256": "0afded101c821efbe97ca5cafe08658dbe43e4f38fcbd6dd82220bad359b561e"
+    },
+    "front.png": {
+      "bytes": 595424,
+      "sha256": "481f5e6c20a3e3fe098c373959901fd0b94b55b879a602e2b4d78f7d78002ddd"
+    }
+  }
+}

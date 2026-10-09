@@ -1,0 +1,41 @@
+{
+  "stage": 5,
+  "candidate": "projects/characters/kiko/review/stage5_v4_03/KIKO_candidate.blend",
+  "visual_gate": "FAIL",
+  "export_preservation_gate": "PASS",
+  "downstream_stages": "BLOCKED",
+  "source": "assets/characters/kiko_final/source/KIKO_source_v3_1.glb",
+  "source_sha256": "91cc2c15d9e69727a76f59ba3e16834d36985f4d874427f8d7bca1e1bd707f76",
+  "reviewed_views": [
+    "front",
+    "three_quarter",
+    "side",
+    "back",
+    "face_closeup",
+    "tail_profile",
+    "outfit_detail",
+    "black_silhouette"
+  ],
+  "reviewed_roundtrip_views": [
+    "roundtrip_front.png",
+    "roundtrip_face_closeup.png"
+  ],
+  "assessment": "Muzzle integration improved; eye sockets, crest, tail, paws and outfit still read as a toy and fail the reference target.",
+  "numeric_likeness_scores": null,
+  "archived_attempts": [
+    "projects/characters/kiko/review/archive/stage5_v4_01",
+    "projects/characters/kiko/review/archive/stage5_v4_02"
+  ],
+  "preserved_original_files_hash_checked": 146,
+  "next_safe_stage": "Stage 5: acquire a suitable sculpt/image-to-3D source and repeat the neutral review. No fur or rig transfer on this candidate.",
+  "review_report": "projects/characters/kiko/reports/KIKO_STAGE5_V4_CORRECTION_REVIEW.md",
+  "checks": {
+    "python_syntax": "PASS",
+    "review_page_local_links": "PASS",
+    "five_matched_cameras": "PASS",
+    "protected_sources": "PASS",
+    "candidate_artifact_hashes": "PASS"
+  },
+  "technical_report": "technical_verification.json",
+  "build_script_snapshot_sha256": "faa2b68c7ac3e6fdd4e0e150055678aedc163ae2e86906d7afff6049b58849fc"
+}

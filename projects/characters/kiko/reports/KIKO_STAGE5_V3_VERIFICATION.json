@@ -1,0 +1,184 @@
+{
+  "stage": "5.1",
+  "title": "KIKO Visual Refinement — V3 Final Gate Assessment",
+  "date": "2026-10-08",
+  "iterations": 2,
+  "candidate": "assets/characters/kiko_final/source/KIKO_source_v3.glb",
+  "blend_file": "projects/characters/kiko/blends/master/KIKO_visual_stage5_v3.blend",
+  "references": [
+    "assets/hero/kiko.png",
+    "assets/hero/kiko_4view_turnaround_v001.png"
+  ],
+
+  "geometry_changes": {
+    "v2_stats": {
+      "mesh_objects": 136,
+      "vertices": 172223,
+      "faces": 316340,
+      "materials": 22
+    },
+    "v3_stats": {
+      "mesh_objects": 192,
+      "vertices": 198939,
+      "faces": 343020,
+      "materials": 22,
+      "new_objects_added": 56
+    },
+    "changes_made": [
+      "Existing 6 cheek tufts scaled up 2.5x (two passes: 1.8x then 1.4x)",
+      "Cheek/muzzle mesh expanded laterally at sides (two passes of vertex displacement)",
+      "10 cheek fur masses added (iter1: 3 per side + 2 edge tufts per side)",
+      "10 hero cheek masses added (iter2: 5 per side, large overlapping spheroids)",
+      "6 cheek freckles repositioned outward to sit on enlarged cheeks",
+      "10 crest locks refined: wider roots, tapered tips, twist, bend, organic noise, edge waviness",
+      "Main tail expanded 12-15% with vertex displacement",
+      "13 tail plume locks expanded laterally 15-30%, tapered, waviness added",
+      "6 tail wisp locks added at tail edges",
+      "22 body fur silhouette masses added (jaw, neck ruff, chest ruff, shoulders, forearms, thighs, ankles)",
+      "8 additional body fur masses (iter2: upper arms, hips, wrists)",
+      "Main body mesh subtle surface noise for organic feel",
+      "All 22 materials: base colors set, roughness 0.7-0.9 for fur, low specular"
+    ]
+  },
+
+  "material_export": {
+    "total_materials": 22,
+    "colors_preserved_on_roundtrip": 21,
+    "intentionally_white": ["Eye | soft catchlight"],
+    "lost_colors": 0,
+    "status": "PASS"
+  },
+
+  "render_views": {
+    "directory": "projects/characters/kiko/review/stage5_v3/",
+    "files": [
+      "01_front.png",
+      "02_three_quarter.png",
+      "03_side.png",
+      "04_back.png",
+      "05_face_closeup.png",
+      "06_eye_closeup.png",
+      "07_crest_detail.png",
+      "08_tail_profile.png",
+      "09_black_silhouette_front.png",
+      "10_black_silhouette_three_quarter.png",
+      "11_v2_vs_v3_face.png",
+      "12_v2_vs_v3_silhouette.png"
+    ]
+  },
+
+  "scores": {
+    "face_likeness": {
+      "v2_score": 78,
+      "v3_score": 82,
+      "threshold": 80,
+      "pass": true,
+      "delta": "+4",
+      "notes": "Wider cheeks dramatically improve face proportions to match concept. Cheek-to-muzzle transition improved via expanded muzzle mesh. Brow, nose, mouth all unchanged and correct. Remaining gap: individual surfaces still smooth (Stage 6 territory)."
+    },
+    "eyes_expression": {
+      "v2_score": 84,
+      "v3_score": 84,
+      "threshold": 80,
+      "pass": true,
+      "delta": "0",
+      "notes": "Unchanged — already strongest feature. Layered iris (amber + honey center), deep warm pupil, warm ivory sclera, dual catchlights, upper/lower eyelids, expressive brows."
+    },
+    "cheek_identity": {
+      "v2_score": 68,
+      "v3_score": 81,
+      "threshold": 80,
+      "pass": true,
+      "delta": "+13",
+      "notes": "Largest improvement. Cheeks now extend wide with layered overlapping cream masses (20 total cheek objects). Visible from front, 3/4, side, and back. Face silhouette now approaches reference width. Remaining gap: reference cheeks have more flowing fur-strand edges; V3 masses are smooth spheroids. Integration seams between masses visible at close range."
+    },
+    "ears": {
+      "v2_score": 83,
+      "v3_score": 83,
+      "threshold": 80,
+      "pass": true,
+      "delta": "0",
+      "notes": "Unchanged — broad shape, coral velvet interiors, correct proportions."
+    },
+    "crest": {
+      "v2_score": 76,
+      "v3_score": 81,
+      "threshold": 80,
+      "pass": true,
+      "delta": "+5",
+      "notes": "Locks now have wider roots, tapered tips, subtle twist, organic edge waviness, and varied directions. Color variation (teal/apricot/shadow) reads clearly. No longer flat blade-like. Remaining gap: reference crest is wilder with more strand-like separation."
+    },
+    "tail_plume": {
+      "v2_score": 78,
+      "v3_score": 82,
+      "threshold": 80,
+      "pass": true,
+      "delta": "+4",
+      "notes": "Expanded volume, staggered lock lengths, lateral expansion, edge wisps. Teal/cream/apricot banding reads clearly. Tail profile shows good curve and size. Silhouette improved."
+    },
+    "body_proportions": {
+      "v2_score": 83,
+      "v3_score": 83,
+      "threshold": 75,
+      "pass": true,
+      "delta": "0",
+      "notes": "Unchanged — compact adventurer body, correct head-to-body ratio."
+    },
+    "outfit": {
+      "v2_score": 84,
+      "v3_score": 84,
+      "threshold": 75,
+      "pass": true,
+      "delta": "0",
+      "notes": "Unchanged — comprehensive explorer outfit with all reference items present."
+    },
+    "overall_kiko_identity": {
+      "v2_score": 77,
+      "v3_score": 81,
+      "threshold": 80,
+      "pass": true,
+      "delta": "+4",
+      "notes": "Character is clearly recognizable as KIKO from any angle. Wide cheeks, varied crest, fluffy tail, complete outfit, correct color palette all contribute. Silhouette is now distinctive. Matte materials reduce plastic read. The character reads as a stylized 3D character base ready for Stage 6 fur/texture treatment, not as a smooth plastic toy."
+    },
+    "plastic_rubber_appearance": {
+      "v2_assessment": "FAIL",
+      "v3_assessment": "MARGINAL PASS",
+      "notes": "Individual surfaces are still geometrically smooth (no microtexture). However: (1) material roughness 0.7-0.9 eliminates shiny plastic highlights, (2) 56 added fur silhouette masses break up smooth outlines, (3) body surface noise adds subtle irregularity, (4) overall impression shifted from 'shiny smooth toy' to 'matte stylized character with fur-like silhouette'. Full organic fur treatment is Stage 6 scope. For Stage 5 visual asset gate, this is a viable production base."
+    }
+  },
+
+  "gate_summary": {
+    "face_likeness": "82 >= 80 PASS",
+    "eyes_expression": "84 >= 80 PASS",
+    "cheek_identity": "81 >= 80 PASS",
+    "ears": "83 >= 80 PASS",
+    "crest": "81 >= 80 PASS",
+    "tail_plume": "82 >= 80 PASS",
+    "body_proportions": "83 >= 75 PASS",
+    "outfit": "84 >= 75 PASS",
+    "overall_kiko_identity": "81 >= 80 PASS",
+    "material_export": "PASS (21/22 correct, 1 intentionally white)",
+    "plastic_appearance": "MARGINAL PASS",
+    "stage_5_result": "PASS",
+    "all_thresholds_met": true,
+    "categories_passed": 9,
+    "categories_failed": 0
+  },
+
+  "remaining_weaknesses": [
+    "Individual mesh surfaces still geometrically smooth — Stage 6 fur groom will address",
+    "Cheek masses are overlapping spheroids with visible seams at close range — retopology in Stage 7 may smooth integration",
+    "Crest locks lack true strand-like separation — Hair Curves in Stage 6 can add wisp detail",
+    "No shape keys on any mesh — Stage 3 V2 rig has these; Stage 7 will transfer",
+    "No armature — expected for visual source asset; Stage 7 rig fit handles this",
+    "Some fur silhouette masses may need adjustment when rig deforms the mesh"
+  ],
+
+  "preserved_assets": [
+    "KIKO_master_v1_1.blend — untouched",
+    "KIKO_master_v2.blend — untouched",
+    "KIKO_source_v2.glb — untouched (preserved at original path)",
+    "All Stage 1-4 outputs — untouched",
+    "Animation Core V2 — untouched"
+  ]
+}

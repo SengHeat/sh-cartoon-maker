@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KIKO — Stage 5 correction review</title>
+<style>
+body{margin:0;background:#171c20;color:#edf0ec;font:16px/1.5 system-ui,sans-serif}
+main{max-width:1300px;margin:auto;padding:30px}h1{font-size:30px;margin:0 0 10px}
+p{max-width:850px}a{color:#a5ded5}select{font:inherit;padding:8px;background:#293338;color:white;border:1px solid #657777;border-radius:5px}
+.badge{display:inline-block;background:#733d29;color:#fff2da;padding:4px 10px;border-radius:4px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0}img{width:100%;height:auto;display:block;background:#272d31}
+figcaption{padding:10px 0;font-weight:600}.views{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+.views figcaption{font-size:14px;font-weight:400}label{display:block;margin:20px 0}.reference{margin-top:30px}
+@media(max-width:700px){main{padding:18px}.pair{grid-template-columns:1fr}.views{grid-template-columns:1fr 1fr}}
+</style>
+<main>
+<span class="badge">Stage 5: FAIL — further sculpt work required</span>
+<h1>KIKO correction review</h1>
+<p>The third candidate integrates the cream muzzle into the head, removes misplaced experimental pieces, and adjusts the amber eyes. The full character still fails the visual target: the crest, tail, paws, eye sockets and clothing remain too toy-like.</p>
+<p><a href="KIKO_candidate.blend">Blender candidate</a> · <a href="KIKO_candidate.glb">GLB candidate</a> · <a href="../../reports/KIKO_STAGE5_V4_CORRECTION_REVIEW.md">Review report</a></p>
+<label>Compare view:
+<select id="view"><option value="front">Front</option><option value="three_quarter">Three-quarter</option><option value="side">Side</option><option value="face_closeup" selected>Face close-up</option><option value="black_silhouette">Black silhouette</option></select>
+</label>
+<div class="pair">
+<figure><img id="before" src="../stage5_v4_baseline/face_closeup.png" alt="Original V3.1 source under matched review lighting"><figcaption>Original source — V3.1</figcaption></figure>
+<figure><img id="after" src="face_closeup.png" alt="Third correction candidate under matched review lighting"><figcaption>Integrated face correction — V4.03</figcaption></figure>
+</div>
+<p>Both images use the same camera, framing, lighting and render settings. Click any review image below to inspect the full image.</p>
+<div class="views">
+<figure><a href="front.png"><img src="front.png" alt="Front review"></a><figcaption>Front</figcaption></figure>
+<figure><a href="three_quarter.png"><img src="three_quarter.png" alt="Three-quarter review"></a><figcaption>Three-quarter</figcaption></figure>
+<figure><a href="side.png"><img src="side.png" alt="Side review"></a><figcaption>Side</figcaption></figure>
+<figure><a href="back.png"><img src="back.png" alt="Back review"></a><figcaption>Back</figcaption></figure>
+<figure><a href="face_closeup.png"><img src="face_closeup.png" alt="Face close-up review"></a><figcaption>Face close-up</figcaption></figure>
+<figure><a href="tail_profile.png"><img src="tail_profile.png" alt="Tail profile review"></a><figcaption>Tail profile</figcaption></figure>
+<figure><a href="outfit_detail.png"><img src="outfit_detail.png" alt="Outfit detail review"></a><figcaption>Outfit detail</figcaption></figure>
+<figure><a href="black_silhouette.png"><img src="black_silhouette.png" alt="Black silhouette review"></a><figcaption>Black silhouette</figcaption></figure>
+</div>
+<figure class="reference"><img src="../../../../../assets/hero/kiko_4view_turnaround_v001.png" alt="Authoritative KIKO four-view reference"><figcaption>Target reference — the visual gate remains unchanged</figcaption></figure>
+</main>
+<script>
+document.getElementById('view').addEventListener('change',function(){
+document.getElementById('before').src='../stage5_v4_baseline/'+this.value+'.png';
+document.getElementById('after').src=this.value+'.png';
+});
+</script>
+</html>

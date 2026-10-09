@@ -1,0 +1,140 @@
+{
+  "source": "assets/characters/kiko_final/source/KIKO_source_v3_1.glb",
+  "source_sha256": "91cc2c15d9e69727a76f59ba3e16834d36985f4d874427f8d7bca1e1bd707f76",
+  "revision": 1,
+  "visual_gate": "PENDING_MANUAL_REVIEW",
+  "blender_version": "5.2.2 LTS",
+  "mesh_objects": 136,
+  "vertices": 172698,
+  "removed_misplaced_experiments": [
+    "KIKO | cheek mass L lower",
+    "KIKO | cheek mass L upper",
+    "KIKO | cheek mass R lower",
+    "KIKO | cheek mass R upper",
+    "KIKO | tail plume form 01",
+    "KIKO | tail plume form 02",
+    "KIKO | tail plume form 03",
+    "KIKO | tail plume form 04",
+    "KIKO | tail plume form 05"
+  ],
+  "protected_hashes": {
+    "assets/characters/kiko_final/source/KIKO_source_v3_1.glb": "91cc2c15d9e69727a76f59ba3e16834d36985f4d874427f8d7bca1e1bd707f76",
+    "KIKO_master_v1_1.blend": "febf2d3f6a8c282c5ff9b151f21718a14bb4286af678e890fb96becd4fbb5195",
+    "KIKO_master_v2.blend": "2fab309d007e806ea9a8241367996c1de2659d026e57cb5cacfc6d5eab78c08a",
+    "KIKO_run_test_5s.blend": "bbe8203d3bc83669205345bb4973e07632c14412335603f3dea8345d5b509b50",
+    "KIKO_acting_test_8s.blend": "35a72339fadd09abbeab0e64423e1766dd60f9a8c95ef142b2b31a7a8630ce4a"
+  },
+  "protected_assets_unchanged": true,
+  "cameras": {
+    "front": {
+      "location": [
+        -0.2309775948524475,
+        -11.908626556396484,
+        1.6932170391082764
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 3.8997812271118164,
+      "angle": 0,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "three_quarter": {
+      "location": [
+        6.714646339416504,
+        -9.642648696899414,
+        2.7030351161956787
+      ],
+      "rotation_euler": [
+        1.483529806137085,
+        5.333372499194411e-08,
+        0.6108651161193848
+      ],
+      "ortho_scale": 3.9396140575408936,
+      "angle": 35,
+      "elevation": 5,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "side": {
+      "location": [
+        11.769021987915039,
+        0.09137383103370667,
+        1.693217158317566
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 3.849135160446167,
+      "angle": 90,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "face_closeup": {
+      "location": [
+        1.6876720190048218,
+        -12.248409271240234,
+        2.2300326824188232
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -1.1135555588737134e-08,
+        0.1396263837814331
+      ],
+      "ortho_scale": 1.7584203481674194,
+      "angle": 8,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "black_silhouette": {
+      "location": [
+        -0.2309775948524475,
+        -11.908626556396484,
+        1.6932170391082764
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 3.8997812271118164,
+      "angle": 0,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    }
+  },
+  "artifacts": {
+    "black_silhouette.png": {
+      "bytes": 302464,
+      "sha256": "0c9048abcd08a994721d01c7d591260bc7936e0d287d0cf27bc1232a9368a790"
+    },
+    "face_closeup.png": {
+      "bytes": 742188,
+      "sha256": "a80351a6ee1bccd4f4dc52c6a3c8988cc489113ba603614a2b1c3e4a5f874948"
+    },
+    "side.png": {
+      "bytes": 472165,
+      "sha256": "1b53e93c4025d0e9dfd542bc840ada4595dcd6334981736fd84cbd44f0e1a646"
+    },
+    "KIKO_candidate.glb": {
+      "bytes": 6846140,
+      "sha256": "c84e82b3080f7e0f8f5e776f1a7005678b6c584cd3175af2293f726c38afef75"
+    },
+    "three_quarter.png": {
+      "bytes": 603876,
+      "sha256": "8dd42296bb25ad417f865a1f69b1c74ae692958f69d6e76e56da57b13bd92bf4"
+    },
+    "KIKO_candidate.blend": {
+      "bytes": 7750407,
+      "sha256": "939acecfa3902b180fbb88063c3954b2797baf15660839849104b4a3118b68f0"
+    },
+    "front.png": {
+      "bytes": 607582,
+      "sha256": "eac07a9c10aa4552dd472931d49dd696d26056b5fb85d61f704f8a6c1df5b7c0"
+    }
+  }
+}

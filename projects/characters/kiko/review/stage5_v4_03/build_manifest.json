@@ -1,0 +1,203 @@
+{
+  "source": "assets/characters/kiko_final/source/KIKO_source_v3_1.glb",
+  "source_sha256": "91cc2c15d9e69727a76f59ba3e16834d36985f4d874427f8d7bca1e1bd707f76",
+  "revision": 3,
+  "visual_gate": "PENDING_MANUAL_REVIEW",
+  "blender_version": "5.2.2 LTS",
+  "mesh_objects": 133,
+  "vertices": 161931,
+  "removed_objects": [
+    "KIKO | cheek mass L lower",
+    "KIKO | cheek mass L upper",
+    "KIKO | cheek mass R lower",
+    "KIKO | cheek mass R upper",
+    "KIKO | tail plume form 01",
+    "KIKO | tail plume form 02",
+    "KIKO | tail plume form 03",
+    "KIKO | tail plume form 04",
+    "KIKO | tail plume form 05",
+    "KIKO | integrated cream cheeks and muzzle",
+    "KIKO | expressive brow L",
+    "KIKO | expressive brow R"
+  ],
+  "protected_hashes": {
+    "assets/characters/kiko_final/source/KIKO_source_v3_1.glb": "91cc2c15d9e69727a76f59ba3e16834d36985f4d874427f8d7bca1e1bd707f76",
+    "KIKO_master_v1_1.blend": "febf2d3f6a8c282c5ff9b151f21718a14bb4286af678e890fb96becd4fbb5195",
+    "KIKO_master_v2.blend": "2fab309d007e806ea9a8241367996c1de2659d026e57cb5cacfc6d5eab78c08a",
+    "KIKO_run_test_5s.blend": "bbe8203d3bc83669205345bb4973e07632c14412335603f3dea8345d5b509b50",
+    "KIKO_acting_test_8s.blend": "35a72339fadd09abbeab0e64423e1766dd60f9a8c95ef142b2b31a7a8630ce4a"
+  },
+  "protected_assets_unchanged": true,
+  "cameras": {
+    "front": {
+      "location": [
+        -0.12104606628417969,
+        -11.921126365661621,
+        1.7332171201705933
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.150424957275391,
+      "angle": 0,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "three_quarter": {
+      "location": [
+        6.788522720336914,
+        -9.679915428161621,
+        2.7475247383117676
+      ],
+      "rotation_euler": [
+        1.483529806137085,
+        5.333372499194411e-08,
+        0.6108651161193848
+      ],
+      "ortho_scale": 4.026177883148193,
+      "angle": 35,
+      "elevation": 5,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "side": {
+      "location": [
+        11.87895393371582,
+        0.07887384295463562,
+        1.7332171201705933
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 3.9403350353240967,
+      "angle": 90,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "back": {
+      "location": [
+        -0.12104606628417969,
+        12.078873634338379,
+        1.7332171201705933
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "ortho_scale": 4.150425434112549,
+      "angle": 180,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "face_closeup": {
+      "location": [
+        1.7080633640289307,
+        -12.17821979522705,
+        2.163444757461548
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -1.1135555588737134e-08,
+        0.1396263837814331
+      ],
+      "ortho_scale": 1.6061371564865112,
+      "angle": 8,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "tail_profile": {
+      "location": [
+        9.661977767944336,
+        6.195971965789795,
+        2.135749101638794
+      ],
+      "rotation_euler": [
+        1.483529806137085,
+        -1.7054468059995997e-07,
+        2.094395160675049
+      ],
+      "ortho_scale": 2.591237783432007,
+      "angle": 120,
+      "elevation": 5,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "outfit_detail": {
+      "location": [
+        3.1134018898010254,
+        -11.59650993347168,
+        1.9312604665756226
+      ],
+      "rotation_euler": [
+        1.5184364318847656,
+        -2.5104347045612485e-08,
+        0.2617994248867035
+      ],
+      "ortho_scale": 1.5182172060012817,
+      "angle": 15,
+      "elevation": 3,
+      "method": "projected world-space bounds, 14 percent margin"
+    },
+    "black_silhouette": {
+      "location": [
+        -0.12104606628417969,
+        -11.921126365661621,
+        1.7332171201705933
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.150424957275391,
+      "angle": 0,
+      "elevation": 0,
+      "method": "projected world-space bounds, 14 percent margin"
+    }
+  },
+  "artifacts": {
+    "black_silhouette.png": {
+      "bytes": 305264,
+      "sha256": "01c7c3172f3190e3940a49759e73f1118b41833cbd0159cc70f6f51640a1d49c"
+    },
+    "face_closeup.png": {
+      "bytes": 769016,
+      "sha256": "69e4532ccf65e4fddb542ec3fcf34b62a964db11704b920c5e604af8a9d9719c"
+    },
+    "side.png": {
+      "bytes": 471838,
+      "sha256": "e8f153632f05e070cbca1e209c89d9d1abcdd59b77f8361eaf5de33a03cd313e"
+    },
+    "KIKO_candidate.glb": {
+      "bytes": 6870368,
+      "sha256": "c01d33a5effa0ae2d5e4f690e853f15a1228b44d7d412efc1f45be2526000074"
+    },
+    "three_quarter.png": {
+      "bytes": 618128,
+      "sha256": "d2b7433e33a449e56d9fedcb2d109c1919e03a17e12ebf4b46696c91a5f66901"
+    },
+    "KIKO_candidate.blend": {
+      "bytes": 7143744,
+      "sha256": "6ea80bbf682348912594b33319aa99ffa28fca53e039354bd6419e4901087d7c"
+    },
+    "back.png": {
+      "bytes": 559558,
+      "sha256": "4f04e112e70ba793d67b8d70f55bbaf7adbf6596cc0de803765255ebb22fdfdb"
+    },
+    "front.png": {
+      "bytes": 603477,
+      "sha256": "20ed1fa8eced21cd5ace32f392a6e4b46ed9fb5dd5e6faeb3d79ea80c3bd5c4a"
+    },
+    "outfit_detail.png": {
+      "bytes": 776208,
+      "sha256": "e9fcb839bd4470d26c5848e96cbf338e8a0ec94b043fa8d012d82e1908a393b5"
+    },
+    "tail_profile.png": {
+      "bytes": 660288,
+      "sha256": "3e5d254296699907165b98dd681554f44bf97102584ceb8e9d432fc875353fc4"
+    }
+  }
+}

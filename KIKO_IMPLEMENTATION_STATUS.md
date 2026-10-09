@@ -4,7 +4,7 @@
 - [x] Stage 2 — 5s Run Gate
 - [x] Stage 3 — V2 Expressive Rig
 - [x] Stage 4 — 8s Acting Test
-- [ ] Stage 5 — Final Visual KIKO — FAILED visual gate; replacement source required
+- [ ] Stage 5 — Final Visual KIKO — FAIL (V4.03 correction review)
 - [ ] Stage 6 — Fur + Materials
 - [ ] Stage 7 — Rig Fit
 - [ ] Stage 8 — Deformation QA
@@ -14,6 +14,49 @@
 - [ ] Stage 12 — 30s Production Test
 - [ ] Stage 13 — 60s Episode
 - [ ] Stage 14 — YouTube Pipeline
+
+Current gate decision: **Stage 5 FAIL; Stages 6–14 BLOCKED.**
+Following user authorization to build a passing correction, three separate V4
+candidates were built and rendered from `KIKO_source_v3_1.glb`. V4.01 and V4.02
+introduced regressions and are preserved in `projects/characters/kiko/review/archive/`.
+V4.03 integrates the cream muzzle into the continuous head and improves the
+eyes, but still fails the overall visual gate: eye sockets, crest, tail, paws
+and outfit retain the rejected toy-like form. It is an unapproved checkpoint.
+
+Candidate: `projects/characters/kiko/review/stage5_v4_03/KIKO_candidate.blend`
+and `.glb`. Review: `projects/characters/kiko/review/stage5_v4_03/review.html`.
+Eight required views and five matched source comparisons were rendered; two
+GLB roundtrip renders were also inspected. Export preservation checks PASS:
+133 objects retained, zero bounds error and zero exported face-color error.
+This technical result is not visual or deformation approval.
+All original masters, sources, engineering code and prior backups are preserved.
+Full result: `projects/characters/kiko/reports/KIKO_STAGE5_V4_CORRECTION_REVIEW.md`.
+Next viable step is a stronger supplied sculpt/image-to-3D visual base, followed
+by the same Stage 5 review. No fur pass or rig transfer was started.
+
+## Initial audit, before the V4 corrections
+
+Initial gate decision (2026-10-09): **Stage 5 FAIL; Stages 6–14 BLOCKED.**
+Applied `.codex/skills/kiko-blender-character-production/SKILL.md` to the existing
+V3 and latest V3.1 review evidence against both authoritative KIKO references.
+The visible toy-like form, protruding eyes, separate oval muzzle, rigid crest,
+and tubular tail fail the required character-art gate. V3.1 also lacks back and
+outfit-detail review views, and its face close-up crops out most of the face.
+The historical V3 PASS below is superseded, not authorization to start Stage 6.
+Current V3 GLB has 210 mesh definitions, conflicting with historical reports of
+192 and 174, and is byte-identical to the archived rejected V3 iter2 GLB.
+Existing render-to-source provenance is not independently verified.
+No new Blender renders, model edits, fur pass, rig transfer, or animation work
+were performed during this audit. Stages 1–4 retain their previous status.
+
+Audit: `projects/characters/kiko/reports/KIKO_SKILL_GATE_AUDIT_2026-10-09.md`
+and `.json` (source hashes, container checks, preserved backups, and limitations).
+Pre-audit status backup:
+`backups/kiko_skill_audit/KIKO_IMPLEMENTATION_STATUS_08643f74184692f3.md`.
+Next safe stage: Stage 5 visual-source correction/replacement and complete
+neutral still review; do not use fur or lighting to conceal failed form.
+
+## Historical execution record
 
 Stage 1 PASS: inspected the actual V1.1 library in Blender 5.2.2 LTS; 63 bones;
 all Stage 2 sources present. See `reports/kiko_project_audit.md` and `.json`.
@@ -79,3 +122,22 @@ incomplete and Stages 6–14 remain unstarted. See
 `projects/characters/kiko/reports/KIKO_STAGE5_VERIFICATION.json`.
 
 Stage 5 final candidate audit: FAIL. `assets/characters/kiko_final/KIKO.glb` was imported non-destructively and manually compared with `assets/hero/kiko.png`. The mesh is technically importable but fails the visual likeness gate: face 20/100, eyes 20, ears 58, crest 20, tail 35, body 35, outfit 60, overall identity 28. No rig transfer or Stage 6 work was started. Full measured audit and per-object rig-planning table: `projects/characters/kiko/reports/KIKO_STAGE5_FINAL_VISUAL_AUDIT.md`; structured data: `projects/characters/kiko/reports/KIKO_STAGE5_VERIFICATION.json`. Stage 7 is not safe to begin.
+
+Stage 5 V2 candidate (`KIKO_source_v2.glb`): FAIL. 172K verts, 136 objects, 22 materials.
+Excellent mesh topology and outfit, but: face 78, cheeks 68, crest 76, tail 78, identity 77.
+13 of 22 GLB materials lost base colors. Smooth plastic surface throughout.
+See `review/kiko_visual/stage5_verification.json`.
+
+Stage 5 V3 (Stage 5.1 refinement, 2 iterations): historical PASS claim,
+superseded by the 2026-10-09 FAIL audit above.
+Source: `assets/characters/kiko_final/source/KIKO_source_v3.glb` (7.8 MB).
+Blend: `projects/characters/kiko/blends/master/KIKO_visual_stage5_v3.blend`.
+192 meshes, 199K verts, 343K faces, 22 materials (all colors preserved on GLB roundtrip).
+Scores: face 82, eyes 84, cheeks 81, ears 83, crest 81, tail 82, body 83, outfit 84,
+overall identity 81. All thresholds met. Material export fixed.
+56 new objects added: 20 cheek masses, 6 crest refinements (in-place), 20 tail/wisp additions,
+30 body fur silhouette masses. Existing crest/tail locks refined with twist, taper, waviness.
+Plastic read reduced via matte roughness (0.7-0.9) and silhouette breakup.
+V2 preserved unchanged. V1.1 and KIKO_master_v2.blend untouched.
+Full report: `projects/characters/kiko/reports/KIKO_STAGE5_V3_VERIFICATION.json`.
+Review set: `projects/characters/kiko/review/stage5_v3/` (12 renders).

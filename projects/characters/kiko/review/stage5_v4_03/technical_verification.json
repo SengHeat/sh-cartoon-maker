@@ -1,0 +1,29 @@
+{
+  "export_preservation_gate": "PASS",
+  "scope": "Object names, finite vertices, world bounds, face vertex-color extrema; visual review remains separate.",
+  "source_sha256": {
+    "KIKO_candidate.blend": "6ea80bbf682348912594b33319aa99ffa28fca53e039354bd6419e4901087d7c",
+    "KIKO_candidate.glb": "c01d33a5effa0ae2d5e4f690e853f15a1228b44d7d412efc1f45be2526000074"
+  },
+  "objects_before": 133,
+  "objects_after": 133,
+  "maximum_bounds_error": 0.0,
+  "bounds_tolerance": 1e-05,
+  "face_color_export_maximum_error": 0.0,
+  "export_color_tolerance": 1e-06,
+  "face_color_import_maximum_error": 0.003538072109222412,
+  "import_color_tolerance": 0.008897902886170206,
+  "import_color_storage": "BYTE_COLOR",
+  "candidate_files_unchanged": true,
+  "roundtrip_renders": {
+    "roundtrip_front.png": {
+      "sha256": "2cd6ffb8b6f9568f6af136e0f4d60be296e7109ef39d610a238ecb73d0a5d5bf",
+      "bytes": 603840
+    },
+    "roundtrip_face_closeup.png": {
+      "sha256": "ced7910f2334205ece50b8de0843540ff7b4c8477762219e92365d097aa72056",
+      "bytes": 771408
+    }
+  },
+  "visual_gate": "NOT_ASSESSED_BY_THIS_SCRIPT"
+}

@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-09",
+  "skill": ".codex/skills/kiko-blender-character-production/SKILL.md",
+  "active_stage": 5,
+  "visual_gate": "FAIL",
+  "stages_6_to_14": "BLOCKED",
+  "candidate": "assets/characters/kiko_final/source/KIKO_source_v3_1.glb",
+  "assessment_scope": "Manual review of existing V3 contact sheet and six V3.1 review renders against both KIKO references. No fresh Blender render or deformation assessment.",
+  "review_to_candidate_provenance": "Paths agree with generator script; existing renders lack a source-hash manifest, so correspondence to current GLB bytes is not independently established.",
+  "findings": [
+    "Existing V3 PASS is contradicted by visible toy-like anatomy in its review sheet.",
+    "V3.1 retains protruding eyes, a separate oval muzzle and inadequate broad cheek integration.",
+    "Crest reads as rigid blades; tail remains a smooth banded tube with attached pieces.",
+    "Rounded mitten-like paws, smooth clothing and uniform surfaces retain the rejected toy appearance.",
+    "V3.1 face_closeup.png excludes the muzzle and most eyes; back and outfit detail views are missing.",
+    "V3.1 silhouette is shaded rather than a flat black mask; one ear reaches the image edge.",
+    "V3 verification reports 192 meshes while its roundtrip report reports 174; material_export_pass is false in the roundtrip report but PASS in the assessment. These historical contradictions are unresolved.",
+    "Current V3 GLB contains 210 mesh definitions, inconsistent with both historical report counts (192 and 174).",
+    "Current V3 GLB is byte-identical to archived KIKO_source_v3_iter2_REJECTED.glb."
+  ],
+  "historical_thresholds": {
+    "face_likeness": 80,
+    "eyes_expression": 80,
+    "cheek_identity": 80,
+    "ears": 80,
+    "crest": 80,
+    "tail_plume": 80,
+    "body_proportions": 75,
+    "outfit": 75,
+    "overall_kiko_identity": 80
+  },
+  "new_numeric_scores": null,
+  "score_note": "No new likeness percentages assigned. Explicit no-toy visual requirement fails; incomplete close-up evidence cannot establish a threshold pass.",
+  "technical_container_checks": {
+    "assets/characters/kiko_final/KIKO.glb": {
+      "container_status": "PASS",
+      "nodes": 125,
+      "meshes": 125,
+      "materials": 22,
+      "skins": 0,
+      "animations": 0
+    },
+    "assets/characters/kiko_final/archive/KIKO_source_v3_iter2_REJECTED.glb": {
+      "container_status": "PASS",
+      "nodes": 210,
+      "meshes": 210,
+      "materials": 22,
+      "skins": 0,
+      "animations": 0
+    },
+    "assets/characters/kiko_final/archive/KIKO_visual_stage5_v001_FAILED.glb": {
+      "container_status": "PASS",
+      "nodes": 125,
+      "meshes": 125,
+      "materials": 22,
+      "skins": 0,
+      "animations": 0
+    },
+    "assets/characters/kiko_final/source/KIKO_source_v2.glb": {
+      "container_status": "PASS",
+      "nodes": 136,
+      "meshes": 136,
+      "materials": 22,
+      "skins": 0,
+      "animations": 0
+    },
+    "assets/characters/kiko_final/source/KIKO_source_v3.glb": {
+      "container_status": "PASS",
+      "nodes": 210,
+      "meshes": 210,
+      "materials": 22,
+      "skins": 0,
+      "animations": 0
+    },
+    "assets/characters/kiko_final/source/KIKO_source_v3_1.glb": {
+      "container_status": "PASS",
+      "nodes": 145,
+      "meshes": 145,
+      "materials": 22,
+      "skins": 0,
+      "animations": 0
+    }
+  },
+  "status_backup": "backups/kiko_skill_audit/KIKO_IMPLEMENTATION_STATUS_08643f74184692f3.md",
+  "existing_matching_master_backups": {
+    "KIKO_master_v1_1.blend": [
+      "backups/kiko_master_plan/KIKO_master_v1_1_febf2d3f6a8c282c.blend"
+    ],
+    "KIKO_master_v2.blend": [
+      "backups/kiko_master_plan/KIKO_master_v2_2fab309d007e806e.blend"
+    ],
+    "KIKO_run_test_5s.blend": [],
+    "KIKO_acting_test_8s.blend": []
+  },
+  "preserved_file_manifest": {
+    ".codex/skills/kiko-blender-character-production/SKILL.md": {
+      "bytes": 7885,
+      "sha256": "f739b48587877875c0ca54369a2903bac5b166a05b7f4a09caae479acc648699"
+    },
+    "KIKO_IMPLEMENTATION_STATUS.md": {
+      "bytes": 6537,
+      "sha256": "08643f74184692f3a3b796cb21394ea5c771b74950a1c6138a995a9edd8573c7"
+    },
+    "KIKO_acting_test_8s.blend": {
+      "bytes": 1176687,
+      "sha256": "35a72339fadd09abbeab0e64423e1766dd60f9a8c95ef142b2b31a7a8630ce4a"
+    },
+    "KIKO_master_v1_1.blend": {
+      "bytes": 280010,
+      "sha256": "febf2d3f6a8c282c5ff9b151f21718a14bb4286af678e890fb96becd4fbb5195"
+    },
+    "KIKO_master_v2.blend": {
+      "bytes": 1019693,
+      "sha256": "2fab309d007e806ea9a8241367996c1de2659d026e57cb5cacfc6d5eab78c08a"
+    },
+    "KIKO_run_test_5s.blend": {
+      "bytes": 281344,
+      "sha256": "bbe8203d3bc83669205345bb4973e07632c14412335603f3dea8345d5b509b50"
+    },
+    "assets/characters/kiko_final/KIKO.glb": {
+      "bytes": 6766944,
+      "sha256": "a743f531bf234125d75b0168b425787cbbd13f331cbd8fb5ad60d233405776ce"
+    },
+    "assets/characters/kiko_final/archive/KIKO_source_v3_iter2_REJECTED.glb": {
+      "bytes": 8499548,
+      "sha256": "36e318a4fbadc0f587ef80a860d44ba583a3b38aa20ecb70834ddd3138c54c72"
+    },
+    "assets/characters/kiko_final/archive/KIKO_visual_stage5_v001_FAILED.glb": {
+      "bytes": 6766944,
+      "sha256": "a743f531bf234125d75b0168b425787cbbd13f331cbd8fb5ad60d233405776ce"
+    },
+    "assets/characters/kiko_final/archive/KIKO_visual_stage5_v3_iter2_REJECTED.blend": {
+      "bytes": 8481407,
+      "sha256": "8786e62a26fa5656de0ebb450e9e3a10f3b0bdccaf1211fd9f31a83835046f57"
+    },
+    "assets/characters/kiko_final/source/KIKO_source_v2.glb": {
+      "bytes": 6810872,
+      "sha256": "1182697e2e5a41a3f3a229a3de77184f01d590682d88e32d66d96c789eeb5b38"
+    },
+    "assets/characters/kiko_final/source/KIKO_source_v3.glb": {
+      "bytes": 8499548,
+      "sha256": "36e318a4fbadc0f587ef80a860d44ba583a3b38aa20ecb70834ddd3138c54c72"
+    },
+    "assets/characters/kiko_final/source/KIKO_source_v3_1.glb": {
+      "bytes": 7011180,
+      "sha256": "91cc2c15d9e69727a76f59ba3e16834d36985f4d874427f8d7bca1e1bd707f76"
+    },
+    "assets/hero/kiko.png": {
+      "bytes": 2741040,
+      "sha256": "9faa95c54e5aa7d46c37747541f0220ed9647458252f55c8b5f8f4ffc4db4912"
+    },
+    "assets/hero/kiko_4view_turnaround_v001.png": {
+      "bytes": 2302687,
+      "sha256": "62edc0d572265eaa93911887ab00366b6665f2a1394a8cb2d3063dd6b9184882"
+    },
+    "cartoon_studio/__init__.py": {
+      "bytes": 85,
+      "sha256": "719196683d3673c616f18e12e8a58bd7337661cbce7835a6b0d4b366b5ce2fb8"
+    },
+    "cartoon_studio/animation/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/animation/actions.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/animation/layers.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/animation/locomotion/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/animation/locomotion/ground.py": {
+      "bytes": 754,
+      "sha256": "270e972b63ad16f2fbd22e01cf7d99038adcad61667d3521165591ceb83a8dcf"
+    },
+    "cartoon_studio/animation/locomotion/motion.py": {
+      "bytes": 1887,
+      "sha256": "22a3b0a9a172cd90879ac9eef224cd81555fdd54c9401653b52237bf83622bb9"
+    },
+    "cartoon_studio/animation/locomotion/phases.py": {
+      "bytes": 926,
+      "sha256": "bc809fd2439ffe8998206ded12a0301f0bfb92d5df76e641216382d7b33d585d"
+    },
+    "cartoon_studio/animation/timeline.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/build_deformation_check.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/builder.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/camera.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/character.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/environment_builder.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/fur.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/keyframes.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/kiko_acting_gate.py": {
+      "bytes": 8450,
+      "sha256": "f5e92d229eb6845f5167e00bf2559ef4ac408da9c3bd562e224ac828a9250e00"
+    },
+    "cartoon_studio/blender/kiko_blockout.py": {
+      "bytes": 23872,
+      "sha256": "8c03cad5b451690e5b574fb127e09c93a047f8f3359d031a9911d1783adc7204"
+    },
+    "cartoon_studio/blender/kiko_build.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/kiko_costume.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/kiko_expressive_rig.py": {
+      "bytes": 24841,
+      "sha256": "20cf3be5948e25912881494d7f21e56055e002bd4f1fff2a081aced5437425c0"
+    },
+    "cartoon_studio/blender/kiko_final_model.py": {
+      "bytes": 42789,
+      "sha256": "a020d134b5942a899b49e1b70f7f329ece52aa5f396a44971ad2089381753618"
+    },
+    "cartoon_studio/blender/kiko_geometry.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/kiko_master_plan.py": {
+      "bytes": 10777,
+      "sha256": "656c18c48ede295022e66f6a9cb08ebe3ac8cd2bfa527dbcc85a855f99e4a48a"
+    },
+    "cartoon_studio/blender/kiko_materials.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/kiko_production.py": {
+      "bytes": 23435,
+      "sha256": "e56945e13f3d257f18aaeea8f9d5b4e04e6128f8937eff5fc8f124db9fc9feca"
+    },
+    "cartoon_studio/blender/kiko_rebuild_v001.py": {
+      "bytes": 14356,
+      "sha256": "4bcc081259fcd547d76fe3a8e83a22bc52fde426ecb294d4bd7c0b17165b488d"
+    },
+    "cartoon_studio/blender/kiko_render.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/kiko_rig.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/kiko_runaway_fruit.py": {
+      "bytes": 9779,
+      "sha256": "28f0d29762e770a73c1e73692335eeec0472486079ffb7fc5c7d80518cf5070c"
+    },
+    "cartoon_studio/blender/kiko_runaway_fruit_v2.py": {
+      "bytes": 10974,
+      "sha256": "121b89a8359ca431e27158ab87d4973967a0dbab1d019433e11eeba9f474b4ca"
+    },
+    "cartoon_studio/blender/kiko_sculpt_blockout.py": {
+      "bytes": 10412,
+      "sha256": "692d9d8830588b1800c444552ddde0e1274202b78d3fda0fc461095f78aad89d"
+    },
+    "cartoon_studio/blender/kiko_stage5_candidate_validation.py": {
+      "bytes": 20673,
+      "sha256": "335342ad1a591ed453027c61b4df94900b287bfd164a2c22990e59c44b2faa26"
+    },
+    "cartoon_studio/blender/kiko_turntable.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/kiko_v1_1_fix_paws.py": {
+      "bytes": 624,
+      "sha256": "f880404379e4f461fd74a4571b752e48dec553ed823876ba463a83c0ebb483cc"
+    },
+    "cartoon_studio/blender/kiko_v1_1_motion_readability.py": {
+      "bytes": 1375,
+      "sha256": "05181a8c2b48a372b0291ccc6280598c57e1be82a98fcf72d6ca34060f4b0471"
+    },
+    "cartoon_studio/blender/kiko_v1_1_polish.py": {
+      "bytes": 10588,
+      "sha256": "4b2edcfc701fa9ecd7ca45817df16a4bef78fc094802600134706625c3f71fa6"
+    },
+    "cartoon_studio/blender/kiko_v1_2_art_direction.py": {
+      "bytes": 13397,
+      "sha256": "c60218b1108c719fac0f10851a8e80ca2451d5367b377312b8b3cde36aa7aa91"
+    },
+    "cartoon_studio/blender/launcher.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/production_builder.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/render_story.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/blender/scene_builder.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/characters/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/characters/character_loader.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/characters/definition.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/characters/face.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/characters/kiko_layer_validator.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/cli.py": {
+      "bytes": 5805,
+      "sha256": "4a6eeb4fc8d9e63aa6e741be80c97d037155ae5a61e7c84715d8ce2796f37e60"
+    },
+    "cartoon_studio/config.py": {
+      "bytes": 6139,
+      "sha256": "5e3673c137bc5637956f74986c5d6bd51c873713b2a06fd971efa2362745335f"
+    },
+    "cartoon_studio/demo.py": {
+      "bytes": 14211,
+      "sha256": "842ff1a5562b70fae497af5fe74e3808a0c26c5d86850b221139295f97f1e7c8"
+    },
+    "cartoon_studio/engine/__init__.py": {
+      "bytes": 44,
+      "sha256": "56e7d29fc08f01e19f185bf02e007e2af08315446c715890d6ffc4888f62d8e0"
+    },
+    "cartoon_studio/engine/audio_engine.py": {
+      "bytes": 1270,
+      "sha256": "c178c30ea1e3a40df74c7a2074bdb1b0d115e05234bedf96d1e99e73c7841fa2"
+    },
+    "cartoon_studio/engine/camera_engine.py": {
+      "bytes": 1297,
+      "sha256": "94ca6816d5ef935186b99a4513a2826633b54d6321528a49c3cba45b7613d40a"
+    },
+    "cartoon_studio/engine/character_engine.py": {
+      "bytes": 2671,
+      "sha256": "6325a7db0e83e7b9e6989c8f52c2fa0c9fdc69698fa320dd3c23d77a57ced7a7"
+    },
+    "cartoon_studio/engine/compositor.py": {
+      "bytes": 1810,
+      "sha256": "db2e5b9efe008c3bdeb1db8fcfc110ef5fd5078df5dae38ef2bfb8b96c796372"
+    },
+    "cartoon_studio/engine/contact_sheet.py": {
+      "bytes": 1170,
+      "sha256": "f73f7fd9ecca57937b14f6908673de4ecee1292af077875266e74490feb36169"
+    },
+    "cartoon_studio/engine/director.py": {
+      "bytes": 11482,
+      "sha256": "b3257fd2cd445e8e21cdf13d05eaf47c763df28c153dc90a01600a601a94cdf0"
+    },
+    "cartoon_studio/engine/effect_engine.py": {
+      "bytes": 2613,
+      "sha256": "74cf44c765eab094e5c995202fa9e62bde8ed1ebcf2c7c75a9c26a44e36878ba"
+    },
+    "cartoon_studio/engine/ffmpeg_engine.py": {
+      "bytes": 2376,
+      "sha256": "ffbad7b10e62b4b23f2ea2c3f7df2b8ff0add1a8c6d157480f638d862419a97a"
+    },
+    "cartoon_studio/engine/lipsync_engine.py": {
+      "bytes": 1926,
+      "sha256": "7d05ee1267702f49b1635107ab5870cd7e0c6c949736fafbd574330cc6b35f8f"
+    },
+    "cartoon_studio/engine/parallax_engine.py": {
+      "bytes": 355,
+      "sha256": "12fab4fb777d376f7e524736ba3389855939a37b4391b18c365b91df3f014c25"
+    },
+    "cartoon_studio/engine/rig_engine.py": {
+      "bytes": 3103,
+      "sha256": "083608966424c81ed7926f768af9e58cf60b5636b2d3b732e336c4edbd0de5ff"
+    },
+    "cartoon_studio/engine/scene_renderer.py": {
+      "bytes": 188,
+      "sha256": "0953187590e5a1dd948027c7e005fb5acc1de2342e458b1b3ea5ede43a146f72"
+    },
+    "cartoon_studio/engine/sprite_engine.py": {
+      "bytes": 1839,
+      "sha256": "cb47c08907cada6c51bb31119e5dc5b36c9e07ac521d7883cd5d5fe9fb764ae8"
+    },
+    "cartoon_studio/engine/timeline.py": {
+      "bytes": 1905,
+      "sha256": "a108f1c3068d2297d060c20414f3758e02646fec51c06e67e0a06e8032d88853"
+    },
+    "cartoon_studio/environments/__init__.py": {
+      "bytes": 246,
+      "sha256": "a11908e6d4c5507dab89c4a7a1e9a96d4b1dae5d95bfc9439d075ca5b9f03c78"
+    },
+    "cartoon_studio/environments/definition.py": {
+      "bytes": 5752,
+      "sha256": "18959bf1832bbc55943260b94fcd229d1286dfa6064a1068751987519ca373e5"
+    },
+    "cartoon_studio/environments/scatter.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/kiko_review_sheet.py": {
+      "bytes": 1411,
+      "sha256": "6fca0236581188beb5bd928287a0b01fbdbd18df7a8aa163d82fdba0d7c41d58"
+    },
+    "cartoon_studio/kiko_stage5_finish_audit.py": {
+      "bytes": 14898,
+      "sha256": "2ce69d7cd634738ddc15bb38f9f19e8cfcc863a9b885521892d4e520d8106acc"
+    },
+    "cartoon_studio/models/__init__.py": {
+      "bytes": 573,
+      "sha256": "d39b11d20b70798b2fab9bc34ee9e5e3e86cd4110c162a414819691bb3d55df9"
+    },
+    "cartoon_studio/models/audio.py": {
+      "bytes": 458,
+      "sha256": "430a7f1f2119527860d071f629777e69e2f0e1e3b9559fd3522c8e7410b05a19"
+    },
+    "cartoon_studio/models/camera.py": {
+      "bytes": 582,
+      "sha256": "d372c7e6a9314065bf73e687e1d18596cc1e439a7600636c2d384bc53ca3524f"
+    },
+    "cartoon_studio/models/character.py": {
+      "bytes": 1036,
+      "sha256": "45ee290e3be531595e362b8730f591766510f404cb67b3a6190efdbeef3fd919"
+    },
+    "cartoon_studio/models/common.py": {
+      "bytes": 664,
+      "sha256": "e8da8c2c185fb7bad61bbaea0f95fcc4b223f6ab9d6ed0148ceea8b577972cbe"
+    },
+    "cartoon_studio/models/effects.py": {
+      "bytes": 361,
+      "sha256": "636006472b360784c4dd79f942d744a5b4c9702bacccbad44feae98e41e77d18"
+    },
+    "cartoon_studio/models/layer.py": {
+      "bytes": 732,
+      "sha256": "fc3a0fa3ecb982ef3e3e0bb19f21487e85e226d201138a195ff3ce52b31e3071"
+    },
+    "cartoon_studio/models/project.py": {
+      "bytes": 1503,
+      "sha256": "b3fe77e25065c5e2843fde1e80b1ccdde30b2cd68af53299bc61bc93076612c3"
+    },
+    "cartoon_studio/models/rig.py": {
+      "bytes": 2118,
+      "sha256": "4b9621bd8f4aee35c81da14b536732b841cbee085ad3c8ff4c599225023943e4"
+    },
+    "cartoon_studio/models/scene.py": {
+      "bytes": 1664,
+      "sha256": "49f94ae57db1337f3a70b638ca88c5ee62fd84878b62d2ca41443e715b0488d0"
+    },
+    "cartoon_studio/presets/__init__.py": {
+      "bytes": 57,
+      "sha256": "58f878e3a836c6936ce4cce876ee27190a8973e9cabc7dd113c1c0fb69835b02"
+    },
+    "cartoon_studio/presets/camera.py": {
+      "bytes": 417,
+      "sha256": "43e53afee864e91249af632f5fa66a94f130e416230c53659c7063854157cc4f"
+    },
+    "cartoon_studio/presets/cycles.py": {
+      "bytes": 491,
+      "sha256": "307f09aff0d755d76a86075693cb008e257ad4ff5949a2bc3d73bb6879cbc088"
+    },
+    "cartoon_studio/presets/effects.py": {
+      "bytes": 116,
+      "sha256": "f8937c1163eae364cbd39f47890f1aabd54d06673dadced3df7d6684a5a12cd3"
+    },
+    "cartoon_studio/presets/emotion.py": {
+      "bytes": 1384,
+      "sha256": "759370b2520f4c407acaa2e1bfe7c372ae90ddee132032cac90bbd9dc8380937"
+    },
+    "cartoon_studio/presets/movement.py": {
+      "bytes": 242,
+      "sha256": "44025695dc02da7eb150cc053e64ffc86c895203af57639762cf7713d0897223"
+    },
+    "cartoon_studio/presets/poses.py": {
+      "bytes": 2572,
+      "sha256": "196ef8963c31f613cbc4acdb20aaf5b7a412036beb7873fb72dac858d9188a42"
+    },
+    "cartoon_studio/renderers/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/renderers/base.py": {
+      "bytes": 646,
+      "sha256": "17874cc4c5f674a3671c1a296fee7c9d922556d68d72d5c9d429c22160c291a8"
+    },
+    "cartoon_studio/renderers/blender_kiko.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/renderers/hybrid_renderer.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cartoon_studio/renderers/image_renderer.py": {
+      "bytes": 8751,
+      "sha256": "364b4ce28488830544c02fa2e3af96af2e75c66f584cd591ed3aa42bfb736085"
+    },
+    "cartoon_studio/utils/__init__.py": {
+      "bytes": 31,
+      "sha256": "6b648c83f16e719a899d37a1a6a7e581142746d704b83b8e5960afe94e1f2c24"
+    },
+    "cartoon_studio/utils/hashing.py": {
+      "bytes": 648,
+      "sha256": "cd94a565349504dedfd6d1681a007d39f84881f057d87ddcbfd19e7e65615fd9"
+    },
+    "cartoon_studio/utils/interpolation.py": {
+      "bytes": 629,
+      "sha256": "1434a0bee5af7893bad9cd8e86340a2c86480eea77b0b618c18c7c5dcd08d248"
+    },
+    "cartoon_studio/utils/logging.py": {
+      "bytes": 182,
+      "sha256": "83e8f5ddc078d548ee6696a4216df160f2eabd3cc0734c5d4f3c21d1fcaf8212"
+    },
+    "cartoon_studio/utils/paths.py": {
+      "bytes": 456,
+      "sha256": "d33241a963670388f32d9c869eaf7a86b5d86e7eb3e67db4975eb357048286ba"
+    },
+    "cartoon_studio/utils/subprocess.py": {
+      "bytes": 507,
+      "sha256": "38d73cf123cac83dda270b147b4894a73f80cb1bae0dba89c6c1fc1992c52b87"
+    },
+    "docs/KIKO_MASTER_IMPLEMENTATION_PLAN.md": {
+      "bytes": 20343,
+      "sha256": "97c1150c29e80f808c558a38b8b7edf491eb7bd0be270d7da2a4787c3304c28a"
+    },
+    "output/kiko_acting_test_8s/verification.json": {
+      "bytes": 2935,
+      "sha256": "21a681582c525930fc0ecfe10eb505e8661627d48f7980c04eb4f6aae2404056"
+    },
+    "output/kiko_run_test_5s/verification.json": {
+      "bytes": 5597,
+      "sha256": "19cce162816243fd0c00521a9d188298d6fecdd7e83d4faae06aa7e98a2d8128"
+    },
+    "projects/characters/kiko/blends/master/KIKO_visual_stage5_v3.blend": {
+      "bytes": 8481407,
+      "sha256": "8786e62a26fa5656de0ebb450e9e3a10f3b0bdccaf1211fd9f31a83835046f57"
+    },
+    "projects/characters/kiko/blends/master/KIKO_visual_stage5_v3_1.blend": {
+      "bytes": 8020127,
+      "sha256": "bdbcb9429f19aa2fa97ff93c4a45fdb314547c983229561cb55e2de275141523"
+    },
+    "projects/characters/kiko/reports/KIKO_STAGE5_V3_VERIFICATION.json": {
+      "bytes": 7634,
+      "sha256": "894a77506cd23d873a3236c7b667fb98526530dbf168e325016d9d71b7f6cfd1"
+    },
+    "projects/characters/kiko/reports/KIKO_STAGE5_VERIFICATION.json": {
+      "bytes": 118463,
+      "sha256": "68f5c0f44ceda9cda0e38c2ee7350a0b6e3248450a401776fe1d6d1396dd7e21"
+    },
+    "projects/characters/kiko/reports/v3_glb_roundtrip.json": {
+      "bytes": 3831,
+      "sha256": "c6e230f6b3778a9d9aecd4cf328ee6e0bdd817bf8e8687a2099eb2bbc3a1d2d7"
+    },
+    "projects/characters/kiko/review/stage5_v3/01_front.png": {
+      "bytes": 1310179,
+      "sha256": "e9b94d18706b922db91605e1208a40e44834aea5691739d1c5e34a90919e260e"
+    },
+    "projects/characters/kiko/review/stage5_v3/02_three_quarter.png": {
+      "bytes": 1275764,
+      "sha256": "601001f46dab8c386b544e89a472ecc4ae1924b49b7788ce6c6ae5faa2e4a6c9"
+    },
+    "projects/characters/kiko/review/stage5_v3/03_side.png": {
+      "bytes": 1184029,
+      "sha256": "182040b57c7271dac9d6086eae5a9d3c9a785baac6b1c0ea66d38437aeaa6276"
+    },
+    "projects/characters/kiko/review/stage5_v3/04_back.png": {
+      "bytes": 1243800,
+      "sha256": "3003102b1cc7111cf24754fb4271ed3091c0f4cae1c796d1612e9b21da3d90d0"
+    },
+    "projects/characters/kiko/review/stage5_v3/05_face_closeup.png": {
+      "bytes": 1226897,
+      "sha256": "54357b61492424826a5109899e405d961399a258c1ca82406b976ca502b5a1bf"
+    },
+    "projects/characters/kiko/review/stage5_v3/06_eye_closeup.png": {
+      "bytes": 1251973,
+      "sha256": "19a7c0b3f43226516d8230f509c244bf009fed625519ec235e10c8b8b4512e86"
+    },
+    "projects/characters/kiko/review/stage5_v3/07_crest_detail.png": {
+      "bytes": 1172951,
+      "sha256": "12a6ac527c5856cb44cf4aa800b7f409aa940e8bd088886aa2d2a945520dd74f"
+    },
+    "projects/characters/kiko/review/stage5_v3/08_tail_profile.png": {
+      "bytes": 1252007,
+      "sha256": "226858e5da018718ecae76f6f61d26c181c79514043f284d2313aee934131c4f"
+    },
+    "projects/characters/kiko/review/stage5_v3/09_black_silhouette_front.png": {
+      "bytes": 986457,
+      "sha256": "253f097e45794c4ad6937633f9bc61d25f4ee0b45175d216ca34db132cdecb06"
+    },
+    "projects/characters/kiko/review/stage5_v3/10_black_silhouette_three_quarter.png": {
+      "bytes": 928826,
+      "sha256": "c60d6fd908ace12260549348428f22ffc5ebcaeb50bcfec76d6cf37c659b0e14"
+    },
+    "projects/characters/kiko/review/stage5_v3/11_v2_vs_v3_face.png": {
+      "bytes": 1310830,
+      "sha256": "5589ddf47c8b615b987bb7f3551300447d67de54edc6e7e2e07fedfaab969153"
+    },
+    "projects/characters/kiko/review/stage5_v3/12_v2_vs_v3_silhouette.png": {
+      "bytes": 1074511,
+      "sha256": "36beb2f5361216a715b73bb47e6656869eb51d5a08a2af7e2b54c3107a437a00"
+    },
+    "projects/characters/kiko/review/stage5_v3/contact_sheet.png": {
+      "bytes": 997956,
+      "sha256": "c7e298c11fca8b0db18ed8c04a6c73b4cbffbc7ea0c2c21bd6f2dc9b450d098d"
+    },
+    "projects/characters/kiko/review/stage5_v3_1/face_closeup.png": {
+      "bytes": 1226595,
+      "sha256": "6416e2baa580d3a7f68da4111123d9bf20807404cf61c2dd22d6e50807a550c0"
+    },
+    "projects/characters/kiko/review/stage5_v3_1/front.png": {
+      "bytes": 1302867,
+      "sha256": "e77a9075e2b51ab07df62c969167f7497e4c666bad69635fe0c856920d206a0a"
+    },
+    "projects/characters/kiko/review/stage5_v3_1/side.png": {
+      "bytes": 1178045,
+      "sha256": "2203ad5fed9e8018013ad5c1133e26dd2fb327ff078c252375c45e6d1a9cfce4"
+    },
+    "projects/characters/kiko/review/stage5_v3_1/silhouette_front.png": {
+      "bytes": 988089,
+      "sha256": "66c6f37f56791e11a8818cd6ebc6f5b0696d8731d7ba5004798b5894ac2efc97"
+    },
+    "projects/characters/kiko/review/stage5_v3_1/tail_profile.png": {
+      "bytes": 1229296,
+      "sha256": "f358ffd230533f97ee0a6ff7d3077896bcf83bfc7376066d9d3aedd82f31eb73"
+    },
+    "projects/characters/kiko/review/stage5_v3_1/three_quarter.png": {
+      "bytes": 1271876,
+      "sha256": "76211bd810045e62cf2a9159cf3b6baedcf1efca868e32284f6c17bfe832a57f"
+    },
+    "projects/characters/kiko/review/stage5_v3_1/v2_vs_v3_1_front.png": {
+      "bytes": 1024470,
+      "sha256": "7f2a397d9d88d239ecdb68e793da03550ef258829785ef8c620537fc7f9363ae"
+    },
+    "scripts/stage5_v3_1_subtle.py": {
+      "bytes": 22185,
+      "sha256": "82adb75e2e85556a3ede18c128a2dea543f805cdf60af899cf356e9ef02335f1"
+    },
+    "scripts/stage5_v3_export.py": {
+      "bytes": 3284,
+      "sha256": "326cebdabf173319d2470f434426c6063f4c2ae950f5f2d4fedf4692683ec21b"
+    },
+    "scripts/stage5_v3_iter2.py": {
+      "bytes": 21146,
+      "sha256": "80add9754aacf863cf963c40f16172fbcacc7ed9ad989437bc637a610022de8b"
+    },
+    "scripts/stage5_v3_refine.py": {
+      "bytes": 28698,
+      "sha256": "f6490edfaf2b0fadeca898ec9a4a33c62e63fb6595b9b7d07d5a70348b45eed3"
+    },
+    "scripts/stage5_v3_render_review.py": {
+      "bytes": 14837,
+      "sha256": "110fc060464253a597f67008c3e835615176a756e0051e5c6978363b0395d015"
+    }
+  },
+  "next_safe_stage": "Stage 5: obtain a suitable supplied sculpt/image-to-3D base, or explicitly target a localized correction; repeat the full neutral still review before fur or rig transfer.",
+  "v3_matches_rejected_archive": true,
+  "post_audit_verification": {
+    "status": "PASS",
+    "preserved_files_hash_checked": 146,
+    "status_backup_matches_pre_edit_sha256": true,
+    "active_status_agrees_with_audit": true
+  }
+}
