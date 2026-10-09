@@ -18,11 +18,11 @@ ROOT = Path(__file__).resolve().parents[1]
 class BlenderIntegration(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        spec = importlib.util.spec_from_file_location("kiko_engine", ROOT / "kiko_engine.py")
+        spec = importlib.util.spec_from_file_location("kiko_engine", ROOT / "blender" / "kiko_engine.py")
         cls.e = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(cls.e)
         cls.e.bpy, cls.e.Matrix, cls.e.Vector = bpy, Matrix, Vector
-        cls.cfg = cls.e.read_config(ROOT / "scenes/run_with_gestures_demo.json")
+        cls.cfg = cls.e.read_config(ROOT / "blender/shots/run_with_gestures_demo.json")
         other = copy.deepcopy(cls.cfg["characters"][0])
         other.update(id="second", position=[4, 2, 0], facing="north", gestures=[])
         other["face"] = {"expression": "surprised", "blink": False}

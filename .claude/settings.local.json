@@ -14,7 +14,15 @@
       "Bash(wc:*)",
       "Bash(find /Users/macbook/Automation-Workplace/cartoon-maker/projects -name \"*.json\" -exec basename {})",
       "Bash(python -m cartoon_studio.cli --help)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(find /Users/macbook/Automation-Workplace/cartoon-maker -name \"__init__.py\" -type f -exec head -20 {} +)",
+      "Bash(grep -r \"blend_file\\\\|\\\\.blend\\\\|scripts/\\\\|kiko_engine\\\\|kiko_run\" /Users/macbook/Automation-Workplace/cartoon-maker/*.json)",
+      "Bash(find . -name *.py -type f -exec grep -l \"sys\\\\.path\\\\|importlib\\\\|__file__\" {})",
+      "Bash(2)",
+      "Bash(find . -type d -name __pycache__ -not -path './.git/*' -exec rm -rf {} +)",
+      "Bash(find . -name .DS_Store -not -path './.git/*' -delete)",
+      "Bash(python3 -m pytest tests/test_kiko_engine.py -q)",
+      "Bash(python3 -m pytest tests/test_project_schema.py -q)"
     ]
   }
 }

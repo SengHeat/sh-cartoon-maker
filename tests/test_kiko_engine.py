@@ -7,21 +7,21 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-spec = importlib.util.spec_from_file_location("kiko_engine", ROOT / "kiko_engine.py")
+spec = importlib.util.spec_from_file_location("kiko_engine", ROOT / "blender" / "kiko_engine.py")
 engine = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(engine)
 
 
 class JsonContract(unittest.TestCase):
     def setUp(self):
-        self.cfg = json.loads((ROOT / "scenes/run_test_5s.json").read_text())
+        self.cfg = json.loads((ROOT / "blender/shots/run_test_5s.json").read_text())
 
     def invalid(self, cfg, field):
         with self.assertRaisesRegex(engine.EngineError, field):
             engine.validate(cfg)
 
     def test_examples_and_optional_empty_gestures(self):
-        for path in (ROOT / "scenes").glob("run*.json"):
+        for path in (ROOT / "blender/shots").glob("run*.json"):
             engine.read_config(path)
         self.cfg["characters"][0]["gestures"] = []
         engine.validate(self.cfg)

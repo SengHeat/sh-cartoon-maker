@@ -10,7 +10,7 @@ constraints, or actions in a source `.blend`.
 
 ## Authoritative source rig contract
 
-`cartoon_studio/blender/kiko_blockout.py` defines the recoverable skeleton:
+`blender/kiko_blockout.py` defines the recoverable skeleton:
 
 - Armature object: `KIKO_RIG_armature` (`KIKO_RIG_data`)
 - Spine/deform chain: `root`, `COG`, `pelvis`, `spine_01`, `spine_02`,

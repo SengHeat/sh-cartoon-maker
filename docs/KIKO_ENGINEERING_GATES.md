@@ -10,12 +10,12 @@ dependencies available. On this Mac Blender needs execution outside the restrict
 sandbox to start its graphics runtime.
 
 ```sh
-blender --background --python-exit-code 1 --python cartoon_studio/blender/kiko_master_plan.py -- audit
-blender --background --python-exit-code 1 --python cartoon_studio/blender/kiko_master_plan.py -- run
+blender --background --python-exit-code 1 --python blender/kiko_master_plan.py -- audit
+blender --background --python-exit-code 1 --python blender/kiko_master_plan.py -- run
 # Inspect the run evidence and record its visual gate before proceeding.
-blender --background --python-exit-code 1 --python cartoon_studio/blender/kiko_expressive_rig.py
+blender --background --python-exit-code 1 --python blender/kiko_expressive_rig.py
 # Inspect the rig evidence and record its visual gate before proceeding.
-blender --background --python-exit-code 1 --python cartoon_studio/blender/kiko_acting_gate.py
+blender --background --python-exit-code 1 --python blender/kiko_acting_gate.py
 ```
 
 The renderers write `AWAITING_VISUAL_REVIEW` with `pass: false` after numerical
@@ -26,7 +26,7 @@ the current renders, the reviewer records a `visual_review` object with `status`
 `pass: false`, identify the defect, and require a repair and rerender. Never copy
 a prior approval onto changed evidence. Downstream stages check source signatures.
 
-The five-second master plan configuration is `scenes/kiko_master_run_gate.json`.
+The five-second master plan configuration is `blender/shots/kiko_master_run_gate.json`.
 It preserves the older example configurations and the engine's existing APIs.
 The corrected run compresses during stance and rises during flight, with sufficient
 pelvis drop to prevent the knees locking at maximum extension.
