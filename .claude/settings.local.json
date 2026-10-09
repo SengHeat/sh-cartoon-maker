@@ -11,7 +11,10 @@
       "Bash(ls:*)",
       "Bash(blender --background --python /Users/macbook/Automation-Workplace/cartoon-maker/scripts/kiko_visual_review_40s.py)",
       "Bash(grep -E \"\\\\.py$|^d\")",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(find /Users/macbook/Automation-Workplace/cartoon-maker/projects -name \"*.json\" -exec basename {})",
+      "Bash(python -m cartoon_studio.cli --help)",
+      "Bash(python:*)"
     ]
   }
 }

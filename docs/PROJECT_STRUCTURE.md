@@ -1,298 +1,223 @@
-# cartoon-maker — Project Structure
+# PROJECT_STRUCTURE — Jungle Pop (`cartoon_studio`)
 
-**Guiding principle:** build for **one real character (KIKO)** now, with a
-**clearly repeatable pattern** so adding a second character later is a copy, not a
-redesign. Do **not** pre-create empty folders for characters that don't exist yet
-— empty scaffolding rots and drifts from reality. The multi-character design lives
-in the *pattern*, not in pre-built empty trees.
+រចនាសម្ព័ន្ធ project សម្រាប់ pipeline ផលិតវីដេអូ 2.5D (+ Blender 3D stage) ដែលផ្ទុក
+តួអង្គ **Jungle Pop ទាំង ១៥**។ File នេះគ្រាន់តែជា *map* — វាបង្ហាញថា file មួយណាគួរនៅទីណា។
 
-Two hard boundaries keep this clean:
+- **Universe:** Jungle Pop — *Big Adventures. Wild Friends.*
+- **Pipeline:** Python + Pillow + FFmpeg (2.5D) · Blender headless (3D stage)
+- **Output:** 1920×1080 (16:9) + 1080×1920 (9:16), H.264, Khmer narration + subtitles
+- **Source of truth:** `docs/JUNGLE_POP_CHARACTER_HISTORY_KH.md` (Character Bible)
 
-- **`assets/` = inputs you bring in** (reference art, textures, external/image-to-3D
-  models). Things that originate outside Blender.
-- **`projects/` = working files you generate** (`.blend` masters, tests, renders,
-  reports). Things Blender produces.
-
-- **`cartoon_studio/` = code** (the reusable engine). Stable; you edit it rarely.
-- **`scenes/`, `presets/`, `stories/` = data** (JSON). This is what you edit daily
-  to control the engine.
+> **Honest gate / ច្រក art:** រចនាសម្ព័ន្ធ + code ទាំងអស់ Codex/Claude Code សាងបាន។
+> ប៉ុន្តែ **រូបគំនូរពិត** (character layers, backgrounds) និង **សំឡេង narration ពិត**
+> ជាជំហានមនុស្ស/tool — គ្រប់ slot art ចាប់ផ្តើមជា **placeholder** រហូតដល់ដាក់រូបពិតជំនួស។
 
 ---
 
-## Top level
-
-```
-cartoon-maker/
-│
-├── README.md                      # what this project is, how to run it
-├── TASKS.md                       # running task list
-├── pyproject.toml
-├── .env.example
-├── .gitignore
-│
-├── KIKO_MASTER_IMPLEMENTATION_PLAN.md   # the 14-stage roadmap (source of truth)
-├── KIKO_IMPLEMENTATION_STATUS.md        # live checklist the agent updates per stage
-│
-├── cartoon_engine.py              # single entry point: blender ... -- <scene.json>
-│
-├── cartoon_studio/                # CODE — the reusable engine (see below)
-├── assets/                        # INPUTS — references, textures, external models
-├── projects/                      # OUTPUTS — .blend working files, renders, reports
-├── scenes/                        # DATA — per-shot JSON the engine runs
-├── presets/                       # DATA — reusable character/camera/light/render JSON
-├── schemas/                       # JSON schemas that validate scenes/presets
-├── stories/                       # DATA — multi-shot episode scripts
-├── tools/                         # standalone helper scripts (inspect, turnaround)
-├── docs/                          # documentation
-├── tests/                         # automated tests
-└── archive/                       # rejected / superseded work (never auto-deleted)
-```
-
----
-
-## `cartoon_studio/` — the engine (code)
-
-This is character-agnostic. Character-specific knowledge lives in small per-character
-modules, but you only create a character folder when that character is real.
+## 1. Top-level tree
 
 ```
 cartoon_studio/
-├── __init__.py
+├── README.md
+├── PROJECT_STRUCTURE.md            # file នេះ
+├── PRODUCTION.md                   # របៀបសរសេរ story / add character / build
+├── TASKS.md  RESUME.md             # autorun loop state (resumable)
+├── .gitignore                      # renders/ review/ __pycache__/ .DS_Store
+├── requirements.txt
 │
-├── engine/                        # orchestration — reads JSON, drives Blender
-│   ├── runner.py                  #   top-level run loop
-│   ├── loader.py                  #   loads .blend + assets named in JSON
-│   ├── validator.py               #   validates JSON against schemas/, fails loud
-│   ├── context.py                 #   shared run state
-│   └── registry.py                #   maps action/character names -> handlers
+├── cartoon_studio/                 # ⟵ Python package (code)
+│   ├── engine/
+│   │   └── director.py             # choose renderer, drive scenes → frames
+│   ├── renderers/
+│   │   ├── base_renderer.py        # shared renderer contract
+│   │   ├── image_renderer.py       # 2.5D path (default)  ⟵ puppet deform, parallax
+│   │   ├── blender_kiko.py         # Blender backend (subprocess → kiko_render.py)
+│   │   └── hybrid_renderer.py      # selector: "2.5d" | "blender"
+│   ├── models/
+│   │   ├── scene.py                # scene schema (renderer field defaults "2.5d")
+│   │   └── story.py                # story schema (project → ordered scenes)
+│   ├── assets_lib/
+│   │   ├── character_package.py    # load/validate a character/ package
+│   │   └── registry.py             # read assets/characters/registry.json
+│   ├── audio/
+│   │   ├── narration.py            # INTEGRATE existing TTS (VoxCPM2 / voice_studio)
+│   │   └── mixer.py                # hand tracks to FFmpegEngine
+│   ├── subtitles/
+│   │   └── khmer_srt.py            # timed Khmer captions + .srt (shaping-safe)
+│   ├── compositor/
+│   │   └── ffmpeg_engine.py        # ONE ffmpeg route: stitch + mux + burn subs
+│   └── cli.py                      # `story.json → final mp4 (+ srt + manifest)`
 │
-├── animation/                     # action library — character-agnostic
-│   ├── locomotion.py              #   shared phase logic (contact/down/passing/up/air)
-│   ├── run.py
-│   ├── walk.py
-│   ├── jump.py
-│   ├── gestures.py                #   nod, wave, point, crouch, look_around, etc.
-│   ├── face.py                    #   expression + (later) viseme driving
-│   ├── ears.py                    #   ear chain follow-through
-│   └── tail.py                    #   tail chain follow-through
+├── assets/
+│   ├── characters/                 # ⟵ one package per character (see §2)
+│   │   ├── registry.json           # id → path, role, priority, status
+│   │   ├── _TEMPLATE/              # copy this to add a new character
+│   │   ├── kiko/   tavi/   luma/   boko/   zuri/      # core team (build first)
+│   │   ├── vargo/  grib/   momo/   nana/   pip/
+│   │   └── mira/   ruko/   fifi/   toto/   jungle_spirit/
+│   ├── backgrounds/                # jungle regions, layered for parallax (see §3)
+│   │   ├── _TEMPLATE/
+│   │   ├── deep_jungle/   waterfall/   ancient_temple/
+│   │   ├── caves/         canopy_high/ hidden_path/
+│   ├── props/                      # trinkets, compass, gear, floating seeds…
+│   ├── audio/
+│   │   ├── music/                  # background music beds
+│   │   └── sfx/                    # footsteps, rustle, bell…
+│   └── fonts/
+│       └── NotoSansKhmer-*.ttf     # Khmer-capable font (verify glyph shaping)
 │
-├── blender/                       # thin wrappers over bpy — reused everywhere
-│   ├── scene.py
-│   ├── camera.py
-│   ├── lighting.py
-│   ├── materials.py
-│   ├── rigging.py
-│   ├── render.py
-│   └── io.py                      #   load/save/append .blend, ffmpeg encode
+├── blender/                        # ⟵ 3D stage (recovered assets live here)
+│   ├── KIKO_master_v001.blend      # geometry + 100-bone rig + 11 materials
+│   ├── kiko_build.py  kiko_geometry.py  kiko_rig.py
+│   ├── kiko_materials.py  kiko_costume.py
+│   ├── kiko_blockout.py            # standalone blockout (kept runnable)
+│   ├── kiko_render.py              # JSON shot → PNG/mp4 + manifest
+│   ├── kiko_turntable.py           # silhouette turntable preview
+│   └── shots/
+│       └── kiko_hero_test.json
 │
-├── characters/                    # per-character modules — ONE folder per REAL character
-│   ├── base.py                    #   Character base class (interface all chars implement)
-│   ├── registry.py                #   discovers available characters
-│   │
-│   └── kiko/                      #   the ONLY character folder that exists now
-│       ├── rig.py                 #   bone names, chains, IK targets for KIKO_RIG_armature
-│       ├── controls.py            #   animator controls / constraint setup
-│       ├── expressions.py         #   FACE_/POSE_ library
-│       ├── visemes.py             #   viseme shape-key map (built in Stage 3)
-│       ├── presets.py             #   default params
-│       └── validator.py           #   deformation QA checks specific to KIKO
+├── stories/                        # ⟵ production episodes (story.json → video)
+│   ├── _schema/story.schema.json
+│   ├── templates/                  # one per episode type (see §5)
+│   │   ├── comedy.story.json       adventure.story.json  mystery.story.json
+│   │   └── emotional.story.json    rival.story.json      villain.story.json
+│   └── ep001_<slug>/
+│       ├── story.json
+│       ├── audio/                  # narration clip per dialogue line (TTS output)
+│       └── subtitles/ep001.srt
 │
-├── environments/                  # start with generic; add named ones when used
-│   ├── generic.py                 #   ground plane + neutral bg (used by all tests)
-│   └── jungle.py                  #   only because Runaway Fruit already uses it
+├── projects/                       # test/sample scenes (not full episodes)
+│   ├── kiko_2d_test.json
+│   └── example_kiko_blender.json
 │
-├── lipsync/                       # Khmer lip-sync (Stage 10) — stub until then
-├── audio/                         # audio handling (ties to your VoxCPM2 output)
-└── utils/
-```
-
-> **When Tavi becomes real:** `cp -r cartoon_studio/characters/kiko cartoon_studio/characters/tavi`,
-> then edit. Not before. Same for `flight.py`-type specials — add the module to the
-> character that needs it, don't pre-scatter empty ones.
-
----
-
-## `assets/` — inputs (things you bring in)
-
-```
-assets/
-├── characters/
-│   └── kiko/                      # only KIKO exists
-│       ├── reference/
-│       │   └── kiko.png           # the authoritative concept art (Stage 5 input)
-│       ├── textures/
-│       ├── materials/
-│       ├── models/                # your own source models
-│       └── external/              # image-to-3D output (Meshy/Tripo) lands here
+├── docs/
+│   ├── JUNGLE_POP_CHARACTER_HISTORY_KH.md   # ⟵ the Character Bible (uploaded)
+│   ├── KIKO_PRODUCTION_BIBLE.md             # KIKO build spec (export of the doc)
+│   ├── character_package_spec.md            # the reusable unit (§2), long form
+│   └── visual_style_guide.md                # §6 rules, long form
 │
-├── environments/
-├── props/
-├── audio/                         # Khmer narration from the VoxCPM2 pipeline
-├── sfx/
-└── music/
-```
-
----
-
-## `projects/` — outputs (things Blender generates)
-
-```
-projects/
-├── characters/
-│   └── kiko/                      # only KIKO exists
-│       ├── blends/
-│       │   ├── master/
-│       │   │   ├── KIKO_master_v1_1.blend   # protected — never overwrite
-│       │   │   └── KIKO_master_v2.blend     # additive expressive rig (Stage 3)
-│       │   ├── tests/
-│       │   │   ├── KIKO_run_test_5s.blend
-│       │   │   └── KIKO_acting_test_8s.blend
-│       │   └── backups/                     # timestamped safety copies
-│       ├── reports/
-│       │   └── kiko_project_audit.md         # Stage 1 output
-│       └── review/                           # validation contact sheets per stage
-│
-└── episodes/
-    └── runaway_fruit/
-        ├── scene.blend
-        ├── story.json
-        ├── shots/
-        └── reports/
-```
-
----
-
-## `scenes/` — per-shot JSON (what you edit daily)
-
-```
-scenes/
 ├── tests/
-│   ├── kiko_run_5s.json           # the Stage 2 locomotion gate
-│   └── kiko_acting_8s.json        # the Stage 4 acting gate
-└── episodes/
-    └── runaway_fruit.json
-```
-
-> Add `tavi_*.json` etc. only once Tavi exists.
-
----
-
-## `presets/` — reusable JSON building blocks
-
-```
-presets/
-├── characters/
-│   └── kiko.json                  # KIKO default params, referenced by scenes
-├── cameras/                       # named camera setups (side, 3-4, tracking)
-├── lighting/                      # named light rigs (neutral_test, cinematic)
-└── render/                        # named render profiles (preview_480, prod_1080)
+│   ├── test_scene_schema.py   test_story_schema.py
+│   ├── test_image_renderer.py test_blender_kiko_backend.py
+│   ├── test_audio_timing.py   test_subtitles.py  test_export.py
+│
+├── renders/                        # OUTPUT — gitignored
+└── review/                         # QA stills/clips — gitignored
 ```
 
 ---
 
-## `schemas/` — validation (keeps JSON honest)
+## 2. Character package (the reusable unit) — តួម្នាក់ = folder មួយ
+
+គ្រប់តួ (KIKO…JUNGLE SPIRIT) មានទម្រង់ **ដូចគ្នា**។ ដើម្បី add តួថ្មី → copy `_TEMPLATE/`។
 
 ```
-schemas/
-├── scene.schema.json
-├── character.schema.json
-├── action.schema.json
-└── episode.schema.json
+assets/characters/<id>/
+├── character.json      # meta: id, name, role, type, color_identity, priority, status
+├── rig.json            # parts[]: {art, parent, pivot[x,y], z, states{…}}
+├── layers/             # ⟵ one transparent PNG per body part (placeholder or REAL art)
+│   ├── tail_01.png … head.png … ear_l.png … (per the character)
+├── states/             # swap art for expressions / lip-sync visemes
+│   ├── eyes_open.png  eyes_closed.png
+│   └── mouth_closed.png  mouth_mid.png  mouth_open.png
+├── thumbnail.png
+└── README.md           # EXACT png paths real art replaces + pivot meaning
 ```
 
-The engine's `validator.py` checks every scene/preset against these and **fails
-loudly** on a missing/invalid field — no silent wrong renders.
+- `status`: `placeholder` → `wip` → `production` (honest; never fake `production`).
+- **Swap-in rule:** replacing a PNG at its documented path changes the render with **zero code change**. នេះជាកន្លែងដែលរូបពិតចូល។
+- KIKO's existing 2.5D package is the reference; `assets_lib/character_package.py` validates every package against this shape.
 
 ---
 
-## `stories/` — episode scripts (multi-shot)
+## 3. Backgrounds & parallax — ព្រៃ Jungle Pop
+
+ព្រៃគឺជា "តួអង្គ" មួយ (តាម bible)។ Background នីមួយៗ = layer ច្រើន មាន **depth tag** សម្រាប់ parallax (plane ក្រោយ រំកិលយឺតជាង plane មុខ = នេះជា "2.5D")។
 
 ```
-stories/
-├── runaway_fruit.json
-└── episode_002.json
+assets/backgrounds/<region>/
+├── background.json     # layers[]: {art, depth}  (depth 0=far … 1=near)
+├── layers/ sky.png  far_trees.png  mid_trees.png  foreground.png
+└── README.md
 ```
+
+តំបន់ចាប់ផ្តើម (តាម bible): `deep_jungle`, `waterfall`, `ancient_temple`, `caves`, `canopy_high`, `hidden_path`.
 
 ---
 
-## `output/` vs `projects/.../review/`
+## 4. Characters in this universe — ១៥ តួ
 
-Keep render deliverables and QA review images distinct:
+| # | id | តួនាទី | ប្រភេទ | Priority | Status |
+|---|----|--------|--------|:---:|---|
+| 1 | `kiko` | តួឯក / អ្នករុករក | fennec-cat × gremlin | 1 | 3D master built; 2.5D wip |
+| 2 | `luma` | អ្នកស្ទង់ពីលើ | fantasy bird | 2 | placeholder |
+| 3 | `tavi` | ខួរក្បាល / អ្នករៀបផែនការ | jungle creature | 3 | placeholder |
+| 4 | `boko` | កម្លាំង / កំប្លែង | bear × ape | 4 | placeholder |
+| 5 | `zuri` | Rival / ល្បឿន | feline adventurer | 5 | placeholder |
+| 6 | `vargo` | Villain សំខាន់ | dark jaguar | 6 | placeholder |
+| 7 | `grib` | អ្នកជួយ villain | mischief creature | 7 | placeholder |
+| 8 | `momo` | Mischief | — | 8 | placeholder |
+| 9 | `nana` | អ្នកចាស់មានប្រាជ្ញា | — | 9 | placeholder |
+| 10 | `pip` | អ្នកច្នៃប្រឌិត | — | 10 | placeholder |
+| 11 | `mira` | អ្នកជំនាញធម្មជាតិ / ព្យាបាល | — | 11 | placeholder |
+| 12 | `ruko` | អ្នកយាមព្រៃ | — | 12 | placeholder |
+| 13 | `fifi` | មិត្តតូច / អារម្មណ៍ | small creature | 13 | placeholder |
+| 14 | `toto` | មិត្តឆ្គង / comedy | — | 14 | placeholder |
+| 15 | `jungle_spirit` | អាថ៌កំបាំង / lore | plant × animal hybrid | 15 | placeholder |
 
-```
-output/
-├── tests/
-│   └── kiko/                      # preview.mp4 / contact_sheet.jpg / verification.json
-├── previews/
-└── production/
-```
-
-- `output/` = videos and verification JSON (the deliverables + gate evidence).
-- `projects/characters/kiko/review/` = still QA sheets for rig/visual inspection.
-
-> One `kiko/` subfolder under `output/tests/`. Add siblings when new characters are real.
-
----
-
-## `tools/` — standalone helpers
-
-```
-tools/
-├── inspect_rig.py                 # dump bones / shape keys / actions from a .blend
-├── render_turnaround.py           # quick turntable of any character
-├── validate_character.py          # run a character's deformation QA
-└── migrate_project.py             # one-off structure migrations
-```
+> **Core team (build reusable production-ready មុនគេ):** KIKO · LUMA · TAVI · BOKO · ZURI.
+> កុំ build តួទាំង ១៥ production quality ភ្លាមៗ (តាម bible)។
 
 ---
 
-## `archive/` — never auto-deleted
+## 5. Episodes & story types
 
-```
-archive/
-├── rejected/
-│   └── rejected_kiko_clay_v001/   # the closed procedural-sculpt experiment
-├── old_blends/
-├── old_scripts/
-└── docs/
-```
+Entry point តែមួយ: `stories/epNNN_<slug>/story.json` → `cli.py` → final mp4 + .srt + manifest.
+Template ក្នុង `stories/templates/` ត្រូវនឹង episode types ក្នុង bible:
 
-> Per the master plan: rejected work is **kept**, not deleted, and never reused as a
-> production base. Removal only on explicit request.
+- **comedy** → KIKO, BOKO, MOMO, GRIB, TOTO, PIP
+- **adventure** → KIKO, TAVI, LUMA, ZURI, BOKO
+- **mystery** → KIKO, TAVI, NANA, JUNGLE_SPIRIT, VARGO
+- **emotional** → KIKO, FIFI, TAVI, BOKO, MIRA
+- **rival** → KIKO, ZURI, LUMA
+- **villain** → VARGO, GRIB, KIKO, TAVI, ZURI
 
----
-
-## `tests/` — automated tests
-
-```
-tests/
-├── engine/
-├── animation/
-├── characters/
-│   └── test_kiko.py               # only KIKO
-└── schemas/
-```
+> កុំបង្ខំឲ្យតួទាំង ១៥ ចូលគ្រប់ episode។
 
 ---
 
-## What changed from the original proposal, and why
+## 6. Visual consistency rules (gate before any art is "production")
 
-1. **Collapsed 5 characters to 1 (KIKO) everywhere.** Tavi/Luma/Boko/Zuri folders
-   were empty scaffolding for characters that don't exist. The repeatable *pattern*
-   is documented instead, so adding one later is a `cp -r`. Empty folders rot.
+តួ Jungle Pop ទាំងអស់ត្រូវនៅ universe តែមួយ:
 
-2. **Crisp `assets/` ↔ `projects/` boundary.** Inputs you bring in vs. files Blender
-   generates. The original split reference images and blends by character but blurred
-   which tree owned what.
+- polished stylized 3D · ភ្នែកធំ expressive · **silhouette ស្គាល់បានដោយមិនពឹងពណ៌**
+- materials ទន់ organic · រោម/feathers/skin ជឿបានតាមប្រភេទ · accessories បែប handmade
+- តួម្នាក់ៗមាន **color identity** ខ្លាំង
+- ❌ smooth plastic · ❌ generic low-poly · ❌ photoreal
+- គុណភាព cinematic family animation
 
-3. **Wired in the master plan + status file + rejected archive.** These are central
-   to how the project actually runs but had no home in the original tree.
+(Full version: `docs/visual_style_guide.md`.)
 
-4. **`environments/` starts minimal** (`generic` + the `jungle` you already use)
-   rather than four pre-built biomes.
+---
 
-5. **Separated deliverables (`output/`) from QA review sheets
-   (`projects/.../review/`)** so render outputs and inspection images don't mix.
+## 7. How to add a new character — checklist
 
-6. **Added a one-line "when it becomes real" rule** at each multiplied point, so the
-   growth path is obvious without pre-building it.
+1. `cp -r assets/characters/_TEMPLATE assets/characters/<id>`
+2. បំពេញ `character.json` តាម bible: តួនាទី · បុគ្គលិកលក្ខណៈ · អត្តសញ្ញាណរូបរាង · ប្រវត្តិ · ចំណុចខ្លាំង/ខ្សោយ · style កំប្លែង · ទំនាក់ទំនង · មុខងារសាច់រឿង · priority
+3. បង្កើត placeholder `layers/` + `rig.json` (pivots, z-order) — ឬ Codex generate
+4. បន្ថែមទៅ `assets/characters/registry.json`
+5. Smoke-test ក្នុង `projects/` scene មួយ
+6. ពេលក្រោយ: ដាក់រូបពិតជំនួស placeholder PNG តាម `README.md`
+
+---
+
+## 8. Git safety (សំខាន់ — កុំឲ្យបាត់ម្តងទៀត)
+
+```
+git init
+printf "renders/\nreview/\n__pycache__/\n*.pyc\n.DS_Store\n" > .gitignore
+git add -A && git commit -m "jungle pop: project structure"
+# commit រៀងរាល់ session; git stash មុនពេលសម្អាត/delete
+```
+```
+```
